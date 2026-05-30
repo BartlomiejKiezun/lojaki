@@ -2339,5 +2339,77 @@ h3 { font-size: 16px; margin: 4px 0; }
   width: 100%;
   height: auto;
   display: block;
-  margin: -100px auto -80px;
+  margin: 0 auto -8px;
+}
+
+/* ========================================
+   ANDROID CHROME FIX
+   ======================================== */
+
+/* Wymuszone box-sizing dla wszystkich elementów */
+*, *::before, *::after {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* Zapobieganie horyzontalnemu scrollowaniu */
+html, body, #root {
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Wszystkie obrazy responsywne */
+img, video, canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Długie słowa się zawijają (np. hasła w kalamburach) */
+h1, h2, h3, p, .word-box, .question-box {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/* Canvas rysowania - zawsze w pełni szerokości karty */
+.drawing-canvas {
+  width: 100% !important;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 3/2;
+  display: block;
+}
+
+/* Inputy nie powodują zoomu na iOS i nie wybijają szerokości */
+input, textarea, select, button {
+  font-size: 16px;
+  max-width: 100%;
+}
+
+/* Karty zawsze w 100% szerokości i wewnątrz ekranu */
+.card, .screen, .preloader-screen {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Card hero (logo) wewnątrz boxu */
+.lobby-logo {
+  max-width: 100% !important;
+  width: auto;
+}
+
+/* Małe ekrany Android (<400px) */
+@media (max-width: 400px) {
+  html { font-size: 14px; }
+  .screen { padding: 12px 8px; padding-top: 56px; }
+  .card { padding: 16px; }
+  h1 { font-size: 22px; }
+  h2 { font-size: 18px; }
+  .word-box h1, .big-word h1 { font-size: 24px; }
+  .vote-grid, .speaker-picks-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+  }
 }

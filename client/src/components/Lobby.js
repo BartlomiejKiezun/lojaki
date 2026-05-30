@@ -17,6 +17,13 @@ function Lobby({ availablePlayers, state }) {
     setError("");
     socket.emit("create_game", { player: selected }, (resp) => {
       if (resp?.error) setError(resp.error);
+      else if (resp?.roomId) {
+        localStorage.setItem("game_session", JSON.stringify({
+          roomId: resp.roomId,
+          player: selected,
+          timestamp: Date.now()
+        }));
+      }
     });
   };
 
@@ -35,6 +42,13 @@ function Lobby({ availablePlayers, state }) {
       player: selected
     }, (resp) => {
       if (resp?.error) setError(resp.error);
+      else if (resp?.ok) {
+        localStorage.setItem("game_session", JSON.stringify({
+          roomId: roomInput.trim().toUpperCase(),
+          player: selected,
+          timestamp: Date.now()
+        }));
+      }
     });
   };
 
@@ -88,7 +102,7 @@ function Lobby({ availablePlayers, state }) {
                 >
                   <div className="mode-icon">🧨</div>
                   <div className="mode-name">Sabotażysta</div>
-                  <div className="mode-desc">⏳ Wyłaczony</div>
+                  <div className="mode-desc">⏳wylonczony</div>
                 </button>
                 <button
                   className={`mode-option ${mode === "points" ? "selected" : ""}`}
@@ -122,7 +136,7 @@ function Lobby({ availablePlayers, state }) {
   return (
     <div className="screen">
       <img src="/logo.png" alt="Logo" className="lobby-logo" />
-        
+
       <div className="card">
         <h2>1. Wybierz kim jesteś</h2>
         <div className="players-grid">

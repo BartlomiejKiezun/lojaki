@@ -125,7 +125,10 @@ function GameOver({ state }) {
         )}
 
         {isHost && (
-          <button className="btn btn-primary big" onClick={() => socket.emit("back_to_lobby")}>
+          <button className="btn btn-primary big" onClick={() => {
+            localStorage.removeItem("game_session");
+            socket.emit("back_to_lobby");
+          }}>
             🔄 Nowa gra
           </button>
         )}

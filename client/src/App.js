@@ -42,7 +42,37 @@ function App() {
   const [joined, setJoined] = useState(false);
   
   useEffect(() => {
-    socket.on("connect", () => setConnected(true));
+    const tryAutoRejoin = () => {
+      const saved = localStorage.getItem("game_session");
+      if (!saved) return;
+      try {
+        const session = JSON.parse(saved);
+        // Sesja wygasa po 4 godzinach
+        if (Date.now() - session.timestamp > 4 * 60 * 60 * 1000) {
+          localStorage.removeItem("game_session");
+          return;
+        }
+        if (session.roomId && session.player) {
+          console.log("🔄 Auto-rejoin do pokoju", session.roomId);
+          socket.emit("join_game", {
+            roomId: session.roomId,
+            player: session.player
+          }, (resp) => {
+            if (resp?.error) {
+              console.log("Auto-rejoin nieudany:", resp.error);
+              localStorage.removeItem("game_session");
+            }
+          });
+        }
+      } catch(e) {
+        localStorage.removeItem("game_session");
+      }
+    };
+
+    socket.on("connect", () => {
+      setConnected(true);
+      tryAutoRejoin();
+    });
     socket.on("disconnect", () => setConnected(false));
     
     socket.on("players_list", (list) => {
@@ -53,12 +83,37 @@ function App() {
       setState(newState);
       setJoined(true);
     });
-    
+
+    // Jeśli już połączony przy mount - od razu spróbuj rejoin
+    if (socket.connected) {
+      tryAutoRejoin();
+    }
+
+    // Page Visibility - gdy telefon się odblokuje force reconnect
+    const onVisible = () => {
+      if (document.visibilityState === "visible") {
+        if (!socket.connected) {
+          console.log("🔄 Strona widoczna - reconnecting");
+          socket.connect();
+        }
+      }
+    };
+    document.addEventListener("visibilitychange", onVisible);
+
+    // Keep-alive ping co 14 minut żeby Render Free nie zasypiał
+    const SERVER_URL = process.env.REACT_APP_SERVER_URL ||
+      `http://${window.location.hostname}:3001`;
+    const keepAliveInterval = setInterval(() => {
+      fetch(`${SERVER_URL}/ping`).catch(() => {});
+    }, 14 * 60 * 1000);
+
     return () => {
       socket.off("connect");
       socket.off("disconnect");
       socket.off("players_list");
       socket.off("state");
+      document.removeEventListener("visibilitychange", onVisible);
+      clearInterval(keepAliveInterval);
     };
   }, []);
 

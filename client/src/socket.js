@@ -12,8 +12,10 @@ const SERVER_URL =
 export const socket = io(SERVER_URL, {
   transports: ["websocket", "polling"],
   reconnection: true,
-  reconnectionAttempts: 10,
-  reconnectionDelay: 1000
+  reconnectionAttempts: Infinity,
+  reconnectionDelay: 1000,
+  reconnectionDelayMax: 5000,
+  timeout: 20000
 });
 
 socket.on("connect", () => {
