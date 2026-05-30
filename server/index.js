@@ -1572,8 +1572,17 @@ io.on("connection", (socket) => {
 
     if (room.phase !== PHASE.LOBBY) {
       const existing = room.players.find(p => p.name === player?.name);
-      if (existing && !existing.connected) {
+      if (existing) {
+        // Gracz już jest w pokoju - reconnect (niezależnie od connected flag)
         const oldId = existing.id;
+        // Jeśli stary socket dalej istnieje i NIE jest to ten sam - rozłącz go
+        if (oldId !== socket.id) {
+          const oldSocket = io.sockets.sockets.get(oldId);
+          if (oldSocket) {
+            console.log(`🔄 Rozłączam stary socket gracza ${player.name}`);
+            oldSocket.disconnect(true);
+          }
+        }
         existing.id = socket.id;
         existing.connected = true;
         // Jeśli ten gracz był hostem - zaktualizuj hostId
