@@ -1,0 +1,15 @@
+{
+  "players": [
+    { "name": "Szybki Barti",  "avatar": "/avatars/barti.jpg" },
+    { "name": "Adam",   "avatar": "/avatars/adam.jpg" },
+    { "name": "Aneta",  "avatar": "/avatars/aneta.jpg" },
+    { "name": "Kuba",   "avatar": "/avatars/kuba.jpg" },
+    { "name": "Gracek", "avatar": "/avatars/gracek.jpg" },
+    { "name": "Agata",  "avatar": "/avatars/agata.jpg" },
+    { "name": "Monika", "avatar": "/avatars/monika.jpg" },
+    { "name": "Tadziu", "avatar": "/avatars/tadek.jpg" },
+    { "name": "Kacper", "avatar": "/avatars/kacper.jpg" },
+    { "name": "Werka", "avatar": "/avatars/werka.jpg" },
+    { "name": "Natuś",  "avatar": "/avatars/natus.jpg" }
+  ]
+}

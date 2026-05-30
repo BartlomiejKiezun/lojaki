@@ -1,0 +1,23 @@
+# Zależności (Render zainstaluje swoje przez npm install)
+node_modules/
+**/node_modules/
+
+# Build React
+build/
+**/build/
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Logi
+*.log
+npm-debug.log*
+
+# Pliki edytora
+.vscode/
+.idea/
+
+# Plik środowiska
+.env
+.env.local
