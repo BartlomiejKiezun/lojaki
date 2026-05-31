@@ -2100,6 +2100,51 @@ io.on("connection", (socket) => {
 
   // ============ POWRÓT DO LOBBY ============
 
+  socket.on("player_leave", () => {
+    const roomId = socket.data.roomId;
+    const room = rooms[roomId];
+    if (!room) return;
+    const player = room.players.find(p => p.id === socket.id);
+    if (!player) return;
+
+    console.log(`👋 Gracz ${player.name} opuszcza grę dobrowolnie`);
+
+    // Usuń z listy graczy
+    room.players = room.players.filter(p => p.id !== socket.id);
+
+    // Usuń jego punkty
+    if (room.playerScores) delete room.playerScores[socket.id];
+
+    // Jeśli to był host - przekaż hostowanie pierwszemu dostępnemu graczowi
+    if (room.hostId === socket.id) {
+      const newHost = room.players.find(p => p.connected);
+      if (newHost) {
+        room.hostId = newHost.id;
+        console.log(`👑 Nowy host: ${newHost.name}`);
+      }
+    }
+
+    socket.leave(roomId);
+    socket.data.roomId = null;
+    socket.data.playerName = null;
+
+    // Jeśli pokój pusty - usuń
+    if (room.players.length === 0) {
+      delete rooms[roomId];
+      return;
+    }
+
+    // Jeśli gra trwa i zostało < 3 graczy w trybie sabo - kończymy
+    if (room.phase !== PHASE.LOBBY && room.players.filter(p => !p.eliminated && p.connected).length < 3) {
+      // Wracamy do lobby
+      if (room.timer) clearInterval(room.timer);
+      room.phase = PHASE.LOBBY;
+      room.phaseData = null;
+    }
+
+    broadcastRoomState(roomId);
+  });
+
   socket.on("back_to_lobby", () => {
     const roomId = socket.data.roomId;
     const room = rooms[roomId];

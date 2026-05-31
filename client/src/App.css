@@ -2878,3 +2878,24 @@ input, textarea, select, button {
 .winner-bg-flash {
   animation: victoryBgFlash 0.6s ease-in-out 3;
 }
+
+/* Przycisk opuszczenia gry - dla każdego gracza */
+.host-leave-btn {
+  background: #1e293b;
+  color: #fbbf24;
+  border: 1px solid #78350f;
+  font-size: 13px;
+  padding: 8px 16px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.host-leave-btn:hover, .host-leave-btn:active {
+  opacity: 1;
+  background: #78350f;
+  color: #fff;
+}
+
+/* Pasek dolny - lepszy układ z dwoma przyciskami */
+.host-end-bar {
+  justify-content: space-between !important;
+}
