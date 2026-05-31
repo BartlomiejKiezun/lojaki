@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { socket } from "../socket";
 import Avatar from "./Avatar";
+import FlyingAvatars from "./FlyingAvatars";
+import { playVictory } from "../sounds";
 
 const CONFETTI_COLORS = ["#6366f1","#22c55e","#f59e0b","#ef4444","#a855f7","#06b6d4","#f97316"];
 
@@ -47,9 +49,15 @@ function GameOver({ state }) {
 
   const confetti = useConfetti(iWon);
 
-  return (
-    <div className={`screen center game-over-screen ${iWon ? "good-bg" : "bad-bg"}`}>
+  useEffect(() => {
+    if (iWon) playVictory();
+  }, [iWon]);
 
+  const allAvs = state.players.map(p => ({ avatar: p.avatar, name: p.name }));
+
+  return (
+    <div className={`screen center game-over-screen ${iWon ? "good-bg winner-bg-flash" : "bad-bg"}`}>
+      {iWon && <FlyingAvatars avatars={allAvs} style="drunk" duration={4000} />}
       {confetti.map(p => (
         <div
           key={p.id}

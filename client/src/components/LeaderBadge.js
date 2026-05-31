@@ -18,7 +18,7 @@ function LeaderBadge({ state }) {
   return (
     <div className="leader-badge">
       <span className="leader-crown">👑</span>
-      <Avatar src={leader.avatar} name={leader.name} size="small" />
+      <Avatar src={leader.avatar} name={leader.name} size="small" className="leader-glow" />
       <span className="leader-score">{leader.score}</span>
     </div>
   );

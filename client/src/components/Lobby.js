@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { socket } from "../socket";
+import { unlockAudio } from "../sounds";
 import Avatar from "./Avatar";
 
 function Lobby({ availablePlayers, state }) {
@@ -11,6 +12,7 @@ function Lobby({ availablePlayers, state }) {
   const inRoom = !!state;
 
   const createGame = () => {
+    unlockAudio();
     if (!selected) {
       setError("Wybierz postać!");
       return;
@@ -29,6 +31,7 @@ function Lobby({ availablePlayers, state }) {
   };
 
   const joinByCode = () => {
+    unlockAudio();
     if (!selected) {
       setError("Wybierz postać!");
       return;

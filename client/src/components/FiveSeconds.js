@@ -4,6 +4,7 @@ import Avatar from "./Avatar";
 import Scoreboard from "./Scoreboard";
 import FlyingAvatars from "./FlyingAvatars";
 import ConfettiBurst from "./ConfettiBurst";
+import { playPoint, playFail } from "../sounds";
 
 function FiveSeconds({ state }) {
   const [timeLeft, setTimeLeft] = useState(state.phaseData?.timeLeft ?? 10);
@@ -66,13 +67,27 @@ function FiveSeconds({ state }) {
   }
 
   // ============= WYNIK TURY =============
+  const [flyingAvs5s, setFlyingAvs5s] = useState([]);
+  useEffect(() => {
+    if (data?.finished && data?.result) {
+      if (data.result.guessed) {
+        playPoint();
+        const speaker = state.players.find(p => p.id === data.result.speakerId);
+        if (speaker) setFlyingAvs5s([{ avatar: speaker.avatar, name: speaker.name }]);
+      } else {
+        playFail();
+      }
+    }
+  }, [data?.finished, data?.result?.guessed, data?.result?.speakerId, state.players]);
+
   if (data.finished && data.result) {
     const r = data.result;
     return (
       <div className={`screen center ${r.guessed ? 'good-bg' : 'bad-bg'}`}>
         {r.guessed && <ConfettiBurst trigger={data.currentSpeakerId} count={25} />}
+        {r.guessed && <FlyingAvatars avatars={flyingAvs5s} style="bounce" duration={2500} />}
         <div className="card big-card">
-          <h1>{r.guessed ? "✅ Zaliczone!" : "❌ Odrzucone"}</h1>
+          <h1 className={r.guessed ? "winner-explode" : ""}>{r.guessed ? "✅ Zaliczone!" : "❌ Odrzucone"}</h1>
           <p className="muted">Mówił: <strong>{r.speakerName}</strong></p>
           <p className="muted small">{r.question}</p>
           <p>Głosy: <strong>{r.okVotes}</strong> ✅ / <strong>{r.noVotes}</strong> ❌</p>
@@ -172,7 +187,7 @@ function FiveSeconds({ state }) {
             <span>5 sekund ({data.currentSpeakerNumber}/{data.totalSpeakers}) • Runda {data.roundNumber}/{data.totalRounds}</span>
           </div>
           <div className="speaker-info">
-            <Avatar src={data.currentSpeakerAvatar} name={data.currentSpeakerName} size="big" />
+            <Avatar src={data.currentSpeakerAvatar} name={data.currentSpeakerName} size="big" className="actor-pulse" />
             <h2>{data.currentSpeakerName}</h2>
             <p className="muted">przygotowuje się...</p>
           </div>
@@ -196,7 +211,7 @@ function FiveSeconds({ state }) {
         </div>
         <Timer time={timeLeft} max={10} />
         <div className="speaker-info">
-          <Avatar src={data.currentSpeakerAvatar} name={data.currentSpeakerName} size="big" />
+          <Avatar src={data.currentSpeakerAvatar} name={data.currentSpeakerName} size="big" className="actor-pulse" />
           <h2>{data.currentSpeakerName}</h2>
         </div>
         <div className="question-box">

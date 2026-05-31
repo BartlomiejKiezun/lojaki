@@ -3,6 +3,8 @@ import { socket } from "../socket";
 import Avatar from "./Avatar";
 import Scoreboard from "./Scoreboard";
 import ConfettiBurst from "./ConfettiBurst";
+import FlyingAvatars from "./FlyingAvatars";
+import { playPoint, playFail } from "../sounds";
 
 // CANVAS HOOK
 function useDrawingCanvas({ isDrawer, onStroke, initialStrokes }) {
@@ -175,6 +177,22 @@ function Drawing({ state }) {
   }
 
   // ============= WYNIK RUNDY =============
+  const [flyingAvs, setFlyingAvs] = useState([]);
+  useEffect(() => {
+    if (data?.finished && data?.result) {
+      if (data.result.guessed) {
+        playPoint();
+        const winners = [];
+        const drawer = state.players.find(p => p.id === data.result.drawerId);
+        if (drawer) winners.push({ avatar: drawer.avatar, name: drawer.name });
+        (data.result.correctPlayers || []).forEach(cp => winners.push({ avatar: cp.avatar, name: cp.name }));
+        setFlyingAvs(winners);
+      } else {
+        playFail();
+      }
+    }
+  }, [data?.finished, data?.result?.guessed, data?.result?.drawerId, state.players, data?.result?.correctPlayers]);
+
   if (data.finished && data.result) {
     const result = data.result;
     const guessed = result.guessed;
@@ -182,8 +200,9 @@ function Drawing({ state }) {
     return (
       <div className={`screen center ${guessed ? "good-bg" : "bad-bg"}`}>
         {guessed && <ConfettiBurst trigger={data.currentDrawerId} count={30} />}
+        {guessed && <FlyingAvatars avatars={flyingAvs} style="spin" duration={2500} />}
         <div className="card big-card">
-          <h1>{guessed ? "✅ Zgadnięto!" : "❌ Nikt nie zgadł"}</h1>
+          <h1 className={guessed ? "winner-explode" : ""}>{guessed ? "✅ Zgadnięto!" : "❌ Nikt nie zgadł"}</h1>
           <p>Hasło: <strong>{result.word}</strong></p>
           <p className="muted">Rysował: <strong>{result.drawerName}</strong></p>
 
@@ -328,7 +347,7 @@ function Drawing({ state }) {
             <span>Kalambury rysowane ({data.currentDrawerNumber}/{data.totalDrawersInRound}) • Runda {data.roundNumber}/{data.totalRounds}</span>
           </div>
           <div className="actor-info">
-            <Avatar src={data.currentDrawerAvatar} name={data.currentDrawerName} size="big" />
+            <Avatar src={data.currentDrawerAvatar} name={data.currentDrawerName} size="big" className="actor-pulse" />
             <h2>{data.currentDrawerName}</h2>
             <p className="muted">przygotowuje się...</p>
           </div>
@@ -352,7 +371,7 @@ function Drawing({ state }) {
         <Timer time={timeLeft} max={180} />
 
         <div className="actor-info">
-          <Avatar src={data.currentDrawerAvatar} name={data.currentDrawerName} size="big" />
+          <Avatar src={data.currentDrawerAvatar} name={data.currentDrawerName} size="big" className="actor-pulse" />
           <h2>{data.currentDrawerName}</h2>
           <p className="muted">rysuje hasło...</p>
         </div>

@@ -4,6 +4,7 @@ import Avatar from "./Avatar";
 import Scoreboard from "./Scoreboard";
 import FlyingAvatars from "./FlyingAvatars";
 import ConfettiBurst from "./ConfettiBurst";
+import { playPoint, playFail, playRoundEnd, unlockAudio } from "../sounds";
 
 function Acting({ state }) {
   const [timeLeft, setTimeLeft] = useState(state.phaseData?.timeLeft ?? 40);
@@ -65,6 +66,23 @@ function Acting({ state }) {
   }
 
   // ============= WYNIK RUNDY =============
+  const [flyingAvs, setFlyingAvs] = useState([]);
+  useEffect(() => {
+    if (data?.finished && data?.result) {
+      if (data.result.guessed) {
+        playPoint();
+        // Avatar aktora + zgadujących
+        const winners = [];
+        const actor = state.players.find(p => p.id === data.result.actorId);
+        if (actor) winners.push({ avatar: actor.avatar, name: actor.name });
+        (data.result.correctPlayers || []).forEach(cp => winners.push({ avatar: cp.avatar, name: cp.name }));
+        setFlyingAvs(winners);
+      } else {
+        playFail();
+      }
+    }
+  }, [data?.finished, data?.result?.guessed, data?.result?.actorId, state.players, data?.result?.correctPlayers]);
+
   if (data.finished && data.result) {
     const result = data.result;
     const guessed = result.guessed;
@@ -72,8 +90,9 @@ function Acting({ state }) {
     return (
       <div className={`screen center ${guessed ? 'good-bg' : 'bad-bg'}`}>
         {guessed && <ConfettiBurst trigger={data.currentActorId} count={30} />}
+        {guessed && <FlyingAvatars avatars={flyingAvs} style="explode" duration={2500} />}
         <div className="card big-card">
-          <h1>{guessed ? "✅ Zgadnięto!" : "❌ Nikt nie zgadł"}</h1>
+          <h1 className={guessed ? "winner-explode" : ""}>{guessed ? "✅ Zgadnięto!" : "❌ Nikt nie zgadł"}</h1>
           <p>Hasło: <strong>{result.word}</strong></p>
           <p className="muted">Pokazywał: <strong>{result.actorName}</strong></p>
 
@@ -209,7 +228,7 @@ function Acting({ state }) {
             <span>Kalambury ({data.currentActorNumber}/{data.totalActorsInRound}) • Runda {data.roundNumber}/{data.totalRounds}</span>
           </div>
           <div className="actor-info">
-            <Avatar src={data.currentActorAvatar} name={data.currentActorName} size="big" />
+            <Avatar src={data.currentActorAvatar} name={data.currentActorName} size="big" className="actor-pulse" />
             <h2>{data.currentActorName}</h2>
             <p className="muted">przygotowuje się...</p>
           </div>
@@ -230,7 +249,7 @@ function Acting({ state }) {
         <Timer time={timeLeft} max={40} />
 
         <div className="actor-info">
-          <Avatar src={data.currentActorAvatar} name={data.currentActorName} size="big" />
+          <Avatar src={data.currentActorAvatar} name={data.currentActorName} size="big" className="actor-pulse" />
           <h2>{data.currentActorName}</h2>
           <p className="muted">pokazuje hasło...</p>
         </div>

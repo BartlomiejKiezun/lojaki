@@ -1,42 +1,59 @@
 import { useEffect, useState } from "react";
-import Avatar from "./Avatar";
 
-const STYLES = ["rotate", "bounce", "drunk", "spinin", "wave"];
-
-function FlyingAvatars({ players, trigger }) {
-  const [style] = useState(() => STYLES[Math.floor(Math.random() * STYLES.length)]);
-  const [visible, setVisible] = useState(true);
+function FlyingAvatars({ avatars = [], style = "explode", duration = 3000, onEnd }) {
+  const [items, setItems] = useState([]);
 
   useEffect(() => {
-    setVisible(true);
-    const t = setTimeout(() => setVisible(false), 2400);
+    if (!avatars || avatars.length === 0) return;
+    const newItems = avatars.map((av, i) => ({
+      id: `${Date.now()}-${i}`,
+      avatar: av.avatar,
+      name: av.name,
+      delay: Math.random() * 0.4,
+      tx: (Math.random() - 0.5) * 100,
+      ty: (Math.random() - 0.5) * 100,
+      rot: (Math.random() - 0.5) * 720,
+      scale: 0.8 + Math.random() * 0.8,
+      animClass: pickAnimation(style, i)
+    }));
+    setItems(newItems);
+    const t = setTimeout(() => { setItems([]); onEnd?.(); }, duration);
     return () => clearTimeout(t);
-  }, [trigger]);
+  }, [avatars, style, duration, onEnd]);
 
-  if (!visible || !players?.length) return null;
+  if (items.length === 0) return null;
 
-  const alive = players.filter(p => !p.eliminated);
-  if (!alive.length) return null;
-
-  if (style === "wave") {
-    const picks = [...alive].sort(() => Math.random() - 0.5).slice(0, 3);
-    return (
-      <>
-        {picks.map((p, i) => (
-          <div key={p.id + "-" + trigger} className={`flying-avatar style-wave-${i + 1}`}>
-            <Avatar src={p.avatar} name={p.name} size="big" />
-          </div>
-        ))}
-      </>
-    );
-  }
-
-  const pick = alive[Math.floor(Math.random() * alive.length)];
   return (
-    <div key={pick.id + "-" + trigger} className={`flying-avatar style-${style}`}>
-      <Avatar src={pick.avatar} name={pick.name} size="big" />
+    <div className="flying-avatars-overlay">
+      {items.map(item => (
+        <div
+          key={item.id}
+          className={`flying-avatar ${item.animClass}`}
+          style={{
+            "--tx": `${item.tx}vw`,
+            "--ty": `${item.ty}vh`,
+            "--rot": `${item.rot}deg`,
+            "--scale": item.scale,
+            "--delay": `${item.delay}s`
+          }}
+        >
+          {item.avatar ? (
+            <img src={item.avatar} alt="" className="flying-avatar-img" />
+          ) : (
+            <div className="flying-avatar-fallback">{item.name?.[0] || "?"}</div>
+          )}
+        </div>
+      ))}
     </div>
   );
+}
+
+function pickAnimation(style, i) {
+  if (style === "wave") return "fly-wave";
+  if (style === "bounce") return "fly-bounce";
+  if (style === "spin") return "fly-spin";
+  if (style === "drunk") return "fly-drunk";
+  return i % 2 === 0 ? "fly-explode" : "fly-explode-2";
 }
 
 export default FlyingAvatars;
