@@ -17,6 +17,7 @@ import GameOver from "./components/GameOver";
 import Connecting from "./components/Connecting";
 import LeaderBadge from "./components/LeaderBadge";
 import Preloader from "./components/Preloader";
+import HostEndButton from "./components/HostEndButton";
 
 function App() {
   // Preloader - pokazuje się raz na sesję
@@ -175,6 +176,7 @@ function App() {
     <>
       {state.phase !== "lobby" && state.phase !== "game_over" && <LeaderBadge state={state} />}
       {renderPhase()}
+      <HostEndButton state={state} />
     </>
   );
 }
