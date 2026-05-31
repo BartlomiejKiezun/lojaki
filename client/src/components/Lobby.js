@@ -28,6 +28,22 @@ function Lobby({ availablePlayers, state }) {
   };
 
   const joinByCode = () => {
+    const code = roomInput.trim().toUpperCase();
+
+    // Tajne kody do zmiany listy graczy
+    if (code === "LIST2") {
+      socket.emit("request_list", { listName: "list2" });
+      setRoomInput("");
+      setError("");
+      return;
+    }
+    if (code === "LIST1") {
+      socket.emit("request_list", { listName: "list1" });
+      setRoomInput("");
+      setError("");
+      return;
+    }
+
     if (!selected) {
       setError("Wybierz postać!");
       return;
@@ -102,7 +118,7 @@ function Lobby({ availablePlayers, state }) {
                 >
                   <div className="mode-icon">🧨</div>
                   <div className="mode-name">Sabotażysta</div>
-                  <div className="mode-desc">⏳wylonczony</div>
+                  <div className="mode-desc">⏳ Wkrótce</div>
                 </button>
                 <button
                   className={`mode-option ${mode === "points" ? "selected" : ""}`}

@@ -1,16 +1,25 @@
+
 {
   "players": [
     { "name": "Szybki Barti",  "avatar": "/avatars/barti.jpg" },
     { "name": "Adam",   "avatar": "/avatars/adam.jpg" },
     { "name": "Aneta",  "avatar": "/avatars/aneta.jpg" },
     { "name": "Kuba",   "avatar": "/avatars/kuba.jpg" },
-    { "name": "Gracek", "avatar": "/avatars/gracek.jpg" },
+    { "name": "Gracek",   "avatar": "/avatars/gracek.jpg" },
     { "name": "Agata",  "avatar": "/avatars/agata.jpg" },
     { "name": "Monika", "avatar": "/avatars/monika.jpg" },
-    { "name": "Tadziu", "avatar": "/avatars/tadek.jpg" },
+    { "name": "ola", "avatar": "/avatars/ola.jpg" },
     { "name": "Kacper", "avatar": "/avatars/kacper.jpg" },
+    { "name": "Tadziu", "avatar": "/avatars/tadek.jpg" },
     { "name": "Werka", "avatar": "/avatars/werka.jpg" },
-    { "name": "Ola", "avatar": "/avatars/ola.jpg" },
     { "name": "Natuś",  "avatar": "/avatars/natus.jpg" }
+  ],
+  "players2": [
+    { "name": "Szybki Barti",  "avatar": "/avatars/barti.jpg" },
+    { "name": "Natuś",   "avatar": "/avatars/natus.jpg" },
+    { "name": "Ala",   "avatar": "/avatars/natus.jpg" },
+    { "name": "łukasz",   "avatar": "/avatars/natus.jpg" },
+    { "name": "Rafał",   "avatar": "/avatars/natus.jpg" },
+    { "name": "Dziadek",  "avatar": "/avatars/aneta.jpg" }
   ]
 }

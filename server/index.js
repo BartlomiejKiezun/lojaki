@@ -1525,6 +1525,14 @@ io.on("connection", (socket) => {
 
   socket.emit("players_list", playersList.players);
 
+  socket.on("request_list", ({ listName }) => {
+    if (listName === "list2" && playersList.players2) {
+      socket.emit("players_list", playersList.players2);
+    } else {
+      socket.emit("players_list", playersList.players);
+    }
+  });
+
   socket.on("create_game", ({ player }, callback) => {
     if (!player || !player.name) {
       callback?.({ error: "Wybierz postać!" });
