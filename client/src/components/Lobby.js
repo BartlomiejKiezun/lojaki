@@ -183,11 +183,12 @@ function Lobby({ availablePlayers, state }) {
 
         <input
           className="input"
-          type="number"
+          type="text"
+          inputMode="numeric"
           placeholder="Kod pokoju (4 cyfry)"
           value={roomInput}
           onChange={(e) => setRoomInput(e.target.value)}
-          maxLength={4}
+          maxLength={5}
         />
         <button
           className="btn btn-secondary big"
