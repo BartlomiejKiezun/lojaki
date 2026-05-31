@@ -109,6 +109,7 @@ function useDrawingCanvas({ isDrawer, onStroke, initialStrokes }) {
 
 function Drawing({ state }) {
   const [timeLeft, setTimeLeft] = useState(state.phaseData?.timeLeft ?? 180);
+  const [flyingAvs, setFlyingAvs] = useState([]);
 
   useEffect(() => {
     const handler = (t) => setTimeLeft(t);
@@ -135,6 +136,21 @@ function Drawing({ state }) {
     onStroke: handleStroke,
     initialStrokes: myData?.strokes
   });
+
+  useEffect(() => {
+    if (data?.finished && data?.result) {
+      if (data.result.guessed) {
+        playPoint();
+        const winners = [];
+        const drawer = state.players.find(p => p.id === data.result.drawerId);
+        if (drawer) winners.push({ avatar: drawer.avatar, name: drawer.name });
+        (data.result.correctPlayers || []).forEach(cp => winners.push({ avatar: cp.avatar, name: cp.name }));
+        setFlyingAvs(winners);
+      } else {
+        playFail();
+      }
+    }
+  }, [data?.finished, data?.result?.guessed, data?.result?.drawerId, state.players, data?.result?.correctPlayers]);
 
   if (!data) return <div className="screen">Ładowanie...</div>;
 
@@ -177,22 +193,6 @@ function Drawing({ state }) {
   }
 
   // ============= WYNIK RUNDY =============
-  const [flyingAvs, setFlyingAvs] = useState([]);
-  useEffect(() => {
-    if (data?.finished && data?.result) {
-      if (data.result.guessed) {
-        playPoint();
-        const winners = [];
-        const drawer = state.players.find(p => p.id === data.result.drawerId);
-        if (drawer) winners.push({ avatar: drawer.avatar, name: drawer.name });
-        (data.result.correctPlayers || []).forEach(cp => winners.push({ avatar: cp.avatar, name: cp.name }));
-        setFlyingAvs(winners);
-      } else {
-        playFail();
-      }
-    }
-  }, [data?.finished, data?.result?.guessed, data?.result?.drawerId, state.players, data?.result?.correctPlayers]);
-
   if (data.finished && data.result) {
     const result = data.result;
     const guessed = result.guessed;

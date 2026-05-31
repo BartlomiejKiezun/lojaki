@@ -8,6 +8,7 @@ import { playPoint, playFail, playRoundEnd, unlockAudio } from "../sounds";
 
 function Acting({ state }) {
   const [timeLeft, setTimeLeft] = useState(state.phaseData?.timeLeft ?? 40);
+  const [flyingAvs, setFlyingAvs] = useState([]);
 
   useEffect(() => {
     const handler = (t) => setTimeLeft(t);
@@ -24,6 +25,21 @@ function Acting({ state }) {
   const isHost = state.myId === state.hostId;
   const isActor = data?.currentActorId === state.myId;
   const me = state.players.find(p => p.id === state.myId);
+
+  useEffect(() => {
+    if (data?.finished && data?.result) {
+      if (data.result.guessed) {
+        playPoint();
+        const winners = [];
+        const actor = state.players.find(p => p.id === data.result.actorId);
+        if (actor) winners.push({ avatar: actor.avatar, name: actor.name });
+        (data.result.correctPlayers || []).forEach(cp => winners.push({ avatar: cp.avatar, name: cp.name }));
+        setFlyingAvs(winners);
+      } else {
+        playFail();
+      }
+    }
+  }, [data?.finished, data?.result?.guessed, data?.result?.actorId, state.players, data?.result?.correctPlayers]);
 
   if (!data) return <div className="screen">Ładowanie...</div>;
 
@@ -66,23 +82,6 @@ function Acting({ state }) {
   }
 
   // ============= WYNIK RUNDY =============
-  const [flyingAvs, setFlyingAvs] = useState([]);
-  useEffect(() => {
-    if (data?.finished && data?.result) {
-      if (data.result.guessed) {
-        playPoint();
-        // Avatar aktora + zgadujących
-        const winners = [];
-        const actor = state.players.find(p => p.id === data.result.actorId);
-        if (actor) winners.push({ avatar: actor.avatar, name: actor.name });
-        (data.result.correctPlayers || []).forEach(cp => winners.push({ avatar: cp.avatar, name: cp.name }));
-        setFlyingAvs(winners);
-      } else {
-        playFail();
-      }
-    }
-  }, [data?.finished, data?.result?.guessed, data?.result?.actorId, state.players, data?.result?.correctPlayers]);
-
   if (data.finished && data.result) {
     const result = data.result;
     const guessed = result.guessed;

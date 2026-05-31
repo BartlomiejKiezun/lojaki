@@ -8,6 +8,7 @@ import { playPoint, playFail } from "../sounds";
 
 function FiveSeconds({ state }) {
   const [timeLeft, setTimeLeft] = useState(state.phaseData?.timeLeft ?? 10);
+  const [flyingAvs5s, setFlyingAvs5s] = useState([]);
 
   useEffect(() => {
     const handler = (t) => setTimeLeft(t);
@@ -24,6 +25,18 @@ function FiveSeconds({ state }) {
   const isHost = state.myId === state.hostId;
   const isSpeaker = data?.currentSpeakerId === state.myId;
   const me = state.players.find(p => p.id === state.myId);
+
+  useEffect(() => {
+    if (data?.finished && data?.result) {
+      if (data.result.guessed) {
+        playPoint();
+        const speaker = state.players.find(p => p.id === data.result.speakerId);
+        if (speaker) setFlyingAvs5s([{ avatar: speaker.avatar, name: speaker.name }]);
+      } else {
+        playFail();
+      }
+    }
+  }, [data?.finished, data?.result?.guessed, data?.result?.speakerId, state.players]);
 
   if (!data) return <div className="screen">Ładowanie...</div>;
 
@@ -67,19 +80,6 @@ function FiveSeconds({ state }) {
   }
 
   // ============= WYNIK TURY =============
-  const [flyingAvs5s, setFlyingAvs5s] = useState([]);
-  useEffect(() => {
-    if (data?.finished && data?.result) {
-      if (data.result.guessed) {
-        playPoint();
-        const speaker = state.players.find(p => p.id === data.result.speakerId);
-        if (speaker) setFlyingAvs5s([{ avatar: speaker.avatar, name: speaker.name }]);
-      } else {
-        playFail();
-      }
-    }
-  }, [data?.finished, data?.result?.guessed, data?.result?.speakerId, state.players]);
-
   if (data.finished && data.result) {
     const r = data.result;
     return (
