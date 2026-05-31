@@ -2460,3 +2460,25 @@ input, textarea, select, button {
 .screen {
   padding-bottom: 80px !important;
 }
+
+/* Subtelny przycisk zmiany listy - prawie niewidoczny */
+.list-switch-btn {
+  display: block;
+  margin: 24px auto 8px;
+  background: transparent;
+  border: none;
+  color: #475569;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 6px 20px;
+  opacity: 0.4;
+  letter-spacing: 4px;
+  font-weight: 700;
+  line-height: 1;
+  transition: opacity 0.2s;
+}
+.list-switch-btn:active,
+.list-switch-btn:hover {
+  opacity: 0.8;
+  color: #6366f1;
+}

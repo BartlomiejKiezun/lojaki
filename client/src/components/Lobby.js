@@ -6,6 +6,7 @@ function Lobby({ availablePlayers, state }) {
   const [selected, setSelected] = useState(null);
   const [roomInput, setRoomInput] = useState("");
   const [error, setError] = useState("");
+  const [currentList, setCurrentList] = useState("list1");
 
   const inRoom = !!state;
 
@@ -28,22 +29,6 @@ function Lobby({ availablePlayers, state }) {
   };
 
   const joinByCode = () => {
-    const code = roomInput.trim().toUpperCase();
-
-    // Tajne kody do zmiany listy graczy
-    if (code === "LIST2") {
-      socket.emit("request_list", { listName: "list2" });
-      setRoomInput("");
-      setError("");
-      return;
-    }
-    if (code === "LIST1") {
-      socket.emit("request_list", { listName: "list1" });
-      setRoomInput("");
-      setError("");
-      return;
-    }
-
     if (!selected) {
       setError("Wybierz postać!");
       return;
@@ -66,6 +51,13 @@ function Lobby({ availablePlayers, state }) {
         }));
       }
     });
+  };
+
+  const toggleList = () => {
+    const newList = currentList === "list1" ? "list2" : "list1";
+    setCurrentList(newList);
+    socket.emit("request_list", { listName: newList });
+    setSelected(null); // czyścimy wybór bo lista się zmienia
   };
 
   const [mode, setMode] = useState("points");
@@ -183,12 +175,11 @@ function Lobby({ availablePlayers, state }) {
 
         <input
           className="input"
-          type="text"
-          inputMode="numeric"
+          type="number"
           placeholder="Kod pokoju (4 cyfry)"
           value={roomInput}
           onChange={(e) => setRoomInput(e.target.value)}
-          maxLength={5}
+          maxLength={4}
         />
         <button
           className="btn btn-secondary big"
@@ -199,6 +190,10 @@ function Lobby({ availablePlayers, state }) {
 
         {error && <div className="error">{error}</div>}
       </div>
+
+      <button className="list-switch-btn" onClick={toggleList}>
+        {currentList === "list1" ? "·" : "··"}
+      </button>
     </div>
   );
 }

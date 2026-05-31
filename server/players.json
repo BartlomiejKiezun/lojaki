@@ -17,10 +17,10 @@
   "players2": [
     { "name": "Szybki Barti",  "avatar": "/avatars/barti.jpg" },
     { "name": "Natuś",   "avatar": "/avatars/natus.jpg" },
-    { "name": "Ala",   "avatar": "/avatars/natus.jpg" },
-    { "name": "łukasz",   "avatar": "/avatars/natus.jpg" },
-    { "name": "Rafał",   "avatar": "/avatars/natus.jpg" },
-    { "name": "Zosia",   "avatar": "/avatars/natus.jpg" },
-    { "name": "Dziadek",  "avatar": "/avatars/aneta.jpg" }
+    { "name": "Ala",   "avatar": "" },
+    { "name": "łukasz",   "avatar": "" },
+    { "name": "Rafał",   "avatar": "" },
+    { "name": "Zosia",   "avatar": "" },
+    { "name": "Dziadek",  "avatar": "" }
   ]
 }
