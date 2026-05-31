@@ -1,0 +1,10 @@
+{
+  "players": [
+    { "name": "Szybki Barti",  "avatar": "/avatars/barti.jpg" },
+    { "name": "Dziadek",   "avatar": "" },
+    { "name": "Ala",  "avatar": "" },
+    { "name": "Łukasz",   "avatar": "" },
+    { "name": "Rafał", "avatar": "" },
+    { "name": "Natuś",  "avatar": "/avatars/natus.jpg" }
+  ]
+}
