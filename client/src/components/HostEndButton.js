@@ -29,8 +29,11 @@ function HostEndButton({ state }) {
     else if (leaveStep === 2) setLeaveStep(3);
     else if (leaveStep === 3) {
       localStorage.removeItem("game_session");
+      sessionStorage.removeItem("preloader_shown");
       socket.emit("player_leave");
       setLeaveStep(0);
+      // Przeładuj stronę - wraca do ekranu wyboru postaci
+      setTimeout(() => { window.location.reload(); }, 200);
     }
   };
   const handleLeaveCancel = (e) => { e.stopPropagation(); setLeaveStep(0); };
