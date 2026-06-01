@@ -37,10 +37,18 @@ function HostEndButton({ state }) {
 
   return (
     <div className="host-end-bar">
+      {/* KOD GRY - widoczny dla hosta */}
+      {isHost && hostStep === 0 && leaveStep === 0 && state.roomId && (
+        <div className="host-room-code">
+          <span className="muted small">Kod gry:</span>
+          <strong>{state.roomId}</strong>
+        </div>
+      )}
+
       {/* PRZYCISK HOSTA (lewy) - tylko gdy host */}
       {isHost && hostStep === 0 && leaveStep === 0 && (
         <button className="btn host-end-btn" onClick={handleHostClick}>
-          🏁 Zakończ grę (host)
+          🏁 Zakończ grę
         </button>
       )}
       {isHost && hostStep === 1 && (

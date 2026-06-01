@@ -2899,3 +2899,22 @@ input, textarea, select, button {
 .host-end-bar {
   justify-content: space-between !important;
 }
+
+/* Kod gry w pasku hosta */
+.host-room-code {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.4);
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: #c7d2fe;
+}
+.host-room-code strong {
+  color: #fbbf24;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  letter-spacing: 2px;
+}

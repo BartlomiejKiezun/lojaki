@@ -1603,6 +1603,25 @@ io.on("connection", (socket) => {
           room.playerScores[socket.id] = room.playerScores[oldId];
           delete room.playerScores[oldId];
         }
+        // Migruj ID w phaseData (gdyby był w bieżącej kolejce minigry)
+        if (room.phaseData) {
+          const d = room.phaseData;
+          ["speakerOrder", "actorOrder", "drawerOrder"].forEach(key => {
+            if (Array.isArray(d[key])) {
+              d[key] = d[key].map(id => id === oldId ? socket.id : id);
+            }
+          });
+          ["currentSpeakerId", "currentActorId", "currentDrawerId"].forEach(key => {
+            if (d[key] === oldId) d[key] = socket.id;
+          });
+          // Glosy/picks
+          ["votes", "actorPicks", "drawerPicks", "answers"].forEach(key => {
+            if (d[key] && d[key][oldId] !== undefined) {
+              d[key][socket.id] = d[key][oldId];
+              delete d[key][oldId];
+            }
+          });
+        }
         socket.join(roomId);
         socket.data.roomId = roomId;
         socket.data.playerName = player.name;
@@ -2108,15 +2127,16 @@ io.on("connection", (socket) => {
     if (!player) return;
 
     console.log(`👋 Gracz ${player.name} opuszcza grę dobrowolnie`);
+    const leavingId = socket.id;
 
     // Usuń z listy graczy
-    room.players = room.players.filter(p => p.id !== socket.id);
+    room.players = room.players.filter(p => p.id !== leavingId);
 
     // Usuń jego punkty
-    if (room.playerScores) delete room.playerScores[socket.id];
+    if (room.playerScores) delete room.playerScores[leavingId];
 
-    // Jeśli to był host - przekaż hostowanie pierwszemu dostępnemu graczowi
-    if (room.hostId === socket.id) {
+    // Jeśli to był host - przekaż hostowanie
+    if (room.hostId === leavingId) {
       const newHost = room.players.find(p => p.connected);
       if (newHost) {
         room.hostId = newHost.id;
@@ -2134,12 +2154,63 @@ io.on("connection", (socket) => {
       return;
     }
 
-    // Jeśli gra trwa i zostało < 3 graczy w trybie sabo - kończymy
-    if (room.phase !== PHASE.LOBBY && room.players.filter(p => !p.eliminated && p.connected).length < 3) {
-      // Wracamy do lobby
-      if (room.timer) clearInterval(room.timer);
-      room.phase = PHASE.LOBBY;
-      room.phaseData = null;
+    // ============ POMIŃ TEGO GRACZA W BIEŻĄCEJ MINIGRZE ============
+    if (room.phase !== PHASE.LOBBY && room.phaseData) {
+      const data = room.phaseData;
+
+      // 5 sekund - mówca wychodzi
+      if (room.phase === PHASE.FIVE_SECONDS) {
+        // Usuń z kolejki
+        if (data.speakerOrder) {
+          data.speakerOrder = data.speakerOrder.filter(id => id !== leavingId);
+          data.totalSpeakers = data.speakerOrder.length;
+        }
+        // Usuń jego głos (jeśli głosował)
+        if (data.votes) delete data.votes[leavingId];
+
+        // Jeśli to był aktualny mówca - przejdź do następnego
+        if (data.currentSpeakerId === leavingId) {
+          if (room.timer) clearInterval(room.timer);
+          advanceFiveSecondsTurn(roomId);
+          return;
+        }
+      }
+
+      // Kalambury pokazywane - aktor wychodzi
+      if (room.phase === PHASE.ACTING) {
+        if (data.actorOrder) {
+          data.actorOrder = data.actorOrder.filter(id => id !== leavingId);
+          data.totalActorsInRound = data.actorOrder.length;
+        }
+        // Usuń z actorPicks jeśli był zaznaczony
+        if (data.actorPicks) delete data.actorPicks[leavingId];
+
+        if (data.currentActorId === leavingId) {
+          if (room.timer) clearInterval(room.timer);
+          advanceActingRound(roomId);
+          return;
+        }
+      }
+
+      // Kalambury rysowane
+      if (room.phase === PHASE.DRAWING) {
+        if (data.drawerOrder) {
+          data.drawerOrder = data.drawerOrder.filter(id => id !== leavingId);
+          data.totalDrawersInRound = data.drawerOrder.length;
+        }
+        if (data.drawerPicks) delete data.drawerPicks[leavingId];
+
+        if (data.currentDrawerId === leavingId) {
+          if (room.timer) clearInterval(room.timer);
+          advanceDrawingRound(roomId);
+          return;
+        }
+      }
+
+      // Quiz - usuń jego odpowiedź
+      if (room.phase === PHASE.QUIZ) {
+        if (data.answers) delete data.answers[leavingId];
+      }
     }
 
     broadcastRoomState(roomId);
