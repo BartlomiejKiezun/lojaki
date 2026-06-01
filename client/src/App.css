@@ -2918,3 +2918,76 @@ input, textarea, select, button {
   font-size: 16px;
   letter-spacing: 2px;
 }
+
+/* ============================================================
+   DETEKTYW - mini gra TAK/NIE
+   ============================================================ */
+
+/* Przyciski TAK/NIE dla detektywa */
+.detective-answer-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 16px 0;
+}
+.detective-yes-btn,
+.detective-no-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  min-height: 70px;
+  padding: 14px;
+}
+.detective-yes-btn {
+  background: #14532d;
+  color: #86efac;
+  border: 2px solid #16a34a;
+}
+.detective-yes-btn:active {
+  background: #15803d;
+  transform: scale(0.98);
+}
+.detective-no-btn {
+  background: #450a0a;
+  color: #fca5a5;
+  border: 2px solid #dc2626;
+}
+.detective-no-btn:active {
+  background: #b91c1c;
+  transform: scale(0.98);
+}
+
+/* Statystyki TAK/NIE dla zgadujących */
+.detective-stats {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 20px 0;
+  padding: 16px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 12px;
+}
+.detective-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.detective-stat .stat-icon {
+  font-size: 28px;
+}
+.detective-stat .stat-value {
+  font-size: 32px;
+  font-weight: 900;
+}
+.detective-stat .stat-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #94a3b8;
+}
+.yes-stat .stat-value { color: #22c55e; }
+.no-stat .stat-value { color: #ef4444; }

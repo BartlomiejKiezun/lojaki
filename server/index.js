@@ -38,6 +38,7 @@ const PHASE = {
   ACTING: "acting",
   FIVE_SECONDS: "fiveSeconds",
   DRAWING: "drawing",
+  DETECTIVE: "detective",
   ASSOCIATIONS: "associations",
   FIELD_GAME: "fieldGame",
   QUIZ: "quiz",
@@ -51,6 +52,7 @@ const MINIGAME_NAMES = {
   fiveSeconds: "⚡ 5 sekund",
   acting: "🎭 Kalambury ruchowe",
   drawing: "🎨 Kalambury rysowane",
+  detective: "🎯 Detektyw",
   associations: "🧠 Skojarzenia",
   fieldGame: "🏃 Gra terenowa",
   quiz: "❓ Quiz"
@@ -61,11 +63,12 @@ function saveToGameHistory(room, game, rounds) {
   room.gameHistory.push({
     game,
     name: MINIGAME_NAMES[game] || game,
-    rounds // tablica { label, guessed/rejected/correct, pointTo }
+    rounds
   });
 }
 
 const DRAWING_TIME = 180;
+const DETECTIVE_TIME = 120;
 const FIELD_GAME_TIME = 60;
 const QUIZ_TIME = 20;
 const QUIZ_QUESTIONS_PER_GAME = 15;
@@ -210,6 +213,10 @@ function getPublicPhaseData(room) {
     delete data.strokes; // strokes idą przez drawing_stroke event, nie przez state
   }
 
+  if (room.phase === PHASE.DETECTIVE && !data.finished) {
+    delete data.word;
+  }
+
   return data;
 }
 
@@ -283,6 +290,15 @@ function getPersonalPhaseData(room, player) {
     };
   }
 
+  if (room.phase === PHASE.DETECTIVE) {
+    const data = room.phaseData;
+    const isCurrentDetective = data.currentDetectiveId === player.id;
+    return {
+      isDetective: isCurrentDetective,
+      word: isCurrentDetective ? data.word : null
+    };
+  }
+
   if (room.phase === PHASE.FIVE_SECONDS) {
     const data = room.phaseData;
     const isCurrentSpeaker = data.currentSpeakerId === player.id;
@@ -308,8 +324,8 @@ function getPersonalPhaseData(room, player) {
 // ===========================================
 
 // Stała kolejność minigier: fiveSeconds, acting, głosowanie, drawing, głosowanie, associations, głosowanie, ...
-const MINIGAME_ORDER_SABO = ["fiveSeconds", "acting", "drawing", "associations", "fieldGame", "quiz"];
-const MINIGAME_ORDER_POINTS = ["fiveSeconds", "drawing", "acting", "quiz"];
+const MINIGAME_ORDER_SABO = ["fiveSeconds", "acting", "drawing", "detective", "associations", "fieldGame", "quiz"];
+const MINIGAME_ORDER_POINTS = ["fiveSeconds", "drawing", "acting", "detective", "quiz"];
 
 function getMinigameOrder(room) {
   return room.mode === "points" ? MINIGAME_ORDER_POINTS : MINIGAME_ORDER_SABO;
@@ -369,6 +385,7 @@ function startNextPhase(roomId) {
       if (game === "acting") startActing(roomId);
       else if (game === "fiveSeconds") startFiveSeconds(roomId);
       else if (game === "drawing") startDrawing(roomId);
+      else if (game === "detective") startDetective(roomId);
       else if (game === "associations") startAssociations(roomId);
       else if (game === "fieldGame") startFieldGame(roomId);
       else startQuiz(roomId);
@@ -968,6 +985,194 @@ function advanceDrawingRound(roomId) {
 }
 
 // ===========================================
+// DETEKTYW - osoba ma hasło, reszta zgaduje przez pytania TAK/NIE
+// ===========================================
+
+function startDetective(roomId) {
+  const room = rooms[roomId];
+  if (!room) return;
+
+  const alive = room.players.filter(p => !p.eliminated && p.connected);
+  const order = shuffle(alive).map(p => p.id);
+
+  room.phase = PHASE.DETECTIVE;
+  room.currentMinigame = "detective";
+  room.phaseData = {
+    detectiveOrder: order,
+    detectiveIndex: 0,
+    currentDetectiveId: order[0],
+    currentDetectiveName: alive.find(p => p.id === order[0])?.name,
+    currentDetectiveAvatar: alive.find(p => p.id === order[0])?.avatar,
+    currentDetectiveNumber: 1,
+    totalDetectivesInRound: order.length,
+    roundNumber: 1,
+    totalRounds: ROUNDS_PER_MINIGAME,
+    word: null,
+    yesCount: 0,
+    noCount: 0,
+    timeLeft: DETECTIVE_TIME,
+    finished: false,
+    miniGameFinished: false,
+    result: null,
+    roundsHistory: []
+  };
+
+  startDetectiveRound(roomId);
+}
+
+function startDetectiveRound(roomId) {
+  const room = rooms[roomId];
+  if (!room) return;
+
+  if (!room.usedDetectiveWords) room.usedDetectiveWords = new Set();
+  let available = words.detective.filter(w => !room.usedDetectiveWords.has(w));
+  if (available.length === 0) {
+    room.usedDetectiveWords.clear();
+    available = words.detective;
+  }
+  const word = pickRandom(available);
+  room.usedDetectiveWords.add(word);
+
+  const detectiveId = room.phaseData.detectiveOrder[room.phaseData.detectiveIndex];
+  const detective = room.players.find(p => p.id === detectiveId);
+
+  room.phaseData.word = word;
+  room.phaseData.detectivePicks = {}; // zaznacza kto zgadł
+  room.phaseData.yesCount = 0;
+  room.phaseData.noCount = 0;
+  room.phaseData.timeLeft = DETECTIVE_TIME;
+  room.phaseData.timerStarted = false;
+  room.phaseData.timerEnded = false;
+  room.phaseData.finished = false;
+  room.phaseData.result = null;
+  room.phaseData.currentDetectiveId = detectiveId;
+  room.phaseData.currentDetectiveName = detective?.name;
+  room.phaseData.currentDetectiveAvatar = detective?.avatar;
+  room.phaseData.currentDetectiveNumber = room.phaseData.detectiveIndex + 1;
+
+  broadcastRoomState(roomId);
+}
+
+function startDetectiveTimer(roomId) {
+  const room = rooms[roomId];
+  if (!room || room.phase !== PHASE.DETECTIVE) return;
+  if (room.phaseData.timerStarted) return;
+  room.phaseData.timerStarted = true;
+  broadcastRoomState(roomId);
+
+  if (room.timer) clearInterval(room.timer);
+  room.timer = setInterval(() => {
+    if (!rooms[roomId] || room.phase !== PHASE.DETECTIVE) {
+      clearInterval(room.timer);
+      return;
+    }
+    if (room.phaseData.finished) return;
+
+    room.phaseData.timeLeft--;
+
+    if (room.phaseData.timeLeft <= 0) {
+      clearInterval(room.timer);
+      io.to(roomId).emit("timer_tick", 0);
+      room.phaseData.timerEnded = true;
+      broadcastRoomState(roomId);
+    } else {
+      io.to(roomId).emit("timer_tick", room.phaseData.timeLeft);
+    }
+  }, 1000);
+}
+
+function finishDetectiveRound(roomId) {
+  const room = rooms[roomId];
+  if (!room || room.phase !== PHASE.DETECTIVE) return;
+  if (room.phaseData.finished) return;
+
+  if (room.timer) clearInterval(room.timer);
+
+  const data = room.phaseData;
+  data.finished = true;
+
+  const pickedIds = Object.keys(data.detectivePicks || {});
+  const pickedId = pickedIds[0];
+
+  const correctPlayers = [];
+  if (pickedId) {
+    const p = room.players.find(pl => pl.id === pickedId && !pl.eliminated);
+    if (p && p.id !== data.currentDetectiveId) {
+      correctPlayers.push({ id: p.id, name: p.name, avatar: p.avatar });
+    }
+  }
+
+  const guessed = correctPlayers.length > 0;
+  if (guessed) {
+    room.scoreGracze++;
+    // Punkt TYLKO dla zgadującego (zgodnie z wyborem - "gracz który zgadł")
+    for (const cp of correctPlayers) awardPoint(room, cp.id);
+  } else {
+    room.scoreSabo++;
+  }
+
+  data.result = {
+    word: data.word,
+    detectiveName: data.currentDetectiveName,
+    detectiveId: data.currentDetectiveId,
+    guessed,
+    correctPlayers,
+    yesCount: data.yesCount,
+    noCount: data.noCount,
+    roundNumber: data.roundNumber
+  };
+  data.roundsHistory.push(data.result);
+
+  // Info o następnym
+  let nextDetectiveName = null;
+  for (let i = data.detectiveIndex + 1; i < data.detectiveOrder.length; i++) {
+    const np = room.players.find(p => p.id === data.detectiveOrder[i]);
+    if (np && !np.eliminated && np.connected) { nextDetectiveName = np.name; break; }
+  }
+  data.nextDetectiveName = nextDetectiveName;
+  data.waitingForHost = true;
+
+  broadcastRoomState(roomId);
+}
+
+function advanceDetectiveRound(roomId) {
+  const room = rooms[roomId];
+  if (!room || room.phase !== PHASE.DETECTIVE) return;
+  const data = room.phaseData;
+
+  data.detectiveIndex++;
+  // Pomijaj rozłączonych/wyeliminowanych
+  while (data.detectiveIndex < data.detectiveOrder.length) {
+    const next = room.players.find(p => p.id === data.detectiveOrder[data.detectiveIndex]);
+    if (next && !next.eliminated && next.connected) break;
+    data.detectiveIndex++;
+  }
+
+  if (data.detectiveIndex >= data.detectiveOrder.length) {
+    // Skończyła się jedna runda
+    if (data.roundNumber < data.totalRounds) {
+      data.roundNumber++;
+      data.detectiveIndex = 0;
+      const aliveNow = room.players.filter(p => !p.eliminated && p.connected);
+      data.detectiveOrder = shuffle(aliveNow).map(p => p.id);
+      data.totalDetectivesInRound = data.detectiveOrder.length;
+      startDetectiveRound(roomId);
+    } else {
+      data.miniGameFinished = true;
+      data.waitingForHost = true;
+      saveToGameHistory(room, "detective", data.roundsHistory.map(r => ({
+        label: r.detectiveName,
+        result: r.guessed ? "✅ Zgadnięto" : "❌ Nie zgadnięto",
+        pointTo: r.guessed ? "gracze" : "sabo"
+      })));
+      broadcastRoomState(roomId);
+    }
+  } else {
+    startDetectiveRound(roomId);
+  }
+}
+
+// ===========================================
 // QUIZ ABCD
 // ===========================================
 
@@ -1474,6 +1679,7 @@ function startGame(roomId) {
   room.gameHistory = [];
   room.usedActingWords = new Set();
   room.usedDrawingWords = new Set();
+  room.usedDetectiveWords = new Set();
   room.usedQuestions = new Set();
   room.usedAssociations = new Set();
   room.usedQuizQuestions = new Set();
@@ -1606,16 +1812,16 @@ io.on("connection", (socket) => {
         // Migruj ID w phaseData (gdyby był w bieżącej kolejce minigry)
         if (room.phaseData) {
           const d = room.phaseData;
-          ["speakerOrder", "actorOrder", "drawerOrder"].forEach(key => {
+          ["speakerOrder", "actorOrder", "drawerOrder", "detectiveOrder"].forEach(key => {
             if (Array.isArray(d[key])) {
               d[key] = d[key].map(id => id === oldId ? socket.id : id);
             }
           });
-          ["currentSpeakerId", "currentActorId", "currentDrawerId"].forEach(key => {
+          ["currentSpeakerId", "currentActorId", "currentDrawerId", "currentDetectiveId"].forEach(key => {
             if (d[key] === oldId) d[key] = socket.id;
           });
           // Glosy/picks
-          ["votes", "actorPicks", "drawerPicks", "answers"].forEach(key => {
+          ["votes", "actorPicks", "drawerPicks", "detectivePicks", "answers"].forEach(key => {
             if (d[key] && d[key][oldId] !== undefined) {
               d[key][socket.id] = d[key][oldId];
               delete d[key][oldId];
@@ -1871,6 +2077,54 @@ io.on("connection", (socket) => {
     finishDrawingRound(roomId);
   });
 
+  // ============ DETEKTYW ============
+
+  socket.on("detective_ready", () => {
+    const roomId = socket.data.roomId;
+    const room = rooms[roomId];
+    if (!room || room.phase !== PHASE.DETECTIVE) return;
+    if (room.phaseData.finished) return;
+    if (room.phaseData.timerStarted) return;
+    if (socket.id !== room.phaseData.currentDetectiveId) return;
+    startDetectiveTimer(roomId);
+  });
+
+  socket.on("detective_answer", ({ answer }) => {
+    const roomId = socket.data.roomId;
+    const room = rooms[roomId];
+    if (!room || room.phase !== PHASE.DETECTIVE) return;
+    if (room.phaseData.finished) return;
+    if (socket.id !== room.phaseData.currentDetectiveId) return;
+    if (answer === "yes") room.phaseData.yesCount++;
+    else if (answer === "no") room.phaseData.noCount++;
+    broadcastRoomState(roomId);
+  });
+
+  socket.on("detective_toggle_pick", ({ playerId }) => {
+    const roomId = socket.data.roomId;
+    const room = rooms[roomId];
+    if (!room || room.phase !== PHASE.DETECTIVE) return;
+    if (room.phaseData.finished) return;
+    if (socket.id !== room.phaseData.currentDetectiveId) return;
+
+    if (!room.phaseData.detectivePicks) room.phaseData.detectivePicks = {};
+    if (room.phaseData.detectivePicks[playerId]) {
+      delete room.phaseData.detectivePicks[playerId];
+    } else {
+      room.phaseData.detectivePicks = { [playerId]: true };
+    }
+    broadcastRoomState(roomId);
+  });
+
+  socket.on("detective_confirm_picks", () => {
+    const roomId = socket.data.roomId;
+    const room = rooms[roomId];
+    if (!room || room.phase !== PHASE.DETECTIVE) return;
+    if (room.phaseData.finished) return;
+    if (socket.id !== room.phaseData.currentDetectiveId) return;
+    finishDetectiveRound(roomId);
+  });
+
   socket.on("drawing_ready_next", () => {
     const roomId = socket.data.roomId;
     const room = rooms[roomId];
@@ -2058,12 +2312,24 @@ io.on("connection", (socket) => {
     }
   });
 
+  socket.on("host_next_detective", () => {
+    const roomId = socket.data.roomId;
+    const room = rooms[roomId];
+    if (!room || room.phase !== PHASE.DETECTIVE) return;
+    if (room.hostId !== socket.id) return;
+    if (room.phaseData.miniGameFinished) {
+      startNextPhase(roomId);
+    } else if (room.phaseData.finished) {
+      advanceDetectiveRound(roomId);
+    }
+  });
+
   socket.on("host_next_phase", () => {
     const roomId = socket.data.roomId;
     const room = rooms[roomId];
     if (!room) return;
     if (room.hostId !== socket.id) return;
-    if ([PHASE.ACTING, PHASE.DRAWING, PHASE.FIVE_SECONDS, PHASE.FIELD_GAME, PHASE.QUIZ, PHASE.ASSOCIATIONS].includes(room.phase)) {
+    if ([PHASE.ACTING, PHASE.DRAWING, PHASE.DETECTIVE, PHASE.FIVE_SECONDS, PHASE.FIELD_GAME, PHASE.QUIZ, PHASE.ASSOCIATIONS].includes(room.phase)) {
       if (room.phaseData?.miniGameFinished) startNextPhase(roomId);
     }
   });
@@ -2203,6 +2469,21 @@ io.on("connection", (socket) => {
         if (data.currentDrawerId === leavingId) {
           if (room.timer) clearInterval(room.timer);
           advanceDrawingRound(roomId);
+          return;
+        }
+      }
+
+      // Detektyw
+      if (room.phase === PHASE.DETECTIVE) {
+        if (data.detectiveOrder) {
+          data.detectiveOrder = data.detectiveOrder.filter(id => id !== leavingId);
+          data.totalDetectivesInRound = data.detectiveOrder.length;
+        }
+        if (data.detectivePicks) delete data.detectivePicks[leavingId];
+
+        if (data.currentDetectiveId === leavingId) {
+          if (room.timer) clearInterval(room.timer);
+          advanceDetectiveRound(roomId);
           return;
         }
       }
