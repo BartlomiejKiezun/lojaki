@@ -78,3 +78,28 @@ export function unlockAudio() {
 
 export function setMuted(m) { muted = m; }
 export function isMuted() { return muted; }
+
+// Tick gdy zostało <=5s timera
+export function playTick() {
+  tone({ freq: 1200, duration: 0.05, type: "square", volume: 0.12 });
+}
+
+// Buzz gdy czas się skończy
+export function playTimeUp() {
+  sequence([
+    { freq: 800, duration: 0.15, type: "sawtooth", volume: 0.2 },
+    { freq: 400, duration: 0.3, type: "sawtooth", volume: 0.2 }
+  ], 0.1);
+}
+
+// Obiekt sounds używany przez App.js - alias do funkcji
+export const sounds = {
+  point: playPoint,
+  victory: playVictory,
+  fail: playFail,
+  roundEnd: playRoundEnd,
+  click: playClick,
+  tick: playTick,
+  timeUp: playTimeUp,
+  unlock: unlockAudio
+};
