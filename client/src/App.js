@@ -1,6 +1,5 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { socket } from "./socket";
-import { sounds } from "./sounds";
 
 import Lobby from "./components/Lobby";
 import RoleReveal from "./components/RoleReveal";
@@ -20,7 +19,6 @@ import Connecting from "./components/Connecting";
 import LeaderBadge from "./components/LeaderBadge";
 import Preloader from "./components/Preloader";
 import HostEndButton from "./components/HostEndButton";
-import WinnerCelebration from "./components/WinnerCelebration";
 
 function App() {
   // Preloader - pokazuje się raz na sesję
@@ -45,58 +43,6 @@ function App() {
   // Lokalne info: czy użytkownik dołączył już do pokoju
   const [joined, setJoined] = useState(false);
 
-  // Celebracja zwycięzcy
-  const [winner, setWinner] = useState(null);
-  const [winnerTrigger, setWinnerTrigger] = useState(0);
-  const prevScoresMap = useRef({});
-
-  // Wykrywanie zdobytych punktów - pokazuje WinnerCelebration
-  useEffect(() => {
-    if (!state?.players) return;
-    const current = {};
-    let pointWinner = null;
-    state.players.forEach(p => {
-      current[p.id] = p.score || 0;
-      const prev = prevScoresMap.current[p.id];
-      if (prev !== undefined && current[p.id] > prev) {
-        pointWinner = p;
-      }
-    });
-    if (pointWinner && Object.keys(prevScoresMap.current).length > 0) {
-      setWinner(pointWinner);
-      setWinnerTrigger(t => t + 1);
-      // Auto-hide po 2.8s
-      setTimeout(() => setWinner(null), 2800);
-    }
-    prevScoresMap.current = current;
-  }, [state?.players]);
-
-  // Dźwięki timera
-  useEffect(() => {
-    const onTick = (t) => {
-      if (t === 0) {
-        sounds.timeUp();
-      } else if (t <= 3 && t > 0) {
-        sounds.tick();
-      }
-    };
-    socket.on("timer_tick", onTick);
-    return () => socket.off("timer_tick", onTick);
-  }, []);
-
-  // Dźwięki - przy zmianie fazy gry
-  const prevPhaseRef = useRef(null);
-  useEffect(() => {
-    if (!state?.phase) return;
-    const prev = prevPhaseRef.current;
-    if (prev && prev !== state.phase) {
-      if (state.phase === "game_over") {
-        sounds.victory();
-      }
-    }
-    prevPhaseRef.current = state.phase;
-  }, [state?.phase]);
-  
   useEffect(() => {
     const tryAutoRejoin = () => {
       const saved = localStorage.getItem("game_session");
@@ -234,7 +180,6 @@ function App() {
       {state.phase !== "lobby" && state.phase !== "game_over" && <LeaderBadge state={state} />}
       {renderPhase()}
       <HostEndButton state={state} />
-      <WinnerCelebration winner={winner} trigger={winnerTrigger} />
     </>
   );
 }
