@@ -1,4415 +1,579 @@
 {
   "acting": [
-  "Jedzenie gorącej zupy",
-  "Jazda na rowerze",
-  "Łowienie ryb",
-  "Robienie zakupów",
-  "Spanie i chrapanie",
-  "Otwieranie prezentu",
-  "Wbijanie gwoździa młotkiem",
-  "Malowanie ścian ",
-  "Pies",
-  "Kot",
-  "Zając",
-  "Słoń",
-  "Małpa",
-  "Żaba",
-  "Ptak",
-  "Wąż",
-  "Kierowca samochodu",
-  "Fryzjer",
-  "Kucharz",
-  "Fotograf",
-  "Malarz",
-  "Lekarz",
-  "Nauczyciel",
-  "Kelner",
-  "Gra w tenisa",
-  "Pływanie",
-  "Boks",
-  "Gra na gitarze",
-  "Gra na pianinie",
-  "Rzut do kosza",
-  "Taniec",
-  "Jazda na nartach",
-  "Batman",
-  "Tarzan",
-  "Czerwony Kapturek",
-  "Spiderman",
-  "Superbohater",
-  "Mycie zębów",
-  "Czesanie włosów",
-  "Odkurzanie pokoju",
-  "Prasowanie ubrań",
-  "Czytanie książki",
-  "Picie napoju przez słomkę",
-  "Płacz dziecka",
-  "Krojenie cebuli",
-  "Latanie samolotem",
-  "Jazda na koniu",
-  "Zamiatanie podłogi",
-  "Pieczenie ciasta",
-  "Zawiązywanie butów",
-  "Gra na bębnach",
-  "Golenie brody",
-  "Pisanie na komputerze",
-  "Kopanie łopatą",
-  "Rzucanie śnieżkami",
-  "Lepienie bałwana",
-  "Rozwijanie parasola",
-  "Pchanie zepsutego auta",
-  "Oglądanie horroru",
-  "Dmuchanie balonika",
-  "Mycie okien",
-  "Układanie puzzli",
-  "Ścinanie drzewa",
-  "Szycie igłą",
-  "Karmienie gołębi",
-  "Bieganie na bieżni",
-  "Przesadzanie kwiatka",
-  "Wyciskanie soku",
-  "Robienie makijażu",
-  "Strzelanie z łuku",
-  "Skakanie na skakance",
-  "Gra w kręgle",
-  "Jedzenie lodów",
-  "Zjeżdżanie na zjeżdżalni",
-  "Wchodzenie po drabinie",
-  "Cofanie autem",
-  "Wyprowadzanie psa",
-  "Kupowanie biletu",
-  "Mycie rąk",
-  "Wieszanie prania",
-  "Otwieranie zamka kluczem",
-  "Dzwonienie domofonem",
-  "Siatkówka",
-  "Gra w piłkę nożną",
-  "Jazda na rolkach",
-  "Pingwin",
-  "Lew",
-  "Kangur",
-  "Żyrafa",
-  "Niedźwiedź",
-  "Świnia",
-  "Krowa",
-  "Koń",
-  "Pszczoła",
-  "Komar",
-  "Dzięcioł",
-  "Bocian",
-  "Krokodyl",
-  "Żółw",
-  "Rekin",
-  "Górnik",
-  "Strażak",
-  "Policjant",
-  "Żołnierz",
-  "Listonosz",
-  "Piekarz",
-  "Kominiarz",
-  "Dentysta",
-  "Piosenkarz",
-  "Baletnica",
-  "Ogrodnik",
-  "Marynarz",
-  "Pilot samolotu",
-  "Kosmonauta",
-  "Spawacz",
-  "Szewc",
-  "Krawiec",
-  "Mechanik samochodowy",
-  "Klaun",
-  "Gimnastyczka",
-  "Sprzątaczka",
-  "Ksiądz",
-  "Zakonnica",
-  "Król",
-  "Rycerz",
-  "Pirat",
-  "Kowboj",
-  "Indianin",
-  "Czarnoksiężnik",
-  "Wróżka",
-  "Ścinanie trawy kosiarką",
-  "Puszczanie latawca",
-  "Rąbanie drewna siekierą",
-  "Zbieranie grzybów w lesie",
-  "Karmienie małego dziecka",
-  "Malowanie paznokci",
-  "Wycieranie kurzu z szafki",
-  "Wkręcanie żarówki",
-  "Otwieranie puszki napoju",
-  "Czesanie psa szczotką",
-  "Szycie na maszynie",
-  "Zgniatanie plastikowej butelki",
-  "Obywanie ziemniaków nożem",
-  "Przeglądanie się w lustrze",
-  "Wchodzenie po schodach",
-  "Zjeżdżanie na sankach",
-  "Rzucanie dyskiem (frisbee)",
-  "Pływanie kajakiem",
-  "Skakanie na trampolinie",
-  "Gra w rzutki (dart)",
-  "Jazda na hulajnodze",
-  "Chodzenie o kulach",
-  "Przeciąganie liny",
-  "Strzelanie z procy",
-  "Prasowanie spodni",
-  "Mycie naczyń gąbką",
-  "Czyszczenie butów",
-  "Wyrzucanie śmieci do kosza",
-  "Pisanie listu piórem",
-  "Układanie klocków",
-  "Zwijanie dywanu",
-  "Nadmuchiwanie materaca",
-  "Trzepanie dywanu",
-  "Odpędzanie natrętnej muchy",
-  "Wirowanie w pralce",
-  "Wieszanie obrazka na ścianie",
-  "Pakowanie walizki",
-  "Wypijanie gorącej kawy",
-  "Zamykanie okna na klucz",
-  "Krojenie chleba nożem",
-  "Drażnienie kota laserem",
-  "Posypywanie potrawy solą",
-  "Mieszanie ciasta łyżką",
-  "Przesiewanie mąki",
-  "Wbijanie kodu PIN",
-  "Rysowanie koła cyrklem",
-  "Ostrzenie ołówka temperówką",
-  "Liczenie pieniędzy",
-  "Zrywanie jabłek z drzewa",
-  "Chodzenie po linie",
-  "Jeż",
-  "Pielęgniarka",
-  "Ratownik medyczny",
-  "Weterynarz",
-  "Elektryk",
-  "Hydraulik",
-  "Malarz budowlany",
-  "Stolarz",
-  "Ślusarz",
-  "Kolejarz",
-  "Konduktor",
-  "Maszynista",
-  "Kierowca taksówki",
-  "Przewodnik turystyczny",
-  "Stewardesa",
-  "Kapitan statku",
-  "Rybak",
-  "Rolnik",
-  "Myśliwy",
-  "Kucharz",
-  "Barman",
-  "Cukiernik",
-  "Rzeźnik",
-  "Sprzedawca w sklepie",
-  "Kasjer",
-  "Ochroniarz",
-  "Detektyw",
-  "Lanie wosku",
-  "Otwieranie parasola",
-  "Jazda na deskorolce",
-  "Skakanie przez płot",
-  "Chodzenie na szczudłach",
-  "Rzucanie bukietu",
-  "Wyciskanie sztangi",
-  "Smarowanie chleba",
-  "Obieranie pomarańczy",
-  "Wbijanie gwoździa",
-  "Odkręcanie słoika",
-  "Zamiatanie liści",
-  "Grabienie trawy",
-  "Mycie samochodu",
-  "Pompowanie koła",
-  "Wymiana opony",
-  "Pakowanie prezentu",
-  "Przecinanie wstęgi",
-  "Odpędzanie komarów",
-  "Strzyżenie żywopłotu",
-  "Wyrywanie chwastów",
-  "Podlewanie kwiatów",
-  "Pranie na tarce",
-  "Rozpalanie ogniska",
-  "Pieczenie kiełbaski",
-  "Smażenie jajecznicy",
-  "Nalewanie zupy",
-  "Tarcie sera",
-  "Krojenie tortu",
-  "Dmuchanie świeczek",
-  "Picie herbaty",
-  "Płukanie gardła",
-  "Wycieranie talerza",
-  "Zmywanie podłogi",
-  "Czyszczenie okien",
-  "Ścieranie kurzu",
-  "Trzepanie poduszki",
-  "Ścielenie łóżka",
-  "Prasowanie koszuli",
-  "Szycie guzika",
-  "Nawlekanie nitki",
-  "Wiązanie krawata",
-  "Zapinanie spinek",
-  "Przymierzanie butów",
-  "Zawiązywanie sznurowadeł",
-  "Zapinanie paska",
-  "Zakładanie rękawiczek",
-  "Rozwijanie szalika",
-  "Suszenie włosów",
-  "Czesanie włosów",
-  "Golenie twarzy",
-  "Malowanie rzęs",
-  "Pudrowanie twarzy",
-  "Psikanie perfumami",
-  "Mycie twarzy",
-  "Wycieranie okularów",
-  "Zakładanie kolczyków",
-  "Pchanie wózka",
-  "Niesienie siatek",
-  "Liczenie pieniędzy",
-  "Pisanie na tablicy",
-  "Stemplowanie dokumentów",
-  "Temperowanie ołówka",
-  "Wycinanie kółka",
-  "Klejenie papieru",
-  "Zszywanie kartek",
-  "Dziurkowanie kartek",
-  "Malowanie obrazu",
-  "Rzeźbienie w glinie",
-  "Lepienie garnka",
-  "Gra na trójkącie",
-  "Gra na tamburynie",
-  "Gra na akordeonie",
-  "Gra na flecie",
-  "Gra na puzonie",
-  "Gra na skrzypcach",
-  "Gra na wiolonczeli",
-  "Gra na harfie",
-  "Dyrygowanie orkiestrą",
-  "Śpiewanie do mikrofonu",
-  "Taniec baletowy",
-  "Taniec towarzyski",
-  "Stepowanie",
-  "Robienie jaskółki",
-  "Robienie fikołka",
-  "Skakanie na nodze",
-  "Rzut oszczepem",
-  "Pchnięcie kulą",
-  "Skok o tyczce",
-  "Bieg przez płotki",
-  "Chód sportowy",
-  "Podnoszenie ciężarów",
-  "Rzut dyskiem",
-  "Skok do wody",
-  "Pływanie kraulem",
-  "Pływanie grzbietem",
-  "Jazda na łyżwach",
-  "Jazda na snowboardzie",
-  "Skok narciarski",
-  "Bieg narciarski",
-  "Strzelanie z karabinu",
-  "Slalom narciarski",
-  "Gra w hokeja",
-  "Gra w curling",
-  "Jazda na sankach",
-  "Pływanie kajakiem",
-  "Wiosłowanie",
-  "Wciąganie żagla",
-  "Skakanie do wody",
-  "Pływanie żabką",
-  "Nurkowanie z rurką",
-  "Skakanie przez fale",
-  "Bieganie po plaży",
-  "Zbieranie muszelek",
-  "Budowanie zamku z piasku",
-  "Smarowanie się kremem",
-  "Opalanie się",
-  "Leżenie na hamaku",
-  "Skakanie na trampolinie",
-  "Rzucanie piłką plażową",
-  "Gra w badmintona",
-  "Odbijanie piłki",
-  "Rzut do kosza",
-  "Strzał na bramkę",
-  "Serwowanie piłki",
-  "Obrona bramkarza",
-  "Kręcenie hula-hop",
-  "Rzucanie rzutkami",
-  "Gra w bilard",
-  "Przeciąganie liny",
-  "Siłowanie się na rękę",
-  "Robienie pompek",
-  "Robienie przysiadów",
-  "Robienie pajacyków",
-  "Rozciąganie się",
-  "Odpoczywanie na trawie",
-  "Spacerowanie w parku",
-  "Bieganie w lesie",
-  "Wspinaczka na ściankę",
-  "Chodzenie po górach",
-  "Rozbijanie namiotu",
-  "Pakowanie plecaka",
-  "Przeglądanie mapy",
-  "Patrzenie przez lornetkę",
-  "Robienie zdjęcia",
-  "Pozowanie do zdjęcia",
-  "Oglądanie filmu",
-  "Jedzenie popcornu",
-  "Picie przez słomkę",
-  "Chrupanie chipsów",
-  "Żucie gumy",
-  "Dmuchać balony",
-  "Puszczanie baniek",
-  "Klaskanie w dłonie",
-  "Machanie ręką",
-  "Wysyłanie buziaka",
-  "Przytulanie pluszaka",
-  "Głaskanie kota",
-  "Karmienie rybek",
-  "Nalewanie wody",
-  "Sypanie karmy",
-  "Zamykanie drzwi",
-  "Otwieranie bramy",
-  "Wchodzenie do windy",
-  "Jechanie schodami",
-  "Kasowanie biletu",
-  "Czekanie na autobus",
-  "Jazda tramwajem",
-  "Jazda pociągiem",
-  "Latanie samolotem",
-  "Sterowanie statkiem",
-  "Jazda traktorem",
-  "Jazda motocyklem",
-  "Jazda quadem",
-  "Pchanie taczki",
-  "Kopanie rowu",
-  "Noszenie cegieł",
-  "Cięcie drewna",
-  "Szlifowanie deski",
-  "Malowanie płotu",
-  "Mycie okna",
-  "Wycieranie podłogi",
-  "Odkurzanie dywanu",
-  "Trzepanie koca",
-  "Prasowanie ubrań",
-  "Składanie ręcznika",
-  "Wieszanie kurtki",
-  "Chowanie do szafy",
-  "Szukanie kluczy",
-  "Otwieranie sejfu",
-  "Liczenie monet",
-  "Płacenie kartą",
-  "Wypłacanie z bankomatu",
-  "Pisanie na klawiaturze",
-  "Klikanie myszką",
-  "Rozmawianie przez telefon",
-  "Ładowanie telefonu",
-  "Ustawianie budzika",
-  "Król Lew",
-  "Shrek",
-  "Titanic",
-  "Spiderman",
-  "Batman",
-  "Superman",
-  "Tarzan",
-  "Czerwony Kapturek",
-  "Pinokio",
-  "Harry Potter",
-  "Królewna Śnieżka",
-  "Kopciuszek",
-  "Kubuś Puchatek",
-  "Pirat z Karaibów",
-  "Kevin sam w domu",
-  "Tarzan",
-  "Robin Hood",
-  "Terminator",
-  "Indiana Jones",
-  "James Bond",
-  "Pszczółka Maja",
-  "Kot w butach",
-  "Wampir",
-  "Zombie",
-  "Wilkołak",
-  "Robot",
-  "Kosmita",
-  "Duch",
-  "Anioł",
-  "Diabeł",
-  "Święty Mikołaj",
-  "Elf",
-  "Krasnoludek",
-  "Olbrzym",
-  "Czarownica",
-  "Wróżka Zębuszka",
-  "Syrena",
-  "Smok",
-  "Rycerz",
-  "Kowboj",
-  "Astronauta",
-  "Baletnica",
-  "Klaun w cyrku",
-  "Żołnierz na warcie",
-  "Ninja",
-  "Kulturysta",
-  "Modelka na wybiegu",
-  "Balerina",
-  "Piosenkarka",
-  "Gitarzysta rockowy",
-  "Perkusista",
-  "Pianista",
-  "Skrzypek",
-  "Dyrygent",
-  "Malowanie obrazu",
-  "Rzeźbienie",
-  "Prezenter wiadomości",
-  "Nauczyciel przy tablicy",
-  "Lekarz ze stetoskopem",
-  "Fryzjer z nożyczkami",
-  "Kucharz z patelnią",
-  "Kelner z tacą",
-  "Piekarz z chlebem",
-  "Kominiarz na dachu",
-  "Strażak z wężem",
-  "Policjant kierujący ruchem",
-  "Listonosz z torbą",
-  "Kurier z paczką",
-  "Kierowca autobusu",
-  "Pilot samolotu",
-  "Kapitan statku",
-  "Górnik z kilofem",
-  "Drwal z siekierą",
-  "Ogrodnik z konewką",
-  "Rybak z wędką",
-  "Rolnik na traktorze",
-  "Piłkarz strzelający gola",
-  "Koszykarz robiący wsad",
-  "Siatkarz serwujący",
-  "Bokser na ringu",
-  "Pływak na basenie",
-  "Biegacz na mecie",
-  "Narciarz na stoku",
-  "Łyżwiarz na lodzie",
-  "Czterej pancerni i pies",
-  "Oglądać horror",
-  "Kompania braci",
-  "Wyciskanie pryszcza przed lustrem",
-  "Jedzenie cytryny",
-  "Wchodzenie do lodowatej wody",
-  "Spawanie kredek",
-  "Ściąganie bardzo ciasnych skarpetek",
-  "Trzepanie dywanu",
-  "Dziura w skarpetce",
-  "Nadepnięcie na klocka LEGO"
+    "Dinozaur", "Prezydent", "Kulturysta", "Kelner", "Pantomima", "Dentysta", "Detektyw", "Dyrygent",
+    "Zombi", "Pszczoła", "Kameleon", "Panda", "Kangur", "Gepard", "Leniwiec", "Struś",
+    "Pingwin", "Skorpion", "Goryl", "Chrapanie", "Pływanie", "Prasowanie", "Szycie", "Wędkowanie",
+    "Narciarstwo", "Boks", "Fotograf", "Fryzjer", "Górnik", "Kucharz", "Malarz", "Naukowiec",
+    "Astronauta", "Baletnica", "Kowboj", "Pirat", "Ninja", "Czarodziej", "Robot", "Wampir",
+    "Tarzan", "Kopciuszek", "Kichanie", "Medytacja", "Kolarstwo", "Żonglerka", "Kopanie", "Latanie",
+    "Szpieg", "Klaun", "Kulturystyka", "Biegacz", "Żołnierz", "Kierowca", "Pianista", "Gitarzysta",
+    "Perkusista", "Malowanie", "Zamiatanie", "Mycie", "Czesanie", "Nurkowanie", "Wspinaczka", "Łucznictwo",
+    "Jeździectwo", "Karate", "Surfing", "Kibic", "Modelka", "DJ", "Komik", "Mim",
+    "Statysta", "Reżyser", "Gamer", "YouTuber", "Influencer", "Striptizer", "Barman", "Kelnerka",
+    "Piekarz", "Rzeźnik", "Kominiarz", "Strażak", "Policjant", "Lekarz", "Pielęgniarka", "Weterynarz",
+    "Rolnik", "Ogrodnik", "Budowlaniec", "Architekt", "Pilot", "Stewardesa", "Marynarz", "Rybak",
+    "Żeglarz", "Nurek", "Spadochroniarz", "Alpinista", "Przewodnik", "Listonosz", "Kurier", "Śmieciarz",
+    "Sprzątaczka", "Ochroniarz", "Złodziej", "Detektyw", "Prokurator", "Adwokat", "Sędzia", "Kat",
+    "Król", "Królowa", "Książę", "Księżniczka", "Rycerz", "Splendor", "Niewolnik", "Gladiator",
+    "Wiking", "Indianin", "Szaman", "Mnich", "Ksiądz", "Zakonnica", "Papież", "Anioł",
+    "Diabeł", "Duch", "UFO", "Kosmita", "Potwór", "Smok", "Jednorożec", "Feniks",
+    "Syrena", "Centaur", "Minotaur", "Wilkołak", "Mumia", "Szkielet", "Strach", "Złość",
+    "Radość", "Smutek", "Zaskoczenie", "Wstręt", "Nuda", "Zmęczenie", "Płacz", "Śmiech",
+    "Krzyk", "Szept", "Śpiew", "Taniec", "Skakanie", "Czołganie", "Chodzenie", "Bieganie",
+    "Kucanie", "Leżenie", "Siedzenie", "Stanie", "Wiszenie", "Kołysanie", "Kręcenie", "Obracanie",
+    "Rzucanie", "Łapanie", "Pchanie", "Ciągnięcie", "Dźwiganie", "Niesienie", "Trzymanie", "Puszczanie",
+    "Jedzenie", "Picie", "Gryzienie", "Żucie", "Połykanie", "Lizanie", "Wąchanie", "Dotykanie",
+    "Patrzenie", "Słuchanie", "Myślenie", "Marzenie", "Pamiętanie", "Zapominanie", "Pisanie", "Czytanie",
+    "Liczenie", "Rysowanie", "Rzeźbienie", "Budowanie", "Niszczenie", "Naprawianie", "Psuć", "Kupowanie"
   ],
 
   "fiveSeconds": [
-  "Wymień 3 zwierzęta domowe",
-  "Wymień 3 kraje w Azji",
-  "Wymień 3 gry komputerowe",
-  "Wymień 3 seriale",
-  "Wymień 3 owoce cytrusowe",
-  "Wymień 3 rzeczy, które zabierasz na plażę",
-  "Wymień 3 polskie miasta",
-  "Wymień 3 marki samochodów",
-  "Wymień 3 imiona męskie na literę M",
-  "Wymień 3 warzywa, które można jeść na surowo",
-  "Wymień 3 smaki lodów",
-  "Wymień 3 dyscypliny sportowe z użyciem piłki",
-  "Wymień 3 rzeczy, które masz teraz w kieszeni lub blisko siebie",
-  "Wymień 3 zawody, w których nosi się mundur",
-  "Wymień 3 przedmioty szkolne",
-  "Wymień 3 rzeczy, które kojarzą się z zimą",
-  "Wymień 3 popularne aplikacje na telefon",
-  "Wymień 3 rasy psów",
-  "Wymień 3 meble, które stoją w salonie",
-  "Wymień 3 rzeczy, które można robić w deszczowy dzień",
-  "Wymień 3 zespoły muzyczne lub wokalistów",
-  "Wymień 3 stolice europejskie",
-  "Wymień 3 postacie z bajek Disneya",
-  "Wymień 3 rzeczy, które wkłada się do zupy pomidorowej",
-  "Wymień 3 kolory tęczy",
-  "Wymień 3 imiona kobiece na literę A",
-  "Wymień 3 rzeczy, które kupisz w piekarni",
-  "Wymień 3 instrumenty muzyczne",
-  "Wymień 3 gatunki filmowe",
-  "Wymień 3 drzewa liściaste",
-  "Wymień 3 rzeczy, które robisz rano po przebudzeniu",
-  "Wymień 3 popularne napoje gazowane",
-  "Wymień 3 drapieżniki",
-  "Wymień 3 rzeczy, które trzymasz w lodówce",
-  "Wymień 3 popularne gry planszowe",
-  "Wymień 3 marki butów sportowych",
-  "Wymień 3 rzeczy, które kojarzą się z wakacjami",
-  "Wymień 3 polskich aktorów",
-  "Wymień 3 rzeki w Polsce",
-  "Wymień 3 owady, które potrafią latać",
-  "Wymień 3 potrawy z ziemniaków",
-  "Wymień 3 rzeczy, które robisz przed pójściem spać",
-  "Wymień 3 języki obce",
-  "Wymień 3 nakrycia głowy",
-  "Wymień 3 zwierzęta żyjące w Afryce",
-  "Wymień 3 rzeczy, które znajdziesz w łazience",
-  "Wymień 3 słodycze",
-  "Wymień 3 ptaki, które można spotkać w Polsce",
-  "Wymień 3 rzeczy, które można robić w lesie",
-  "Wymień 3 marki smartfonów",
-  "Wymień 3 grzyby jadalne",
-  "Wymień 3 rzeczy, które można czytać",
-  "Wymień 3 kraje europejskie",
-  "Wymień 3 rodzaje fast foodów",
-  "Wymień 3 rzeczy, które kojarzą się ze świętami Bożego Narodzenia",
-  "Wymień 3 kwiaty ogrodowe",
-  "Wymień 3 rzeczy, które można usmażyć na patelni",
-  "Wymień 3 zawody medyczne",
-  "Wymień 3 powody, dla których ludzie się spóźniają",
-  "Wymień 3 zwierzęta, które zapadają w sen zimowy",
-  "Wymień 3 superbohaterów",
-  "Wymień 3 rzeczy, które nosisz latem",
-  "Wymień 3 ryby",
-  "Wymień 3 popularne strony internetowe",
-  "Wymień 3 przyprawy kuchenne",
-  "Wymień 3 rzeczy, które można robić na smartfonie",
-  "Wymień 3 polskie piosenki",
-  "Wymień 3 rzeczy, które znajdziesz w piórniku",
-  "Wymień 3 sporty wodne",
-  "Wymień 3 rzeczy, które można robić na imprezie",
-  "Wymień 3 postacie z Harry'ego Pottera",
-  "Wymień 3 kraje Ameryki Południowej",
-  "Wymień 3 rzeczy, które kupisz w aptece",
-  "Wymień 3 style architektoniczne lub typy budynków",
-  "Wymień 3 rzeczy, które kojarzą się z jesienią",
-  "Wymień 3 imiona dla kota",
-  "Wymień 3 części garderoby na literę S",
-  "Wymień 3 owoce leśne",
-  "Wymień 3 rzeczy, które można robić w parku",
-  "Wymień 3 stacje telewizyjne lub platformy streamingowe",
-  "Wymień 3 owce lub inne zwierzęta hodowlane",
-  "Wymień 3 rzeczy, które kojarzą się z urodzinami",
-  "Wymień 3 gry karciane",
-  "Wymień 3 miasta nad morzem",
-  "Wymień 3 warzywa strączkowe",
-  "Wymień 3 rzeczy, które robisz podczas sprzątania pokoju",
-  "Wymień 3 zwierzęta, które mają paski lub kropki",
-  "Wymień 3 przybory kuchenne",
-  "Wymień 3 rzeczy, które można robić w górach",
-  "Wymień 3 darmowe sposoby na spędzanie czasu",
-  "Wymień 3 polskie góry lub pasma górskie",
-  "Wymień 3 sposoby podróżowania",
-  "Wymień 3 rzeczy, które można dodać do herbaty",
-  "Wymień 3 dzikie koty",
-  "Wymień 3 przedmioty ze szkła",
-  "Wymień 3 rzeczy, które kojarzą się z Wielkanocą",
-  "Wymień 3 postacie mitologiczne lub historyczne",
-  "Wymień 3 rodzaje pieczywa",
-  "Wymień 3 rzeczy, które można robić na komputerze bez internetu",
-  "Wymień 3 akcesoria do włosów",
-  "Wymień 3 zwierzęta morskie",
-  "Wymień 3 rzeczy, które można znaleźć pod łóżkiem",
-  "Wymień 3 napoje, które pije się na gorąco",
-  "Wymień 3 kraje, w których mówi się po hiszpańsku",
-  "Wymień 3 rzeczy, które można robić na śniegu",
-  "Wymień 3 polskie potrawy tradycyjne",
-  "Wymień 3 elementy wyposażenia kuchni",
-  "Wymień 3 zwierzęta, które potrafią bardzo szybko biegać",
-  "Wymień 3 zawody związane z pracą przy komputerze",
-  "Wymień 3 powody do świętowania",
-  "Wymień 3 rzeczy, które można schować do portfela",
-  "Wymień 3 imiona dla psa",
-  "Wymień 3 rodzaje orzechów",
-  "Wymień 3 rzeczy, które kojarzą się ze szkołą",
-  "Wymień 3 marki czekolady",
-  "Wymień 3 rzeczy, które robisz, gdy jest Ci nudno",
-  "Wymień 3 kraje sąsiadujące z Niemcami",
-  "Wymień 3 zwierzęta, które żyją na wsi",
-  "Wymień 3 akcesoria biurowe",
-  "Wymień 3 rzeczy, które można robić na basenie",
-  "Wymień 3 popularne polskie teleturnieje",
-  "Wymień 3 owoce, które mają pestki",
-  "Wymień 3 rzeczy, które kojarzą się z kinem",
-  "Wymień 3 zawody, które wykonuje się na świeżym powietrzu",
-  "Wymień 3 powody, dla których ludzie ćwiczą",
-  "Wymień 3 zwierzęta, które mają pióra",
-  "Wymień 3 rzeczy, które trzymasz w szafce nocnej",
-  "Wymień 3 rodzaje makaronu lub dań z makaronem",
-  "Wymień 3 rzeczy, które kojarzą się z wiosną",
-  "Wymień 3 gry mobilne",
-  "Wymień 3 państwa w Afryce",
-  "Wymień 3 rzeczy, które kupisz na stacji benzynowej",
-  "Wymień 3 przyrządy do ćwiczeń",
-  "Wymień 3 rzeczy, które można robić w ogrodzie",
-  "Wymień 3 popularne zespoły rockowe",
-  "Wymień 3 warzywa korzeniowe",
-  "Wymień 3 rzeczy, które kojarzą się z weselem",
-  "Wymień 3 popularne imiona męskie w Polsce",
-  "Wymień 3 przedmioty metalowe",
-  "Wymień 3 rzeczy, które robisz na zakupach",
-  "Wymień 3 ptaki nieloty",
-  "Wymień 3 rzeczy, które trzymasz w torebce lub plecaku",
-  "Wymień 3 rodzaje serów",
-  "Wymień 3 rzeczy, które można robić na siłowni",
-  "Wymień 3 kraje skandynawskie",
-  "Wymień 3 rzeczy, które kojarzą się z cyrkiem",
-  "Wymień 3 marki kosmetyków",
-  "Wymień 3 zawody związane ze zwierzętami",
-  "Wymień 3 powody, dla których ludzie kupują książki",
-  "Wymień 3 rzeczy, które można upiec w piekarniku",
-  "Wymień 3 popularne imiona żeńskie w Polsce",
-  "Wymień 3 naklejki, które ludzie przyklejają na samochód",
-  "Wymień 3 gadżety elektroniczne, które nie są telefonem",
-  "Wymień 3 rzeczy, które kojarzą się z piratami",
-  "Wymień 3 gatunki drzew iglastych",
-  "Wymień 3 rzeczy, które kupujesz na wagę",
-  "Wymień 3 gry towarzyskie niewymagające planszy",
-  "Wymień 3 postacie z uniwersum Gwiezdnych Wojen",
-  "Wymień 3 kraje, w których walutą jest euro",
-  "Wymień 3 warzywa kapustne",
-  "Wymień 3 rzeczy, które kojarzą się z zamkiem lub pałacem",
-  "Wymień 3 zawody, w których pracuje się w nocy",
-  "Wymień 3 powody, dla których ludzie podróżują",
-  "Wymień 3 zwierzęta polujące w nocy",
-  "Wymień 3 przedmioty wykonane z plastiku",
-  "Wymień 3 rzeczy, które robisz na plaży",
-  "Wymień 3 tradycyjne polskie zupy",
-  "Wymień 3 marki zegarków",
-  "Wymień 3 rzeczy, które można znaleźć w garażu",
-  "Wymień 3 dyscypliny sportowe uprawiane na lodzie",
-  "Wymień 3 kraje w Ameryce Północnej",
-  "Wymień 3 owoce, które rosną na krzakach",
-  "Wymień 3 rzeczy, które kojarzą się z koncertem muzycznym",
-  "Wymień 3 zawody artystyczne",
-  "Wymień 3 rzeczy, które można wrzucić do ogniska",
-  "Wymień 3 zwierzęta roślinożerne",
-  "Wymień 3 przedmioty, które znajdziesz w hotelu",
-  "Wymień 3 rzeczy, które robisz podczas jazdy pociągiem",
-  "Wymień 3 znane polskie komedie",
-  "Wymień 3 rodzaje sosów do potraw",
-  "Wymień 3 rzeczy, które kojarzą się z dentystą",
-  "Wymień 3 marki rowerów",
-  "Wymień 3 rzeczy, które można znaleźć na strychu",
-  "Wymień 3 dyscypliny lekkoatletyczne",
-  "Wymień 3 kraje, które mają dostęp do Morza Śródziemnego",
-  "Wymień 3 warzywa cebulowe",
-  "Wymień 3 rzeczy, które kojarzą się z kempingiem",
-  "Wymień 3 zawody związane z budownictwem",
-  "Wymień 3 powody, dla których ludzie piją kawę",
-  "Wymień 3 zwierzęta posiadające skorupę",
-  "Wymień 3 przedmioty papierowe",
-  "Wymień 3 rzeczy, które robisz, gdy czekasz na autobus",
-  "Wymień 3 zagraniczne zespoły popowe",
-  "Wymień 3 rodzaje miodu",
-  "Wymień 3 rzeczy, które kojarzą się z fryzjerem",
-  "Wymień 3 marki narzędzi warsztatowych",
-  "Wymień 3 rzeczy, które można znaleźć w piwnicy",
-  "Wymień 3 sporty zimowe bez użycia nart",
-  "Wymień 3 wyspy na świecie",
-  "Wymień 3 owoce, które trzeba obrać przed zjedzeniem",
-  "Wymień 3 rzeczy, które kojarzą się z kawiarnią",
-  "Wymień 3 zawody związane z modą i urodą",
-  "Wymień 3 rzeczy, które można schować pod poduszką",
-  "Wymień 3 stworzenia legendarne lub mityczne",
-  "Wymień 3 przedmioty wykonane z drewna",
-  "Wymień 3 rzeczy, które robisz podczas gotowania",
-  "Wymień 3 polskie kabarety",
-  "Wymień 3 smaki chipsów",
-  "Wymień 3 rzeczy, które kojarzą się z magią",
-  "Wymień 3 popularne marki herbaty",
-  "Wymień 3 rzeczy, które znajdziesz w apteczce pierwszej pomocy",
-  "Wymień 3 sporty walki",
-  "Wymień 3 stolice państw leżących poza Europą",
-  "Wymień 3 warzywa o zielonym kolorze",
-  "Wymień 3 rzeczy, które kojarzą się z biurem",
-  "Wymień 3 zawody związane z transportem",
-  "Wymień 3 powody, dla których ludzie mają psy",
-  "Wymień 3 zwierzęta żyjące w wodzie i na lądzie",
-  "Wymień 3 przedmioty, które można znaleźć w lesie",
-  "Wymień 3 rzeczy, które robisz podczas oglądania filmu",
-  "Wymień 3 postacie z polskich legend",
-  "Wymień 3 rodzaje kawy",
-  "Wymień 3 rzeczy, które kojarzą się z podróżą samolotem",
-  "Wymień 3 marki odzieży sportowej",
-  "Wymień 3 rzeczy, które można znaleźć na biurku",
-  "Wymień 3 gry zręcznościowe",
-  "Wymień 3 kraje wyspiarskie",
-  "Wymień 3 owoce, które rosną w Polsce",
-  "Wymień 3 rzeczy, które kojarzą się z teatrem",
-  "Wymień 3 zawody związane z prawem i sądami",
-  "Wymień 3 rzeczy, które można zawiesić na ścianie",
-  "Wymień 3 zwierzęta hodowane dla mleka",
-  "Wymień 3 przedmioty wykonane z gumy",
-  "Wymień 3 rzeczy, które robisz, gdy jesteś zmęczony",
-  "Wymień 3 popularnych polskich youtuberów",
-  "Wymień 3 rodzaje ciast",
-  "Wymień 3 rzeczy, które kojarzą się z muzeum",
-  "Wymień 3 marki wody mineralnej",
-  "Wymień 3 rzeczy, które znajdziesz na placu zabaw",
-  "Wymień 3 gry komputerowe strategiczne",
-  "Wymień 3 państwa, które mają czerwoną flagę",
-  "Wymień 3 przyprawy o ostrym smaku",
-  "Wymień 3 rzeczy, które kojarzą się z biblioteką",
-  "Wymień 3 zawody związane ze sklepem",
-  "Wymień 3 powody, dla których ludzie robią zdjęcia",
-  "Wymień 3 zwierzęta potrafiące kopać nory",
-  "Wymień 3 przedmioty, które kupuje się w kwiaciarni",
-  "Wymień 3 rzeczy, które robisz, gdy dzwoni telefon",
-  "Wymień 3 postacie z komiksów",
-  "Wymień 3 rodzaje pieczywa słodkiego",
-  "Wymień 3 rzeczy, które kojarzą się z restauracją",
-  "Wymień 3 marki sprzętu AGD",
-  "Wymień 3 rzeczy, które można znaleźć w spiżarni",
-  "Wymień 3 gry planszowe dla dzieci",
-  "Wymień 3 kraje, w których produkuje się wino",
-  "Wymień 3 warzywa, które dodaje się do sałatki jarzynowej",
-  "Wymień 3 rzeczy, które kojarzą się ze szpitalem",
-  "Wymień 3 zawody związane z gastronomią",
-  "Wymień 3 rzeczy, które można wrzucić do skarbonki",
-  "Wymień 3 zwierzęta mieszkające w dżungli",
-  "Wymień 3 przedmioty elektroniczne w kuchni",
-  "Wymień 3 rzeczy, które robisz, gdy na dworze jest gorąco",
-  "Wymień 3 piosenki z popularnych bajek",
-  "Wymień 3 smaki dżemów",
-  "Wymień 3 rzeczy, które kojarzą się ze wsią",
-  "Wymień 3 marki soków owocowych",
-  "Wymień 3 rzeczy, które można znaleźć na balkonie",
-  "Wymień 3 gry zespołowe",
-  "Wymień 3 państwa, które mają w flagach gwiazdy",
-  "Wymień 3 zioła używane w kuchni",
-  "Wymień 3 rzeczy, które kojarzą się z basenem",
-  "Wymień 3 zawody związane z edukacją",
-  "Wymień 3 powody, dla których ludzie kupują kwiaty",
-  "Wymień 3 zwierzęta posiadające kopyta",
-  "Wymień 3 przedmioty, które można znaleźć w parku",
-  "Wymień 3 rzeczy, które robisz, gdy pada deszcz",
-  "Wymień 3 rodzaje zup krem",
-  "Wymień 3 rzeczy, które kojarzą się z hotelem",
-  "Wymień 3 marki opon samochodowych",
-  "Wymień 3 rzeczy, które można znaleźć na korytarzu",
-  "Wymień 3 zabawy z dzieciństwa na podwórku",
-  "Wymień 3 warzywa, które można upiec",
-  "Wymień 3 rzeczy, które kojarzą się ze studiami",
-  "Wymień 3 zawody związane z bezpieczeństwem",
-  "Wymień 3 rzeczy, które można nosić w kieszeni kurtki",
-  "Wymień 3 zwierzęta, które można spotkać w zoo",
-  "Wymień 3 przedmioty plastikowe w łazience",
-  "Wymień 3 rzeczy, które robisz w weekend",
-  "Wymień 3 rzeczy, które można znaleźć w damskiej torebce",
-  "Wymień 3 polskie wokalistki",
-  "Wymień 3 gadżety, które przydają się podczas grillowania",
-  "Wymień 3 przedmioty, które znajdziesz na stacji kolejowej",
-  "Wymień 3 rzeczy, które kojarzą się z kowbojami",
-  "Wymień 3 drzewa owocowe",
-  "Wymień 3 produkty spożywcze, które kupuje się w słoikach",
-  "Wymień 3 gry RPG (fabularne)",
-  "Wymień 3 postacie ze świata Shreka",
-  "Wymień 3 kraje, w których językiem urzędowym jest angielski",
-  "Wymień 3 warzywa o czerwonym kolorze",
-  "Wymień 3 rzeczy, które kojarzą się z rycerzami",
-  "Wymień 3 zawody, w których pracuje się w weekendy",
-  "Wymień 3 powody, dla których ludzie chodzą do restauracji",
-  "Wymień 3 zwierzęta żyjące pod ziemią",
-  "Wymień 3 przedmioty wykonane ze skóry",
-  "Wymień 3 rzeczy, które robisz podczas przymierzania ubrań",
-  "Wymień 3 potrawy z jajek",
-  "Wymień 3 marki czekoladek lub bombonierek",
-  "Wymień 3 rzeczy, które można znaleźć w schowku samochodowym",
-  "Wymień 3 dyscypliny sportowe uprawiane na piasku",
-  "Wymień 3 duże wyspy europejskie",
-  "Wymień 3 owoce, które rosną na drzewach",
-  "Wymień 3 rzeczy, które kojarzą się z festiwalem muzycznym",
-  "Wymień 3 zawody techniczne",
-  "Wymień 3 rzeczy, które można wrzucić do kominka",
-  "Wymień 3 zwierzęta wszystkożerne",
-  "Wymień 3 przedmioty, które znajdziesz w pokoju dziecięcym",
-  "Wymień 3 rzeczy, które robisz podczas jazdy rowerem",
-  "Wymień 3 znane polskie kryminały lub seriale kryminalne",
-  "Wymień 3 rodzaje dodatków do obiadu zamiast ziemniaków",
-  "Wymień 3 rzeczy, które kojarzą się z mechanikiem samochodowym",
-  "Wymień 3 marki motocykli",
-  "Wymień 3 rzeczy, które można znaleźć na strychu dziadków",
-  "Wymień 3 konkurencje pływackie lub style pływania",
-  "Wymień 3 kraje Ameryki Środkowej lub Karaibów",
-  "Wymień 3 warzywa, które rosną pod ziemią",
-  "Wymień 3 rzeczy, które kojarzą się z wycieczką pod namiot",
-  "Wymień 3 zawody związane z lotnictwem",
-  "Wymień 3 powody, dla których ludzie piją herbatę",
-  "Wymień 3 zwierzęta posiadające rogi",
-  "Wymień 3 przedmioty zrobione z tektury",
-  "Wymień 3 rzeczy, które robisz, gdy stoisz w długiej kolejce",
-  "Wymień 3 zagraniczne wokalistki pop",
-  "Wymień 3 rodzaje olejów roślinnych do kuchni",
-  "Wymień 3 rzeczy, które kojarzą się z salonem tatuażu",
-  "Wymień 3 marki elektronarzędzi",
-  "Wymień 3 rzeczy, które można znaleźć pod zlewem kuchennym",
-  "Wymień 3 sporty letnie, które nie wymagają użycia piłki",
-  "Wymień 3 morza na świecie",
-  "Wymień 3 owoce o kwaśnym smaku",
-  "Wymień 3 rzeczy, które kojarzą się z pubem",
-  "Wymień 3 zawody związane z filmem i kinem",
-  "Wymień 3 rzeczy, które można schować w szafie",
-  "Wymień 3 potwory ze znanych horrorów",
-  "Wymień 3 przedmioty wykonane z metalu, które nosisz przy sobie",
-  "Wymień 3 rzeczy, które robisz podczas pieczenia ciasta",
-  "Wymień 3 znane polskie piosenki biesiadne",
-  "Wymień 3 smaki gum do żucia",
-  "Wymień 3 rzeczy, które kojarzą się z iluzjonistą",
-  "Wymień 3 popularne marki kawy",
-  "Wymień 3 rzeczy, które znajdziesz w plecaku uczeń",
-  "Wymień 3 sztuki walki pochodzące z Azji",
-  "Wymień 3 stolice państw azjatyckich",
-  "Wymień 3 warzywa o żółtym kolorze",
-  "Wymień 3 rzeczy, które kojarzą się z salą lekcyjną",
-  "Wymień 3 zawody związane z morzem i żeglugą",
-  "Wymień 3 powody, dla których ludzie adoptują koty",
-  "Wymień 3 zwierzęta, które żyją na pustyni",
-  "Wymień 3 przedmioty, które można znaleźć na łące",
-  "Wymień 3 rzeczy, które robisz podczas słuchania muzyki",
-  "Wymień 3 postacie z baśni braci Grimm",
-  "Wymień 3 rodzaje herbat",
-  "Wymień 3 rzeczy, które kojarzą się z podróżą pociągiem",
-  "Wymień 3 marki luksusowych samochodów",
-  "Wymień 3 rzeczy, które można znaleźć na stole w jadalni",
-  "Wymień 3 gry logiczne",
-  "Wymień 3 kraje o bardzo dużej powierzchni",
-  "Wymień 3 owoce, które zbiera się latem",
-  "Wymień 3 rzeczy, które kojarzą się z operą",
-  "Wymień 3 zawody związane z finansami i bankowością",
-  "Wymień 3 rzeczy, które można powiesić na oknie",
-  "Wymień 3 zwierzęta hodowane dla wełny lub futra",
-  "Wymień 3 przedmioty wykonane z aluminium",
-  "Wymień 3 rzeczy, które robisz, gdy jesteś szczęśliwy",
-  "Wymień 3 popularne polskie podcasty lub programy internetowe",
-  "Wymień 3 rodzaje ciasteczek",
-  "Wymień 3 rzeczy, które kojarzą się z galerią sztuki",
-  "Wymień 3 marki napojów energetycznych",
-  "Wymień 3 rzeczy, które znajdziesz na plaży miejskiej",
-  "Wymień 3 gry komputerowe wyścigowe",
-  "Wymień 3 państwa, które mają niebieską flagę",
-  "Wymień 3 przyprawy o słodkim zapachu lub smaku",
-  "Wymień 3 rzeczy, które kojarzą się z antykwariatem",
-  "Wymień 3 zawody związane ze sportem",
-  "Wymień 3 powody, dla których ludzie piszą pamiętniki",
-  "Wymień 3 zwierzęta potrafiące zmieniać kolor lub maskować się",
-  "Wymień 3 przedmioty, które kupuje się na rynku/bazarze",
-  "Wymień 3 rzeczy, które robisz, gdy kurier puka do drzwi",
-  "Wymień 3 postacie z filmów science-fiction",
-  "Wymień 3 rodzaje ciasta na pizzę lub placki",
-  "Wymień 3 rzeczy, które kojarzą się z pizzerią",
-  "Wymień 3 marki telewizorów",
-  "Wymień 3 rzeczy, które można znaleźć w zamrażalniku",
-  "Wymień 3 klasyczne gry podwórkowe",
-  "Wymień 3 kraje słynące z produkcji piwa",
-  "Wymień 3 warzywa, które można kisić",
-  "Wymień 3 rzeczy, które kojarzą się ze szkołą językową",
-  "Wymień 3 zawody związane z hotelarstwem",
-  "Wymień 3 rzeczy, które można wrzucić do kosza na pranie",
-  "Wymień 3 zwierzęta mieszkające na obszarach polarnych",
-  "Wymień 3 przedmioty elektroniczne w salonie",
-  "Wymień 3 rzeczy, które robisz, gdy za oknem jest burza",
-  "Wymień 3 piosenki z polskich filmów",
-  "Wymień 3 smaki konfitur",
-  "Wymień 3 rzeczy, które kojarzą się z gospodarstwem rolnym",
-  "Wymień 3 marki chipsów lub przekąsek",
-  "Wymień 3 rzeczy, które można znaleźć na tarasie",
-  "Wymień 3 sporty indywidualne",
-  "Wymień 3 państwa, które mają żółty kolor w flagach",
-  "Wymień 3 składniki tradycyjnego polskiego rosołu",
-  "Wymień 3 rzeczy, które kojarzą się z aquaparkiem",
-  "Wymień 3 zawody związane z kulturą",
-  "Wymień 3 powody, dla których ludzie kupują samochody",
-  "Wymień 3 zwierzęta, które mają długie ogony",
-  "Wymień 3 przedmioty, które można znaleźć przy drodze",
-  "Wymień 3 rzeczy, które robisz, gdy zepsuje się internet",
-  "Wymień 3 postacie ze świata Marvela",
-  "Wymień 3 rodzaje zup na bazie warzyw",
-  "Wymień 3 rzeczy, które kojarzą się z motelem",
-  "Wymień 3 marki paliw lub stacji benzynowych",
-  "Wymień 3 rzeczy, które można znaleźć w przedpokoju",
-  "Wymień 3 gry słowne (np. scrabble)",
-  "Wymień 3 kraje słynące z ostrych potraw",
-  "Wymień 3 warzywa, które jemy razem ze skórką",
-  "Wymień 3 rzeczy, które kojarzą się z obozem studenckim",
-  "Wymień 3 zawody związane z ochroną mienia",
-  "Wymień 3 rzeczy, które nosisz w plecaku na wycieczkę",
-  "Wymień 3 zwierzęta, które można spotkać w polskich lasach",
-  "Wymień 3 przedmioty szklane w łazience",
-  "Wymień 3 rzeczy, które robisz w niedzielne popołudnie",
-  "Wymień 3 rzeczy, które można znaleźć w męskim portfelu",
-  "Wymień 3 polskich wykonawców muzyki hip-hop / rap",
-  "Wymień 3 rzeczy, które przydają się podczas pakowania walizki",
-  "Wymień 3 przedmioty, które znajdziesz na lotnisku",
-  "Wymień 3 rzeczy, które kojarzą się z Indianami",
-  "Wymień 3 krzewy owocowe",
-  "Wymień 3 produkty spożywcze, które kupuje się w puszkach",
-  "Wymień 3 gry komputerowe typu symulator",
-  "Wymień 3 postacie z uniwersum Gwiezdnych Wojen",
-  "Wymień 3 kraje, w których walutą jest dolar",
-  "Wymień 3 warzywa o fioletowym lub czarnym kolorze",
-  "Wymień 3 rzeczy, które kojarzą się z wikingami",
-  "Wymień 3 zawody, w których pracuje się na zmiany",
-  "Wymień 3 powody, dla których ludzie chodzą do kina",
-  "Wymień 3 zwierzęta, które żyją na drzewach",
-  "Wymień 3 przedmioty wykonane ze stali nierdzewnej",
-  "Wymień 3 rzeczy, które robisz podczas wizyty u fryzjera",
-  "Wymień 3 potrawy z kurczaka",
-  "Wymień 3 marki gum do żucia lub miętówek",
-  "Wymień 3 rzeczy, które można znaleźć pod maską samochodu",
-  "Wymień 3 dyscypliny sportowe uprawiane na trawie",
-  "Wymień 3 kraje leżące na wyspach",
-  "Wymień 3 owoce, które mają twardą skorupę lub łupinę",
-  "Wymień 3 rzeczy, które kojarzą się z dyskoteką",
-  "Wymień 3 zawody związane z pracą w lesie",
-  "Wymień 3 rzeczy, które można wrzucić do kompostownika",
-  "Wymień 3 zwierzęta jadowite",
-  "Wymień 3 przedmioty, które znajdziesz w sypialni",
-  "Wymień 3 rzeczy, które robisz podczas jazdy samochodem jako pasażer",
-  "Wymień 3 znane polskie seriale komediowe",
-  "Wymień 3 rodzaje dodatków do pizzy zamiast sera i szynki",
-  "Wymień 3 rzeczy, które kojarzą się z elektrykiem",
-  "Wymień 3 marki skuterów lub motorowerów",
-  "Wymień 3 rzeczy, które można znaleźć w szkolnej szafce",
-  "Wymień 3 konkurencje lekkoatletyczne związane ze skokami",
-  "Wymień 3 kraje Afryki Północnej",
-  "Wymień 3 warzywa, które rosną na krzakach lub pnączach",
-  "Wymień 3 rzeczy, które kojarzą się z wycieczką rowerową",
-  "Wymień 3 zawody związane z kolejnictwem",
-  "Wymień 3 powody, dla których ludzie piją soki owocowe",
-  "Wymień 3 zwierzęta posiadające kły",
-  "Wymień 3 przedmioty zrobione z plastiku, które znajdziesz w pokoju",
-  "Wymień 3 rzeczy, które robisz, gdy utkniesz w windzie",
-  "Wymień 3 polskie zespoły rockowe",
-  "Wymień 3 rodzaje tłuszczów używanych do smażenia",
-  "Wymień 3 rzeczy, które kojarzą się ze studiem tatuażu",
-  "Wymień 3 marki komputerów lub laptopów",
-  "Wymień 3 rzeczy, które można znaleźć w szafce pod telewizorem",
-  "Wymień 3 sporty wodne, które nie wymagają użycia łodzi",
-  "Wymień 3 oceany na świecie",
-  "Wymień 3 owoce o słodkim smaku",
-  "Wymień 3 rzeczy, które kojarzą się z klubem nocnym",
-  "Wymień 3 zawody związane z teatrem",
-  "Wymień 3 rzeczy, które można schować w szufladzie biurka",
-  "Wymień 3 potwory z mitologii lub legend",
-  "Wymień 3 przedmioty wykonane z metalu, które znajdziesz w salonie",
-  "Wymień 3 rzeczy, które robisz podczas dekorowania domu",
-  "Wymień 3 znane polskie piosenki weselne",
-  "Wymień 3 smaki lizaków",
-  "Wymień 3 rzeczy, które kojarzą się z cyrkowcem lub akrobatą",
-  "Wymień 3 popularne marki kakao lub czekolady do picia",
-  "Wymień 3 rzeczy, które znajdziesz w torbie podróżnej",
-  "Wymień 3 sztuki walki pochodzące z Europy lub Ameryki",
-  "Wymień 3 stolice państw afrykańskich",
-  "Wymień 3 warzywa o białym kolorze",
-  "Wymień 3 rzeczy, które kojarzą się z korytarzem szkolnym",
-  "Wymień 3 zawody związane z pracą w porcie",
-  "Wymień 3 powody, dla których ludzie mają papugi lub ptaki",
-  "Wymień 3 zwierzęta, które żyją w strefie polarnej",
-  "Wymień 3 przedmioty, które można znaleźć na polu uprawnym",
-  "Wymień 3 rzeczy które można robić w sypialni"
-],
-
+    "Wymień 3 rzeczy, które można znaleźć w piórniku nauczyciela",
+    "Wymień 3 rasy kotów",
+    "Wymień 3 postacie z mitologii greckiej",
+    "Wymień 3 rzeczy, które kupisz na targu warzywnym",
+    "Wymień 3 kraje Afryki Subsaharyjskiej",
+    "Wymień 3 zawody, w których używa się kasku",
+    "Wymień 3 polskie jeziora",
+    "Wymień 3 elementy układu hamulcowego",
+    "Wymień 3 rzeczy, które trzymasz w spiżarni na zimę",
+    "Wymień 3 przedmioty, które można znaleźć w kieszeni chirurga",
+    "Wymień 3 popularne gry karciane oprócz pokera",
+    "Wymień 3 przyprawy do piernika",
+    "Wymień 3 gatunki ryb słodkowodnych",
+    "Wymień 3 rzeczy, które kojarzą się z baletem",
+    "Wymień 3 marki luksusowych zegarków",
+    "Wymień 3 programy do obróbki graficznej",
+    "Wymień 3 rzeczy, które pakujesz do apteczki w góry",
+    "Wymień 3 zawody związane z pracą pod ziemią",
+    "Wymień 3 warzywa, które rosną na pnączach",
+    "Wymień 3 potrawy z kuchni włoskiej oprócz pizzy",
+    "Wymień 3 drapieżne ptaki",
+    "Wymień 3 rzeczy, które można znaleźć na dnie morza",
+    "Wymień 3 rodzaje pędzli lub wałków malarskich",
+    "Wymień 3 kraje, przez które przepływa Dunaj",
+    "Wymień 3 imiona męskie na literę K",
+    "Wymień 3 rzeczy, które kojarzą się ze stylem retro",
+    "Wymień 3 rodzaje mąki",
+    "Wymień 3 urządzenia do parzenia kawy",
+    "Wymień 3 sporty walki, w których używa się broni",
+    "Wymień 3 rzeczy, które można spotkać na zamkowym dziedzińcu",
+    "Wymień 3 popularne serwisy społecznościowe dla profesjonalistów",
+    "Wymień 3 owoce, które rosną w kropkach lub mają nierówną skórkę",
+    "Wymień 3 rzeczy, które trzymasz w schowku nad głową w samolocie",
+    "Wymień 3 elementy stroju kowboja",
+    "Wymień 3 zawody związane z projektowaniem przestrzeni",
+    "Wymień 3 rzeczy, które można robić podczas bezsennej nocy",
+    "Wymień 3 imiona żeńskie na literę O",
+    "Wymień 3 rodzaje ubezpieczeń",
+    "Wymień 3 grzyby niejadalne",
+    "Wymień 3 rzeczy, które kojarzą się z kulturą Japonii",
+    "Wymień 3 stolice europejskie zaczynające się na literę B",
+    "Wymień 3 elementy wyposażenia nurka",
+    "Wymień 3 rasy psów myśliwskich",
+    "Wymień 3 składniki tradycyjnego bigosu",
+    "Wymień 3 instrumenty dęte drewniane",
+    "Wymień 3 style architektoniczne",
+    "Wymień 3 państwa azjatyckie posiadające dostęp do oceanu",
+    "Wymień 3 znane polskie zespoły rockowe",
+    "Wymień 3 rzeczy, które zabierasz na plażę",
+    "Wymień 3 rodzaje drzew iglastych",
+    "Wymień 3 postacie z sagi Gwiezdne Wojny",
+    "Wymień 3 rzeczy, które znajdują się w silniku samochodowym",
+    "Wymień 3 kraje Ameryki Południowej",
+    "Wymień 3 polskie parki narodowe",
+    "Wymień 3 systemy operacyjne",
+    "Wymień 3 gry planszowe",
+    "Wymień 3 gatunki wielkich kotów",
+    "Wymień 3 owoce cytrusowe",
+    "Wymień 3 elementy wyposażenia siłowni",
+    "Wymień 3 zawody medyczne",
+    "Wymień 3 rzeki w Polsce",
+    "Wymień 3 marki samochodów z Niemiec",
+    "Wymień 3 planety Układu Słonecznego mniejsze od Ziemi",
+    "Wymień 3 składniki ciasta naleśnikowego",
+    "Wymień 3 instrumenty smyczkowe",
+    "Wymień 3 ssaki morskie",
+    "Wymień 3 dyscypliny lekkoatletyczne",
+    "Wymień 3 królów Polski",
+    "Wymień 3 pasma górskie w Polsce",
+    "Wymień 3 języki programowania",
+    "Wymień 3 przedmioty szkolne ścisłe",
+    "Wymień 3 rodzaje makaronu",
+    "Wymień 3 znane muzea na świecie",
+    "Wymień 3 zwierzęta żyjące na Antarktydzie",
+    "Wymień 3 rodzaje pieczywa",
+    "Wymień 3 kraje graniczące z Polską",
+    "Wymień 3 warzywa korzeniowe",
+    "Wymień 3 stany USA",
+    "Wymień 3 marki telefonów komórkowych",
+    "Wymień 3 postacie z uniwersum Marvela",
+    "Wymień 3 ptaki nieloty",
+    "Wymień 3 nakrycia głowy",
+    "Wymień 3 rodzaje tańca towarzyskiego",
+    "Wymień 3 napoje gazowane",
+    "Wymień 3 elementy roweru",
+    "Wymień 3 gry wideo z otwartym światem",
+    "Wymień 3 gatunki drzew liściastych",
+    "Wymień 3 zjawiska atmosferyczne",
+    "Wymień 3 rzeczy, które znajdziesz w łazience",
+    "Wymień 3 słynne wieże na świecie",
+    "Wymień 3 składniki pizzy Margherita",
+    "Wymień 3 akcesoria kuchenne",
+    "Wymień 3 kraje skandynawskie",
+    "Wymień 3 owady pożyteczne dla człowieka",
+    "Wymień 3 rodzaje butów",
+    "Wymień 3 ryby morskie",
+    "Wymień 3 metale szlachetne",
+    "Wymień 3 jednostki miary długości",
+    "Wymień 3 polskie miasta wojewódzkie na literę R",
+    "Wymień 3 rzeczy, które robi się rano",
+    "Wymień 3 gatunki małp",
+    "Wymień 3 rodzaje herbaty",
+    "Wymień 3 meble do salonu",
+    "Wymień 3 narzędzia ogrodnicze",
+    "Wymień 3 kolory tęczy",
+    "Wymień 3 zawody artystyczne",
+    "Wymień 3 gry zespołowe z użyciem piłki",
+    "Wymień 3 warzywa strączkowe",
+    "Wymień 3 morza wewnętrzne",
+    "Wymień 3 potrawy z ziemniaków",
+    "Wymień 3 ssaki kopytne",
+    "Wymień 3 przybory do makijażu",
+    "Wymień 3 strefy czasowe",
+    "Wymień 3 marki sportowe",
+    "Wymień 3 elementy garnituru męskiego",
+    "Wymień 3 owoce leśne",
+    "Wymień 3 instrumenty klawiszowe",
+    "Wymień 3 zabytki Krakowa",
+    "Wymień 3 gatunki papug",
+    "Wymień 3 kraje basenu Morza Śródziemnego",
+    "Wymień 3 rzeczy, które można znaleźć na strychu",
+    "Wymień 3 gatunki rekinów",
+    "Wymień 3 rodzaje zup",
+    "Wymień 3 akcesoria do pływania",
+    "Wymień 3 grzyby jadalne",
+    "Wymień 3 kraje wchodzące w skład Wielkiej Brytanii",
+    "Wymień 3 elementy komputera stacjonarnego",
+    "Wymień 3 style pływackie",
+    "Wymień 3 ssaki drapieżne żyjące w Polsce",
+    "Wymień 3 rośliny lecznicze lub zioła",
+    "Wymień 3 rzeczy znajdujące się w portfelu oprócz pieniędzy",
+    "Wymień 3 rodzaje lodów",
+    "Wymień 3 państwa wyspiarskie",
+    "Wymień 3 przedmioty codziennego użytku z plastiku",
+    "Wymień 3 elementy ubioru zimowego",
+    "Wymień 3 zawody techniczne",
+    "Wymień 3 rasy koni",
+    "Wymień 3 sosy do potraw",
+    "Wymień 3 rzeczy, które można kolekcjonować",
+    "Wymień 3 akcesoria dla psa",
+    "Wymień 3 wielkie pustynie świata",
+    "Wymień 3 gatunki węży",
+    "Wymień 3 rzeczy, które kojarzą się z zimą",
+    "Wymień 3 rodzaje szaf lub schowków",
+    "Wymień 3 kraje z flagą trójkolorową",
+    "Wymień 3 elementy silnika elektrycznego",
+    "Wymień 3 owoce pestkowe",
+    "Wymień 3 popularne aplikacje mobilne do nawigacji",
+    "Wymień 3 rzeczy potrzebne do zrobienia grilla",
+    "Wymień 3 dyscypliny sportów zimowych",
+    "Wymień 3 gatunki sów",
+    "Wymień 3 rzeki w Europie poza Polską",
+    "Wymień 3 marki samochodów japońskich",
+    "Wymień 3 postacie z mitologii rzymskiej",
+    "Wymień 3 rzeczy, które znajdziesz na stacji benzynowej",
+    "Wymień 3 potrawy wigilijne",
+    "Wymień 3 rodzaje broni białej",
+    "Wymień 3 zwierzęta hodowlane",
+    "Wymień 3 rzeczy potrzebne do malowania ścian",
+    "Wymień 3 miasta w Polsce nad morzem",
+    "Wymień 3 kraje Ameryki Północnej i Środkowej",
+    "Wymień 3 rzeczy, które można znaleźć w piwnicy",
+    "Wymień 3 gryzienie lub gryzonie żyjące na wolności",
+    "Wymień 3 rodzaje serów",
+    "Wymień 3 elementy wnętrza samochodu",
+    "Wymień 3 przyrządy pomiarowe",
+    "Wymień 3 znane postacie historyczne z Francji",
+    "Wymień 3 rzeczy, które zabierasz na kemping",
+    "Wymień 3 gatunki drzew owocowych",
+    "Wymień 3 zjawiska optyczne w przyrodzie",
+    "Wymień 3 rzeczy znajdujące się na biurku programisty",
+    "Wymień 3 znane mosty na świecie",
+    "Wymień 3 składniki sałatki jarzynowej",
+    "Wymień 3 akcesoria biurowe",
+    "Wymień 3 kraje azjatyckie",
+    "Wymień 3 pajęczaki",
+    "Wymień 3 rodzaje kurtek",
+    "Wymień 3 ryby drapieżne",
+    "Wymień 3 stopy metali",
+    "Wymień 3 jednostki miary masy",
+    "Wymień 3 polskie miasta na literę G",
+    "Wymień 3 rzeczy, które robi się wieczorem",
+    "Wymień 3 zwierzęta żyjące w Afryce",
+    "Wymień 3 napoje gorące",
+    "Wymień 3 meble kuchenne",
+    "Wymień 3 narzędzia warsztatowe",
+    "Wymień 3 kolory podstawowe w palecie barw",
+    "Wymień 3 zawody związane z mediami",
+    "Wymień 3 sporty indywidualne",
+    "Wymień 3 warzywa kapustne",
+    "Wymień 3 oceany",
+    "Wymień 3 potrawy z ryżu",
+    "Wymień 3 zwierzęta akwariowe",
+    "Wymień 3 przybory do szycia",
+    "Wymień 3 strefy klimatyczne",
+    "Wymień 3 marki odzieżowe",
+    "Wymień 3 elementy makijażu oczu",
+    "Wymień 3 owoce egzotyczne",
+    "Wymień 3 instrumenty perkusyjne",
+    "Wymień 3 zabytki Warszawy"
+  ],
 
   "drawing": [
-  "Dom",
-  "Drzewo",
-  "Słońce",
-  "Księżyc",
-  "Gwiazda",
-  "Chmura",
-  "Deszcz",
-  "Bałwan",
-  "Serce",
-  "Kwiat",
-  "Grzyb",
-  "Jabłko",
-  "Banan",
-  "Truskawka",
-  "Arbuz",
-  "Cytryna",
-  "Marchewka",
-  "Pomidor",
-  "Ziemniak",
-  "Chleb",
-  "Tort",
-  "Lody",
-  "Pizza",
-  "Ser",
-  "Jajko",
-  "Ryba",
-  "Kot",
-  "Pies",
-  "Mysz",
-  "Ptak",
-  "Motyl",
-  "Pszczoła",
-  "Pająk",
-  "Wąż",
-  "Żaba",
-  "Żółw",
-  "Słoń",
-  "Żyrafa",
-  "Lew",
-  "Małpa",
-  "Konik morski",
-  "Krab",
-  "Krowa",
-  "Koń",
-  "Świnia",
-  "Owca",
-  "Kura",
-  "Kaczka",
-  "Bocian",
-  "Sowa",
-  "Stół",
-  "Krzesło",
-  "Łóżko",
-  "Szafa",
-  "Telewizor",
-  "Komputer",
-  "Telefon",
-  "Zegarek",
-  "Klucz",
-  "Kłódka",
-  "Książka",
-  "Ołówek",
-  "Nożyczki",
-  "Okulary",
-  "Lupa",
-  "Aparat fotograficzny",
-  "Kubek",
-  "Talerz",
-  "Butelka",
-  "Garnek",
-  "Patelnia",
-  "Noż",
-  "Widelec",
-  "Łyżka",
-  "Czajnik",
-  "Szczoteczka do zębów",
-  "Grzebień",
-  "Mydło",
-  "Ręcznik",
-  "Lustro",
-  "But",
-  "Czapka",
-  "Szalik",
-  "Rękawiczka",
-  "Spodnie",
-  "Koszulka",
-  "Sukienka",
-  "Parasol",
-  "Plecak",
-  "Torba",
-  "Samochód",
-  "Rower",
-  "Motocykl",
-  "Pociąg",
-  "Samolot",
-  "Statek",
-  "Rakieta",
-  "Helikopter",
-  "Balon",
-  "Autobus",
-  "Traktor",
-  "Ciężarówka",
-  "Łódź podwodna",
-  "Statek piracki",
-  "Wóz strażacki",
-  "Radiowóz",
-  "Karetka pogotowia",
-  "Hulajnoga",
-  "Deskorolka",
-  "Rolki",
-  "Wózek dziecięcy",
-  "Taczka",
-  "Drabina",
-  "Młotek",
-  "Piła",
-  "Śrubokręt",
-  "Gwóźdź",
-  "Łopata",
-  "Grabie",
-  "Konewka",
-  "Wiertarka",
-  "Siekiera",
-  "Pędzel",
-  "Wiadro",
-  "Miotła",
-  "Odkurzacz",
-  "Pralka",
-  "Lodówka",
-  "Kuchenka mikrofalowa",
-  "Żelazko",
-  "Toster",
-  "Mikser",
-  "Suszarka do włosów",
-  "Waga kuchenna",
-  "Zegar ścienny",
-  "Żarówka",
-  "Lampa stojąca",
-  "Latarka",
-  "Świeca",
-  "Zapałki",
-  "Ognisko",
-  "Kominek",
-  "Wulkan",
-  "Góra",
-  "Pustynia",
-  "Wyspa",
-  "Palma",
-  "Choinka",
-  "Liść",
-  "Kaktus",
-  "Trawa",
-  "Kamień",
-  "Muszelka",
-  "Gniazdo ptaka",
-  "Pajęczyna",
-  "Mrowisko",
-  "Ul",
-  "Kość",
-  "Serce",
-  "Korona",
-  "Zamek",
-  "Pałac",
-  "Wieża",
-  "Most",
-  "Wiatrak",
-  "Igloo",
-  "Namiot",
-  "Flaga",
-  "Kotwica",
-  "Koło ratunkowe",
-  "Kompas",
-  "Mapa",
-  "Skarb",
-  "Moneta",
-  "Banknot",
-  "Skarbonka",
-  "Diament",
-  "Pierścionek",
-  "Naszyjnik",
-  "Korona królewska",
-  "Miecz",
-  "Tarcza",
-  "Łuk",
-  "Strzała",
-  "Pistolet",
-  "Armata",
-  "Bomba",
-  "Dynamit",
-  "Rakieta kosmiczna",
-  "UFO",
-  "Teleskop",
-  "Mikroskop",
-  "Magnes",
-  "Probówka",
-  "Bateria",
-  "Kalkulator",
-  "Pendrive",
-  "Słuchawki",
-  "Mikrofon",
-  "Głośnik",
-  "Gitara",
-  "Pianino",
-  "Perkusja",
-  "Trąbka",
-  "Flet",
-  "Skrzypce",
-  "Dzwon",
-  "Tamburyn",
-  "Harmonijka",
-  "Piłka nożna",
-  "Piłka koszykowa",
-  "Rakieta tenisowa",
-  "Stół do ping-ponga",
-  "Kij baseballowy",
-  "Narty",
-  "Łyżwy",
-  "Sanki",
-  "Deska surfingowa",
-  "Puchar",
-  "Medal",
-  "Rower stacjonarny",
-  "Hantel",
-  "Siatka do siatkówki",
-  "Bramka",
-  "Okulary pływackie",
-  "Płetwy",
-  "Czepek",
-  "Szachy",
-  "Warcaby",
-  "Kostka do gry",
-  "Karta do gry",
-  "Puzzle",
-  "Lego",
-  "Lalka",
-  "Miś pluszowy",
-  "Robot zabawka",
-  "Klocek",
-  "Samochodzik",
-  "Bączek",
-  "Jojo",
-  "Latawiec",
-  "Trampolina",
-  "Zjeżdżalnia",
-  "Huśtawka",
-  "Piaskownica",
-  "Kółko do pływania",
-  "Materac dmuchany",
-  "Wędka",
-  "Haczyk",
-  "Siatka na motyle",
-  "Akwarium",
-  "Klatka dla ptaka",
-  "Buda dla psa",
-  "Drapak dla kota",
-  "Miska",
-  "Kość dla psa",
-  "Ser dla myszy",
-  "Marchewka dla królika",
-  "Banany dla małpy",
-  "Siano",
-  "Płot",
-  "Brama",
-  "Studnia",
-  "Stodoła",
-  "Kurnik",
-  "Ula",
-  "Szklarnia",
-  "Doniczka",
-  "Konewka",
-  "Nasiona",
-  "Szpadel",
-  "Siekiera",
-  "Kosa",
-  "Sierp",
-  "Wóz paszowy",
-  "Snopek siana",
-  "Stóg siana",
-  "Traktor",
-  "Kombajn",
-  "Strach na wróble",
-  "Młyn",
-  "Wiatrak",
-  "Piekarnia",
-  "Sklep",
-  "Kasa fiskalna",
-  "Wózek sklepowy",
-  "Koszyk",
-  "Torba papierowa",
-  "Cena",
-  "Paragon",
-  "Pieniądze",
-  "Skarbonka",
-  "Sejf",
-  "Portfel",
-  "Karta płatnicza",
-  "Bankomat",
-  "Zamek w drzwiach",
-  "Klamka",
-  "Klucz",
-  "Okno",
-  "Dach",
-  "Komin",
-  "Schody",
-  "Winda",
-  "Balkon",
-  "Taras",
-  "Garaż",
-  "Skrzynka na listy",
-  "Dzwonek do drzwi",
-  "Wycieraczka",
-  "Dywan",
-  "Poduszka",
-  "Kołdra",
-  "Prześcieradło",
-  "Koc",
-  "Zasłona",
-  "Roleta",
-  "Parawan",
-  "Wieszak",
-  "Lustro ścienne",
-  "Obraz",
-  "Waza",
-  "Świecznik",
-  "Ramka na zdjęcie",
-  "Kwiatek w doniczce",
-  "Akordeon",
-  "Tamburyn",
-  "Dzwoneczki",
-  "Trójkąt muzyczny",
-  "Nuty",
-  "Stojak na nuty",
-  "Płyta CD",
-  "Gramofon",
-  "Kaseta magnetofonowa",
-  "Radio",
-  "Kamera wideo",
-  "Aparat fotograficzny",
-  "Statyw",
-  "Lampa błyskowa",
-  "Klaps filmowy",
-  "Projektor",
-  "Ekran kinowy",
-  "Bilet do kina",
-  "Popcorn",
-  "Okulary 3D",
-  "Fotepian",
-  "Saksofon",
-  "Puzon",
-  "Tuba",
-  "Klarnet",
-  "Obój",
-  "Fagot",
-  "Harfa",
-  "Mandolina",
-  "Banjo",
-  "Lutnia",
-  "Cymbały",
-  "Ksylofon",
-  "Gong",
-  "Marakasy",
-  "Grzechotka",
-  "Kostka gitarowa",
-  "Struna",
-  "Smyczek",
-  "Futerał",
-  "Mikrofon",
-  "Słuchawki nauszne",
-  "Głośnik bezprzewodowy",
-  "Wzmacniacz",
-  "Kabel",
-  "Wtyczka",
-  "Gniazdko elektryczne",
-  "Przedłużacz",
-  "Włącznik światła",
-  "Bateria paluszek",
-  "Akumulator",
-  "Ładowarka",
-  "Powerbank",
-  "Klawiatura komputerowa",
-  "Myszka komputerowa",
-  "Monitor",
-  "Laptop",
-  "Tablet",
-  "Smartfon",
-  "Zegarek elektroniczny",
-  "Kalkulator",
-  "Drukarka",
-  "Skaner",
-  "Kserokopiarka",
-  "Niszczarka do papieru",
-  "Segregator",
-  "Teczka na dokumenty",
-  "Zeszyt",
-  "Notes",
-  "Kalendarz biurkowy",
-  "Piórnik",
-  "Długopis",
-  "Wieczne pióro",
-  "Kreda",
-  "Tablica szkolna",
-  "Gumka do ścierania",
-  "Linijka",
-  "Ekierka",
-  "Kątomierz",
-  "Cyrkiel",
-  "Temperówka",
-  "Taśma klejąca",
-  "Zszywacz",
-  "Dziurkacz",
-  "Spinacz biurowy",
-  "Pinezka",
-  "Nożyczki biurowe",
-  "Koperta",
-  "Znaczek pocztowy",
-  "Pocztówka",
-  "Skrzynka pocztowa",
-  "Torba listonosza",
-  "List",
-  "Paszport",
-  "Dowód osobisty",
-  "Portfel",
-  "Klejnot",
-  "Skarb",
-  "Skrzynia",
-  "Beczka",
-  "Worek",
-  "Siatka na zakupy",
-  "Wózek na zakupy",
-  "Półka sklepowa",
-  "Wieszak na ubrania",
-  "Manekin",
-  "Lustro stojące",
-  "Przymierzalnia",
-  "Waga łazienkowa",
-  "Termometr",
-  "Apteczka",
-  "Bandaż",
-  "Plaster",
-  "Strzykawka",
-  "Tabletka",
-  "Syrop",
-  "Krople",
-  "Stetoskop",
-  "Maseczka",
-  "Rękawiczki medyczne",
-  "Fotel dentystyczny",
-  "Gips",
-  "Kule ortopedyczne",
-  "Wózek inwalidzki",
-  "Nosze",
-  "Karetka",
-  "Wóz strażacki",
-  "Radiowóz",
-  "Lizak policyjny",
-  "Kajdanki",
-  "Odznaka",
-  "Pistolet",
-  "Karabin",
-  "Hełm",
-  "Kamizelka kuloodporna",
-  "Tarcza",
-  "Miecz",
-  "Topór",
-  "Łuk",
-  "Strzała",
-  "Szachownica",
-  "Pionek",
-  "Kostka",
-  "Stół bilardowy",
-  "Kij bilardowy",
-  "Łódka",
-  "Kajak",
-  "Wiosło",
-  "Żagiel",
-  "Maszt",
-  "Kotwica",
-  "Koło sterowe",
-  "Koło ratunkowe",
-  "Kamizelka ratunkowa",
-  "Kompas",
-  "Lornetka",
-  "Skafander nurka",
-  "Maska do nurkowania",
-  "Płetwa",
-  "Kuba Rozpruwacz",
-  "Kopciuszek",
-  "Królewna Śnieżka",
-  "Kubuś Puchatek",
-  "Czerwony Kapturek",
-  "Kot w butach",
-  "Pinokio",
-  "Aladyn",
-  "Tarzan",
-  "Robin Hood",
-  "Myszka Miki",
-  "Kaczor Donald",
-  "Smerf",
-  "Pszczółka Maja",
-  "Shrek",
-  "Bolek i Lolek"
- ],
+    "Wulkan", "Kaktus", "Klepsydra", "Latarnia", "Bumerang", "Igloo", "Tipi", "Mikroskop",
+    "Skarbonka", "Akwarium", "Lornetka", "Kompas", "Kostka", "Wiatrak", "Konewka", "Podkowa",
+    "Korona", "Parasol", "Kotwica", "Balon", "Rakieta", "Gitara", "Rower", "Zamek",
+    "Statek", "Telefon", "Aparat", "Księżyc", "Słońce", "Chmura", "Piorun", "Tęcza",
+    "Arbuz", "Pizza", "Burger", "Tort", "Klucz", "Kłódka", "Diament", "Pierścionek",
+    "Pająk", "Motyl", "Ślimak", "Żółw", "Delfin", "Żaba", "Bocian", "Sowa",
+    "Dom", "Drzewo", "Kwiat", "Serce", "Gwiazda", "Usta", "Oko", "Dłoń",
+    "But", "Spodnie", "Koszulka", "Czapka", "Okulary", "Zegarek", "Torba", "Plecak",
+    "Książka", "Ołówek", "Pióro", "Linijka", "Nożyczki", "Krzesło", "Stół", "Łóżko",
+    "Lampa", "Okno", "Drzwi", "Klucz", "Młotek", "Piła", "Śrubokręt", "Gwoźdź",
+    "Samochód", "Pociąg", "Samolot", "Helikopter", "Motocykl", "Ciężarówka", "Autobus", "Łódź",
+    "Ryba", "Ptak", "Kot", "Pies", "Mysz", "Słoń", "Żyrafa", "Lew",
+    "Tygrys", "Miś", "Zając", "Lis", "Wilk", "Jeż", "Wiewiórka", "Koń",
+    "Krowa", "Świnia", "Owca", "Kura", "Kaczka", "Gęś", "Indyk", "Kogut",
+    "Jabłko", "Banan", "Pomarańcza", "Cytryna", "Truskawka", "Malina", "Wiśnia", "Śliwka",
+    "Marchewka", "Pomidor", "Ogórek", "Ziemniak", "Cebula", "Czosnek", "Papryka", "Brokuł",
+    "Grzyb", "Liść", "Żołądź", "Kasztan", "Kamień", "Góra", "Rzeka", "Morze",
+    "Wyspa", "Palma", "Muszelka", "Flaga", "Mapa", "Globus", "Krzyż", "Kotwica",
+    "Miecz", "Tarcza", "Łuk", "Strzała", "Pistolet", "Armata", "Czołg", "Bomba",
+    "Puchar", "Medal", "Piłka", "Bramka", "Siatka", "Rakieta", "Łyżwy", "Narty",
+    "Garniec", "Patelnia", "Talerz", "Kubek", "Szklanka", "Nóż", "Widelec", "Łyżka",
+    "Chleb", "Ser", "Jajko", "Mleko", "Lody", "Cukierek", "Czekolada", "Pączek",
+    "Trumna", "Świeca", "Komin", "Płot", "Schody", "Winda", "Most", "Droga",
+    "Chusteczka", "Grzebień", "Lustro", "Szczoteczka", "Mydło", "Ręcznik", "Wanna", "Prysznic",
+    "Telewizor", "Radio", "Głośnik", "Słuchawki", "Bateria", "Żarówka", "Gniazdko", "Drut"
+  ],
 
   "associations": [
-    ["DESZCZ", "BURZA"],
-    ["MŁOTEK", "GWÓŹDŹ"],
-    ["RYBA", "AKWARIUM"],
-    ["KAWA", "CIASTKO"],
-    ["SAMOCHÓD", "GARAŻ"],
-    ["ROWEK", "ŁOPATA"],
-    ["PIŁKARZ", "TRENER"],
-    ["KOT", "MYSZ"],
-    ["TELEWIZOR", "PILOT"],
-    ["KINO", "POPCORN"],
-    ["KSIĘŻYC", "GWIAZDY"],
-    ["OGRODNIK", "KWIATY"],
-    ["BIURKO", "KRZESŁO"],
-    ["ZEGAR", "CZAS"],
-    ["ŚNIEG", "BAŁWAN"],
-    ["APTEKA", "LEKARSTWO"],
-    ["STRAŻAK", "OGIEŃ"],
-    ["PIEKARZ", "CHLEB"],
-    ["LODÓWKA", "ZAMRAŻARKA"],
-    ["DŻUNGLA", "LIANY"],
-    ["PIRAT", "STATEK"],
-    ["WAKACJE", "PLAŻA"],
-    ["OKULARY", "WZROK"],
-    ["GITARA", "KONCERT"],
-    ["MALARZ", "PĘDZEL"],
-    ["UCZEŃ", "NAUCZYCIEL"],
-    ["BASEN", "PŁYWANIE"],
-    ["RĘKAWICZKI", "ZIMA"],
-    ["AUTOBUS", "PRZYSTANEK"],
-    ["SER", "MLEKO"]
+    ["IGŁA", "NITKA"], ["NARTY", "STOK"], ["KROWA", "PASTWISKO"], ["KLUCZ", "KŁÓDKA"],
+    ["KAPITAN", "STER"], ["PSZCZOŁA", "UL"], ["MONETA", "PORTFEL"], ["PĘDZEL", "SZTALUGA"],
+    ["WULKAN", "LAWA"], ["KOMPUTER", "MYSZKA"], ["KSIĄŻKA", "ZAKŁADKA"], ["DENTYSTA", "STOMATOLOG"],
+    ["ORZEŁ", "GŁOD"], ["CHLEB", "TOSTER"], ["DETEKTYW", "LUPA"], ["KORONA", "KRÓL"],
+    ["KWIATEK", "DONICZKA"], ["ŻARÓWKA", "LAMPA"], ["DESKA", "GWOŹDŹ"], ["SŁOŃCE", "OKULARY"],
+    ["KAWA", "KUBEK"], ["PIES", "BUDA"], ["KOT", "MYSZ"], ["PTAK", "GNAZDO"],
+    ["SAMOCHÓD", "PALIWO"], ["ROWER", "ŁAŃCUCH"], ["BUT", "SZNURÓWKA"], ["DRZEWO", "LIŚĆ"],
+    ["DESZCZ", "PARASOL"], ["ŚNIEG", "BAŁWAN"], ["OGIEŃ", "DYM"], ["WODA", "SZKLANKA"],
+    ["RYBA", "WĘDKA"], ["LEKARZ", "FARTUCH"], ["STRAŻAK", "WĄŻ"], ["POLICJANT", "KAJDANKI"],
+    ["PIŁKA", "BRAMKA"], ["SZACHY", "PRZECIWNIK"], ["TEATR", "AKTOR"], ["KINO", "POPCORN"],
+    ["SZKOŁA", "TABLICA"], ["TELEFON", "ŁADOWARKA"], ["ZEGAREK", "BATERIA"], ["OBRAZ", "RAMA"],
+    ["ZAMEK", "PIASEK"], ["PLAŻA", "PARAWAN"], ["GÓRY", "PLECAK"], ["LAS", "GRZYBY"],
+    ["NIEBO", "GWIAZDY"], ["KAPUSTA", "BIGOS"], ["MLEKO", "KOT"], ["KOŚĆ", "PIES"],
+    ["JAJKO", "PATELNIA"], ["MĄKA", "CHLEB"], ["CUKIER", "SŁODKI"], ["SÓL", "SŁONY"],
+    ["PIERZYNKA", "PODUSZKA"], ["OKNO", "FIRANKA"], ["DRZWI", "KLAMKA"], ["PODŁOGA", "DYWAN"],
+    ["SZCZOTECZKA", "PASTA"], ["MYDŁO", "WODA"], ["WŁOSY", "GRZEBIEŃ"], ["BRODA", "GOLARKA"],
+    ["PAZNOKCIE", "PILNIK"], ["KREW", "WAMPIR"], ["KSIĘŻYC", "NOC"], ["SŁOŃCE", "DZIEŃ"],
+    ["BURZA", "PIORUN"], ["TĘCZA", "DESZCZ"], ["WIND", "SCHODY"], ["SAMOLOT", "PILOT"],
+    ["STATEK", "KOTWICA"], ["POCIĄG", "TORY"], ["AUTOBUS", "BILET"], ["TAKSÓWKA", "LICZNIK"],
+    ["LIST", "ZNACZEK"], ["PACZKA", "KURIER"], ["APTEKA", "LEK"], ["SKLEP", "KASA"],
+    ["RESTAURACJA", "MENU"], ["HOTEL", "RECEPCJA"], ["BASEN", "CZEPEK"], ["SIŁOWNIA", "HANTLE"],
+    ["CYRK", "KLAUN"], ["ZOO", "KLATKA"], ["MUZEUM", "EKSPONAT"], ["BIBLIOTEKA", "REGAŁ"],
+    ["KOŚCIÓŁ", "OŁTARZ"], ["CMENTARZ", "ZNICZ"], ["PARK", "ŁAWKA"], ["OGRÓD", "KONEWKA"],
+    ["POLE", "TRAKTOR"], ["STODOŁA", "SIANOWAL"], ["STAJNIA", "KOŃ"], ["KURNIK", "KURA"],
+    ["CHLEW", "ŚWINIA"], ["PASIEKA", "MIÓD"], ["RZEKA", "MOST"], ["JEZIORO", "MOLO"]
   ],
 
   "fieldGame": [
-    "Przynieś coś co wydaje dźwięk",
+    "Przynieś coś, co ma zieloną zakrętkę",
+    "Przynieś najstarszą rzecz, jaką znajdziesz w pokoju",
+    "Przynieś coś szorstkiego w dotyku",
+    "Przynieś coś, co ma na sobie kod kreskowy",
+    "Przynieś rzecz, która mieści się w dłoni i jest całkowicie czarna",
+    "Przynieś przedmiot, który wydziela zapach mięty lub cytrusów",
+    "Przynieś coś, co jest zrobione z przezroczystego tworzywa",
+    "Przynieś coś, co ma na sobie napis w języku angielskim",
+    "Przynieś przedmiot o kształcie idealnego trójkąta lub kwadratu",
+    "Przynieś coś, co można łatwo rozedrzeć lub złamać",
+    "Przynieś rzecz, która służy do odmierzania czegokolwiek",
+    "Przynieś coś, co kojarzy się z podróżowaniem",
+    "Przynieś monetę o najniższym nominale, jaki masz w domu",
+    "Przynieś coś, co ma w składzie bawełnę",
+    "Przynieś przedmiot, który potrafi odbijać obraz jak lustro",
+    "Przynieś coś czerwonego, co nie jest ubraniem",
+    "Przynieś przedmiot zrobiony z metalu, który wydaje dźwięk",
+    "Przynieś coś miękkiego jak poduszka",
+    "Przynieś sznurek, nitkę lub kabel o długości równej Twojej stopie",
+    "Przynieś coś, co ma dokładnie cztery rogi",
+    "Przynieś przedmiot, który waży mniej więcej tyle co smartfon",
+    "Przynieś coś, na czym widnieje liczba 5",
+    "Przynieś klucz, który nie otwiera drzwi wejściowych",
+    "Przynieś coś okrągłego, co mieści się w kieszeni",
+    "Przynieś pusty pojemnik lub karton",
+    "Przynieś coś, co służy do pisania, ale nie jest długopisem ani ołówkiem",
+    "Przynieś parę skarpetek, ale nie ze swojej szuflady",
+    "Przynieś coś, co kojarzy się z jedzeniem, ale jest niejadalne",
+    "Przynieś przedmiot z drewna",
+    "Przynieś coś, co ma na sobie wzór w paski lub kratkę",
+    "Przynieś coś żółtego z kuchni",
+    "Przynieś najmniejszą rzecz, jaką jesteś w stanie znaleźć",
+    "Przynieś coś, co wydaje szelest przy dotknięciu",
+    "Przynieś ulotkę, gazetę lub stary rachunek",
+    "Przynieś rzecz, która ma dokładnie dwie dziurki",
+    "Przynieś coś gumowego",
+    "Przynieś przedmiot, który potrafi stać pionowo samodzielnie",
     "Przynieś coś zimnego",
-    "Przynieś coś miękkiego i czerwonego",
-    "Przynieś coś co można otworzyć",
-    "Przynieś coś co ma baterię",
-    "Przynieś coś pachnącego",
-    "Przynieś coś z metalu",
-    "Przynieś coś czego używasz codziennie",
-    "Przynieś coś z literą A",
-    "Przynieś coś co świeci",
-    "Przynieś coś sportowego",
-    "Przynieś coś okrągłego i małego",
-    "Przynieś coś do pisania",
-    "Przynieś coś z kieszeni",
-    "Przynieś coś miękkiego i dużego",
-    "Przynieś coś co można nosić",
-    "Przynieś coś co ma ekran",
-    "Przynieś coś co można wypić",
-    "Przynieś coś z drewna",
-    "Przynieś coś co ma kółka",
-    "Przynieś coś z cyfrą",
-    "Przynieś coś śmiesznego",
-    "Przynieś coś bardzo lekkiego",
-    "Przynieś coś co można złożyć",
-    "Przynieś coś z łazienki",
-    "Przynieś coś z pokoju",
-    "Przynieś coś miękkiego i białego",
-    "Przynieś coś co ma przycisk",
-    "Przynieś coś co można założyć na głowę",
-    "Przynieś coś co odbija światło"
+    "Przynieś rzecz, która służy do ochrony przed czymś",
+    "Przynieś najdłuższy przedmiot, jaki znajdziesz w zasięgu ręki",
+    "Przynieś coś szklanego, co nie jest szklanką ani oknem",
+    "Przynieś przedmiot pokryty kurzem lub ukryty głęboko w szafie",
+    "Przynieś magnes z lodówki o nietypowym kształcie",
+    "Przynieś rzecz związaną ze sportem",
+    "Przynieś coś, co ma niebieski element",
+    "Przynieś szczoteczkę, która nie służy do mycia zębów",
+    "Przynieś coś, co jest starsze od Ciebie",
+    "Przynieś przedmiot o gładkiej, śliskiej powierzchni",
+    "Przynieś coś, co można zawiązać",
+    "Przynieś rzecz z sypialni, która nie jest pościelą",
+    "Przynieś coś zrobionego ze skóry",
+    "Przynieś przedmiot z logo znanej marki sportowej",
+    "Przynieś rzecz, której nazwa zaczyna się na literę 'A'",
+    "Przynieś coś, co służy do czyszczenia",
+    "Przynieś przedmiot o nieregularnym kształcie geometrycznym",
+    "Przynieś coś, co kupiono w ciągu ostatnich 7 dni",
+    "Przynieś baterię lub akumulator",
+    "Przynieś rzecz, która świeci w ciemności (lub ma elementy odblaskowe)",
+    "Przynieś guzik",
+    "Przynieś coś, co wydaje dźwięk kliknięcia",
+    "Przynieś przedmiot związany z muzyką",
+    "Przynieś coś fioletowego lub różowego",
+    "Przynieś najcięższy przedmiot, jaki uniesiesz jedną ręką",
+    "Przynieś coś, co potrafi się toczyć",
+    "Przynieś starą fotografię",
+    "Przynieś przedmiot zrobiony z ceramiki",
+    "Przynieś coś, co służy do spajania dwóch rzeczy",
+    "Przynieś rzecz o zapachu perfum",
+    "Przynieś coś, co ma w sobie wodę lub płyn",
+    "Przynieś przedmiot ze spiralą (np. zeszyt)",
+    "Przynieś coś, co kojarzy się z latem",
+    "Przynieś rzecz o metalicznym połysku",
+    "Przynieś pędzel do czegokolwiek",
+    "Przynieś coś z papieru, co ma format A4",
+    "Przynieś przedmiot, którego używa się tylko raz w roku",
+    "Przynieś coś elastycznego, co można rozciągnąć",
+    "Przynieś monetę zagraniczną lub kolekcjonerską",
+    "Przynieś rzecz związaną z filmem lub kinem",
+    "Przynieś coś, co ma wzór kwiatowy",
+    "Przynieś przedmiot, który ma ponad 10 lat",
+    "Przynieś coś, co chroni przed słońcem",
+    "Przynieś rzecz wyprodukowaną z recyklingu",
+    "Przynieś coś matowego",
+    "Przynieś przedmiot, który zmieści się w pudełku zapałek",
+    "Przynieś coś, co kupiono poza granicami kraju",
+    "Przynieś rzecz o jaskrawym, neonowym kolorze",
+    "Przynieś przedmiot, który kojarzy się z kawą lub herbatą",
+    "Przynieś coś zrobionego z filcu lub wełny",
+    "Przynieś rzecz, która ma na sobie kod QR",
+    "Przynieś coś, co ma zapięcie na rzep",
+    "Przynieś przedmiot o wadze poniżej 10 gramów",
+    "Przynieś coś, co służy do organizacji przestrzeni",
+    "Przynieś rzecz z motywem zwierzęcym",
+    "Przynieś coś, co zostało znalezione w ogrodzie lub na balkonie",
+    "Przynieś przedmiot posiadający zamek błyskawiczny",
+    "Przynieś coś, co ma na sobie plamę lub przebarwienie",
+    "Przynieś rzecz o kształcie cylindra",
+    "Przynieś coś, co ma w nazwie liczbę",
+    "Przynieś przedmiot, który kojarzy się z wieczornym relaksem",
+    "Przynieś coś, co zmieści się pod szafą"
   ],
 
   "quiz": [
-  {
-    "question": "Które zwierzę jest znane jako największy ssak lądowy na Ziemi?",
-    "answers": ["Żyrafa", "Słoń afrykański", "Hipopotam", "Nosorożec"],
-    "correct": 1
-  },
-  {
-    "question": "Która rzeka jest najdłuższa w Polsce?",
-    "answers": ["Odra", "Warta", "Wisła", "Bug"],
-    "correct": 2
-  },
-  {
-    "question": "Ile minut ma jedna pełna godzina?",
-    "answers": ["50", "60", "80", "100"],
-    "correct": 1
-  },
-  {
-    "question": "Która planeta jest nazywana 'Czerwoną Planetą'?",
-    "answers": ["Wenus", "Jowisz", "Saturn", "Mars"],
-    "correct": 3
-  },
-  {
-    "question": "Jak nazywa się popularny system operacyjny stworzony przez firmę Google dla urządzeń mobilnych?",
-    "answers": ["iOS", "Windows", "Android", "Linux"],
-    "correct": 2
-  },
-  {
-    "question": "Ilu zawodników jednej drużyny znajduje się jednocześnie na boisku podczas meczu piłki nożnej?",
-    "answers": ["5", "7", "11", "15"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się słynny archeolog, bohater filmów przygodowych grany przez Harrisona Forda?",
-    "answers": ["Sherlock Holmes", "Indiana Jones", "James Bond", "Lara Croft"],
-    "correct": 1
-  },
-  {
-    "question": "Na jakim instrumencie grał słynny polski kompozytor Fryderyk Chopin?",
-    "answers": ["Na skrzypcach", "Na flecie", "Na fortepianie", "Na gitarze"],
-    "correct": 2
-  },
-  {
-    "question": "Kto napisał serię książek o przygodach Harry'ego Pottera?",
-    "answers": ["J.R.R. Tolkien", "J.K. Rowling", "Stephen King", "Andrzej Sapkowski"],
-    "correct": 1
-  },
-  {
-    "question": "Które miasto jest oficjalną stolicą Francji?",
-    "answers": ["Rzym", "Londyn", "Madryt", "Paryż"],
-    "correct": 3
-  },
-  {
-    "question": "Jaki proces pozwala roślinom zielonym produkować tlen przy użyciu światła słonecznego?",
-    "answers": ["Oddychanie", "Fotosynteza", "Parowanie", "Fermentacja"],
-    "correct": 1
-  },
-  {
-    "question": "Który z poniższych składników jest niezbędny do upieczenia tradycyjnego chleba?",
-    "answers": ["Mąka", "Kakao", "Musztarda", "Ryż"],
-    "correct": 0
-  },
-  {
-    "question": "Z jakiego popularnego portalu społecznościowego pochodzi określenie 'Tweet'?",
-    "answers": ["Facebook", "Instagram", "X", "TikTok"],
-    "correct": 2
-  },
-  {
-    "question": "W jakiej dyscyplinie sportowej sukcesy odnosi polska zawodniczka Iga Świątek?",
-    "answers": ["W skokach narciarskich", "W tenisie ziemnym", "W pływaniu", "W biegach lekkoatletycznych"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się zielony ogr, bohater popularnego filmu animowanego z 2001 roku?",
-    "answers": ["Shrek", "Fiona", "Donkey", "Simba"],
-    "correct": 0
-  },
-  {
-    "question": "Z jakiego kraju pochodził legendarny zespół rockowy The Beatles?",
-    "answers": ["Z USA", "Z Niemiec", "Z Wielkiej Brytanii", "Z Australii"],
-    "correct": 2
-  },
-  {
-    "question": "Kto jest autorem znanej bajki o 'Czerwonym Kapturku'?",
-    "answers": ["Bracia Grimm", "Hans Christian Andersen", "Jan Brzechwa", "Juliusz Słowacki"],
-    "correct": 0
-  },
-  {
-    "question": "Które z poniższych państw NIE leży w Europie?",
-    "answers": ["Albania", "Egipt", "Islandia", "Portugalia"],
-    "correct": 1
-  },
-  {
-    "question": "W którym roku rozpoczęła się II wojna światowa?",
-    "answers": ["1914", "1918", "1939", "1945"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki gaz stanowi największy procentowy udział w powietrzu, którym oddychamy na Ziemi?",
-    "answers": ["Tlen", "Azot", "Dwutlenek węgla", "Wodór"],
-    "correct": 1
-  },
-  {
-    "question": "Kto jest uznawany za głównego założyciela firmy Microsoft?",
-    "answers": ["Steve Jobs", "Mark Zuckerberg", "Elon Musk", "Bill Gates"],
-    "correct": 3
-  },
-  {
-    "question": "Co ile lat standardowo odbywają się Letnie Igrzyska Olimpijskie?",
-    "answers": ["Co 2 lata", "Co 3 lata", "Co 4 lata", "Co 5 lat"],
-    "correct": 2
-  },
-  {
-    "question": "Który reżyser stworzył głośne hity kinowe takie jak 'Titanic' oraz 'Avatar'?",
-    "answers": ["Steven Spielberg", "James Cameron", "Christopher Nolan", "Quentin Tarantino"],
-    "correct": 1
-  },
-  {
-    "question": "Ile linii tworzy tradycyjną pięciolinię w zapisie muzycznym?",
-    "answers": ["4", "5", "6", "7"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się słynny, fikcyjny detektyw stworzony przez Arthura Conan Doyle'a?",
-    "answers": ["Hercule Poirot", "Sherlock Holmes", "Kuba Rozpruwacz", "Rodion Raskolnikow"],
-    "correct": 1
-  },
-  {
-    "question": "Która witamina jest produkowana w ludzkiej skórze pod wpływem promieni słonecznych?",
-    "answers": ["Witamina A", "Witamina B12", "Witamina C", "Witamina D"],
-    "correct": 3
-  },
-  {
-    "question": "Jak nazywa się najmniejsza niepodzielna chemicznie część pierwiastka, zachowująca jego właściwości?",
-    "answers": ["Atom", "Cząsteczka", "Elektron", "Proton"],
-    "correct": 0
-  },
-  {
-    "question": "Która starożytna cywilizacja wzniosła monumentalne miasto Machu Picchu w Andach?",
-    "answers": ["Aztekowie", "Majowie", "Inkowie", "Egipcjanie"],
-    "correct": 2
-  },
-  {
-    "question": "Które zjawisko jest główną przyczyną powstawania pływów morskich?",
-    "answers": ["Ruchy tektoniczne", "Prądy morskie", "Przyciąganie Księżyca i Słońca", "Silne wiatry"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się stolica Niemiec?",
-    "answers": ["Monachium", "Frankfurt", "Hamburg", "Berlin"],
-    "correct": 3
-  },
-  {
-    "question": "W którym roku odbył się chrzest Polski?",
-    "answers": ["966", "1000", "1410", "1569"],
-    "correct": 0
-  },
-  {
-    "question": "Jaki owoc jest symbolem firmy Apple?",
-    "answers": ["Banan", "Jabłko", "Gruszka", "Pomarańcza"],
-    "correct": 1
-  },
-  {
-    "question": "Ile boków ma każdy tradycyjny znak 'STOP' na drodze?",
-    "answers": ["4", "6", "8", "10"],
-    "correct": 2
-  },
-  {
-    "question": "W którym sporcie zawodnicy używają rakiet i lotek?",
-    "answers": ["Tenis stołowy", "Badminton", "Squash", "Siatkówka"],
-    "correct": 1
-  },
-  {
-    "question": "Który instrument strunowy jest największy w grupie smyczkowej?",
-    "answers": ["Skrzypce", "Altówka", "Wiolonczela", "Kontrabas"],
-    "correct": 3
-  },
-  {
-    "question": "Jak w mitologii greckiej nazywał się król bogów, władający piorunami?",
-    "answers": ["Hades", "Posejdon", "Zeus", "Apollo"],
-    "correct": 2
-  },
-  {
-    "question": "Który film zdobył sławę dzięki postaciom Neo, Trinity i Morfeusza?",
-    "answers": ["Incepcja", "Matrix", "Interstellar", "Gladiator"],
-    "correct": 1
-  },
-  {
-    "question": "Kto jest autorem wiersza 'Lokomotywa'?",
-    "answers": ["Jan Brzechwa", "Julian Tuwim", "Ignacy Krasicki", "Wisława Szymborska"],
-    "correct": 1
-  },
-  {
-    "question": "Z jakiego kraju pochodzi tradycyjne danie sushi?",
-    "answers": ["Z Chin", "Z Korei", "Z Indii", "Z Japonii"],
-    "correct": 3
-  },
-  {
-    "question": "Który kontynent jest najzimniejszy na Ziemi?",
-    "answers": ["Azja", "Ameryka Północna", "Europa", "Antarktyda"],
-    "correct": 3
-  },
-  {
-    "question": "Ile planet w naszym Układzie Słonecznym posiada pierścienie?",
-    "answers": ["1", "2", "4", "8"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się program komputerowy służący do przeglądania stron internetowych?",
-    "answers": ["System operacyjny", "Przeglądarka", "Wyszukiwarka", "Antywirus"],
-    "correct": 1
-  },
-  {
-    "question": "W którym mieście znajduje się słynny zabytek – Wawel?",
-    "answers": ["W Warszawie", "We Wrocławiu", "W Krakowie", "W Poznaniu"],
-    "correct": 2
-  },
-  {
-    "question": "Który element w samochodzie służy do zmiany biegów?",
-    "answers": ["Kierownica", "Pedał hamulca", "Dźwignia zmiany biegów", "Dźwignia hamulca ręcznego"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się amerykańska liga koszykówki, w której grają najlepsi zawodnicy świata?",
-    "answers": ["NHL", "NFL", "NBA", "MLS"],
-    "correct": 2
-  },
-  {
-    "question": "Która wokalistka zyskała status gwiazdy dzięki hitom 'Bad Romance' oraz 'Poker Face'?",
-    "answers": ["Madonna", "Rihanna", "Lady Gaga", "Taylor Swift"],
-    "correct": 2
-  },
-  {
-    "question": "Z którego filmu animowanego pochodzi piosenka 'Mam tę moc'?",
-    "answers": ["Król Lew", "Kraina lodu", "Zaplątani", "Shrek"],
-    "correct": 1
-  },
-  {
-    "question": "Jakim kolorem oznacza się na mapach fizycznych tereny nizinne?",
-    "answers": ["Żółtym", "Brązowym", "Niebieskim", "Zielonym"],
-    "correct": 3
-  },
-  {
-    "question": "Które pasmo górskie w Polsce jest najwyższe?",
-    "answers": ["Karkonosze", "Tatry", "Bieszczady", "Pieniny"],
-    "correct": 1
-  },
-  {
-    "question": "Który polski król przeniósł dwór królewski z Krakowa do Warszawy?",
-    "answers": ["Zygmunt III Waza", "Kazimierz Wielki", "Władysław Jagiełło", "Jan III Sobieski"],
-    "correct": 0
-  },
-  {
-    "question": "Jak potocznie nazywamy sieć bezprzewodowego internetu?",
-    "answers": ["Bluetooth", "Satelita", "Wi-Fi", "Światłowód"],
-    "correct": 2
-  },
-  {
-    "question": "W którym sporcie walki zawodnicy używają wyłącznie rąk do zadawania ciosów?",
-    "answers": ["Karate", "Boks", "Judo", "Taekwondo"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki instrument ma czarno-białe klawisze i struny uderzane młoteczkami?",
-    "answers": ["Akordeon", "Pianino", "Organy", "Harfa"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się ukochana Romea z dramatu Williama Szekspira?",
-    "answers": ["Ofelia", "Julia", "Desdemona", "Kleopatra"],
-    "correct": 1
-  },
-  {
-    "question": "Z czego produkuje się tradycyjny podhalański oscypek?",
-    "answers": ["Z mleka krowiego", "Z mleka owczego", "Z mleka koziego", "Z mleka klaczy"],
-    "correct": 1
-  },
-  {
-    "question": "Który pierwiastek chemiczny ma symbol 'O' i jest niezbędny ludziom do oddychania?",
-    "answers": ["Wodór", "Tlen", "Azot", "Węgiel"],
-    "correct": 1
-  },
-  {
-    "question": "Jak w informatyce nazywa się podstawowa, najmniejsza jednostka informacji?",
-    "answers": ["Bit", "Bajt", "Kilobajt", "Megabajt"],
-    "correct": 0
-  },
-  {
-    "question": "Która polska pisarka otrzymała Literacką Nagrodę Nobla za rok 2018?",
-    "answers": ["Wisława Szymborska", "Olga Tokarczuk", "Eliza Orzeszkowa", "Maria Konopnicka"],
-    "correct": 1
-  },
-  {
-    "question": "Jakie miasto jest stolicą Włoch?",
-    "answers": ["Mediolan", "Wenecja", "Florencja", "Rzym"],
-    "correct": 3
-  },
-  {
-    "question": "Który ocean charakteryzuje się największą powierzchnią na Ziemi?",
-    "answers": ["Ocean Atlantycki", "Ocean Indyjski", "Ocean Spokojny", "Ocean Arktyczny"],
-    "correct": 2
-  },
-  {
-    "question": "Który polski astronom udowodnił teorię heliocentryczną w dziele 'O obrotach sfer niebieskich'?",
-    "answers": ["Jan Heweliusz", "Mikołaj Kopernik", "Jan Kochanowski", "Ignacy Łukasiewicz"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się podzespół komputera odpowiedzialny za przetwarzanie większości zadań?",
-    "answers": ["Karta graficzna", "Dysk twardy", "Procesor", "Zasilacz"],
-    "correct": 2
-  },
-  {
-    "question": "W której zimowej dyscyplinie sportowej zawodnicy rywalizują o Puchar Stanleya?",
-    "answers": ["W hokeju na lodzie", "W łyżwiarstwie figurowym", "W curlingu", "W biatlonie"],
-    "correct": 0
-  },
-  {
-    "question": "Kto był legendarnym liderem i wokalistą brytyjskiego zespołu rockowego Queen?",
-    "answers": ["John Lennon", "Freddie Mercury", "Mick Jagger", "David Bowie"],
-    "correct": 1
-  },
-  {
-    "question": "Z której filmowej sagi science-fiction pochodzi kultowa postać mistrza Yody?",
-    "answers": ["Star Trek", "Gwiezdne Wojny", "Obcy", "Avatar"],
-    "correct": 1
-  },
-  {
-    "question": "Który pasiasty owad jest powszechnie znany z masowej produkcji miodu?",
-    "answers": ["Osa", "Trzmiel", "Pszczoła", "Szerszeń"],
-    "correct": 2
-  },
-  {
-    "question": "Ile państw graniczy bezpośrednio na lądzie z Rzecząpospolitą Polską?",
-    "answers": ["5", "6", "7", "8"],
-    "correct": 2
-  },
-  {
-    "question": "Co stanowi niemal 99% codziennej diety niedźwiedzi pand wielkich?",
-    "answers": ["Eukaliptus", "Bambus", "Ryby słodkowodne", "Owoce leśne"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się urządzenie sieciowe służące do przekazywania pakietów danych między sieciami komputerowymi?",
-    "answers": ["Monitor", "Router", "Drukarka", "Skaner"],
-    "correct": 1
-  },
-  {
-    "question": "Z jakim numerem na koszulce najczęściej występuje w reprezentacji Robert Lewandowski?",
-    "answers": ["7", "9", "10", "11"],
-    "correct": 1
-  },
-  {
-    "question": "Który orkiestrowy instrument dęty blaszany posiada ruchomą kulisę do zmiany wysokości dźwięku?",
-    "answers": ["Trąbka", "Puzon", "Waltornia", "Tuba"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się zielony potwór z komiksów Marvela, w którego zmienia się Bruce Banner?",
-    "answers": ["Iron Man", "Thor", "Hulk", "Spiderman"],
-    "correct": 2
-  },
-  {
-    "question": "Którą ze słynnych tragedii napisał angielski dramaturg William Szekspir?",
-    "answers": ["Kordian", "Hamlet", "Dziady", "Faust"],
-    "correct": 1
-  },
-  {
-    "question": "Z jakiego kraju wywodzi się popularny na całym świecie placek zwany pizzą?",
-    "answers": ["Z Grecji", "Z Hiszpanii", "Z Włoch", "Z Francji"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się najwyższy szczyt Ziemi, położony w Himalajach?",
-    "answers": ["K2", "Kilimandżaro", "Mont Blanc", "Mount Everest"],
-    "correct": 3
-  },
-  {
-    "question": "Które państwo przekazało Statuę Wolności w darze dla narodu amerykańskiego?",
-    "answers": ["Wielka Brytania", "Francja", "Niemcy", "Włochy"],
-    "correct": 1
-  },
-  {
-    "question": "Który polski monarcha dowodził siłami chrześcijańskimi w bitwie pod Wiedniem w 1683 roku?",
-    "answers": ["Władysław Jagiełło", "Jan III Sobieski", "Stefan Batory", "Zygmunt Stary"],
-    "correct": 1
-  },
-  {
-    "question": "Z którego kraju pochodzi niezwykle popularny gatunek muzyki młodzieżowej zwany K-popem?",
-    "answers": ["Z Chin", "Z Japonii", "Z Korei Południowej", "Z Tajlandii"],
-    "correct": 2
-  },
-  {
-    "question": "Kto napisał powieść historyczną 'Quo vadis', nagrodzoną Noblem?",
-    "answers": ["Bolesław Prus", "Stefan Żeromski", "Henryk Sienkiewicz", "Władysław Reymont"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki ptak drapieżny znajduje się w oficjalnym godle Rzeczypospolitej Polskiej?",
-    "answers": ["Sokół", "Jastrząb", "Orzeł biały", "Bielik"],
-    "correct": 2
-  },
-  {
-    "question": "Które miasto jest oficjalną stolicą Królestwa Hiszpanii?",
-    "answers": ["Barcelona", "Sewilla", "Walencja", "Madryt"],
-    "correct": 3
-  },
-  {
-    "question": "Który dzień tygodnia standardowo otwiera tradycyjny tydzień roboczy w Europie?",
-    "answers": ["Niedziela", "Poniedziałek", "Wtorek", "Sobota"],
-    "correct": 1
-  },
-  {
-    "question": "Ile zębów mlecznych wyrasta standardowo w jamie ustnej dziecka?",
-    "answers": ["20", "24", "28", "32"],
-    "correct": 0
-  },
-  {
-    "question": "W jakiej dyscyplinie sportowej legendarne sukcesy odnosił jamajski biegacz Usain Bolt?",
-    "answers": ["W maratonie", "W sprincie", "W skoku w dal", "W kolarstwie"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się duży, drewniany instrument dęty o niskim brzmieniu z podwójnym stroikiem?",
-    "answers": ["Fagot", "Flet poprzeczny", "Klarnet", "Trąbka"],
-    "correct": 0
-  },
-  {
-    "question": "Który amerykański reżyser stworzył kinowy hit science-fiction 'E.T.'?",
-    "answers": ["James Cameron", "George Lucas", "Steven Spielberg", "Ridley Scott"],
-    "correct": 2
-  },
-  {
-    "question": "Kto jest autorem znanej baśni dla dzieci pt. 'Dzikie łabędzie'?",
-    "answers": ["Hans Christian Andersen", "Bracia Grimm", "Charles Perrault", "Jan Brzechwa"],
-    "correct": 0
-  },
-  {
-    "question": "Jaka wspólna waluta została wprowadzona w większości krajów Unii Europejskiej?",
-    "answers": ["Dolar", "Funt szterling", "Euro", "Frank szwajcarski"],
-    "correct": 2
-  },
-  {
-    "question": "Które państwo na świecie charakteryzuje się największą ogólną powierzchnią terytorium?",
-    "answers": ["Kanada", "Chiny", "Stany Zjednoczone", "Rosja"],
-    "correct": 3
-  },
-  {
-    "question": "Który zmysł człowieka odpowiada bezpośrednio za zdolność słyszenia?",
-    "answers": ["Wzrok", "Słuch", "Węch", "Smak"],
-    "correct": 1
-  },
-  {
-    "question": "W którym roku Polska stała się oficjalnym członkiem Unii Europejskiej?",
-    "answers": ["1989", "1999", "2004", "2010"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się linia łącząca na mapie punkty o tej samej wysokości nad poziomem morza?",
-    "answers": ["Izobara", "Izoterma", "Izohipsa", "Izohalina"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki jest symbol chemiczny żelaza w układzie okresowym pierwiastków?",
-    "answers": ["F", "Fe", "I", "Ir"],
-    "correct": 1
-  },
-  {
-    "question": "Ile rund trwa standardowa walka o mistrzostwo świata w boksie zawodowym?",
-    "answers": ["10", "12", "15", "8"],
-    "correct": 1
-  },
-  {
-    "question": "Z ilu muzyków składa się tradycyjny kwartet smyczkowy?",
-    "answers": ["3", "4", "5", "6"],
-    "correct": 1
-  },
-  {
-    "question": "Który aktor wcielił się w postać Jacka Dawsona w filmie 'Titanic' z 1997 roku?",
-    "answers": ["Brad Pitt", "Tom Cruise", "Leonardo DiCaprio", "Johnny Depp"],
-    "correct": 2
-  },
-  {
-    "question": "Kto napisał powieść obyczajową 'Lalka', opisującą losy Stanisława Wokulskiego?",
-    "answers": ["Henryk Sienkiewicz", "Bolesław Prus", "Stefan Żeromski", "Władysław Reymont"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się unikalna substancja nadająca zielony kolor liściom roślin?",
-    "answers": ["Karoten", "Chlorofil", "Hemoglobina", "Melanina"],
-    "correct": 1
-  },
-  {
-    "question": "Które złącze jest obecnie standardem do przesyłania obrazu i dźwięku wysokiej rozdzielczości?",
-    "answers": ["USB", "VGA", "HDMI", "DVI"],
-    "correct": 2
-  },
-  {
-    "question": "Który napój jest tradycyjnie uznawany za najpopularniejszy na świecie zaraz po wodzie?",
-    "answers": ["Kawa", "Herbata", "Sok pomarańczowy", "Mleko"],
-    "correct": 1
-  },
-  {
-    "question": "Który kraj jest największym producentem kawy na świecie?",
-    "answers": ["Kolumbia", "Etiopia", "Brazylia", "Wietnam"],
-    "correct": 2
-  },
-  {
-    "question": "Która partia szachowa kończy się natychmiastowym zwycięstwem jednego z graczy?",
-    "answers": ["Pat", "Mat", "Szach", "Roszada"],
-    "correct": 1
-  },
-  {
-    "question": "Kto jest autorem słynnego obrazu 'Mona Lisa'?",
-    "answers": ["Vincent van Gogh", "Leonardo da Vinci", "Michał Anioł", "Pablo Picasso"],
-    "correct": 1
-  },
-  {
-    "question": "Z ilu sylab składa się polski narodowy metr poetycki – trzynastozgłoskowiec?",
-    "answers": ["11", "12", "13", "14"],
-    "correct": 2
-  },
-  {
-    "question": "Który ptak jest znany z tego, że potrafi latać do tyłu?",
-    "answers": ["Koliber", "Jaskółka", "Sokół", "Jerzyk"],
-    "correct": 0
-  },
-  {
-    "question": "Jak oficjalnie nazywa się stolica Portugalii?",
-    "answers": ["Porto", "Lizbona", "Madryt", "Barcelona"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki jest najlżejszy gaz w układzie okresowym pierwiastków?",
-    "answers": ["Hel", "Tlen", "Wodór", "Azot"],
-    "correct": 2
-  },
-  {
-    "question": "W której dyscyplinie sportowej zawodnicy rywalizują w wyścigu 'Tour de France'?",
-    "answers": ["W biegach maratońskich", "W kolarstwie szosowym", "W wyścigach samochodowych", "W triathlonie"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się najwyższy głos kobiecy w muzyce operowej?",
-    "answers": ["Alt", "Mezzosopran", "Sopran", "Tenor"],
-    "correct": 2
-  },
-  {
-    "question": "Który reżyser stworzył słynną trylogię filmową 'Ojciec chrzestny'?",
-    "answers": ["Martin Scorsese", "Francis Ford Coppola", "Steven Spielberg", "Alfred Hitchcock"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał nowelę 'Kamizelka'?",
-    "answers": ["Henryk Sienkiewicz", "Bolesław Prus", "Maria Konopnicka", "Stefan Żeromski"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się największa pustynia piaszczysta na Ziemi?",
-    "answers": ["Gobi", "Sahara", "Kalahari", "Atakama"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki protokół sieciowy zapewnia szyfrowane i bezpieczne połączenie ze stroną WWW?",
-    "answers": ["HTTP", "HTTPS", "FTP", "SMTP"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się proces topnienia lodu pod wpływem wzrostu temperatury?",
-    "answers": ["Krzepnięcie", "Topnienie", "Parowanie", "Sublimacja"],
-    "correct": 1
-  },
-  {
-    "question": "Ile punktów zdobywa się za celny rzut wolny w koszykówce?",
-    "answers": ["1", "2", "3", "4"],
-    "correct": 0
-  },
-  {
-    "question": "Który polski malarz zasłynął z tworzenia wielkich płócien historycznych, takich jak 'Bitwa pod Grunwaldem'?",
-    "answers": ["Stanisław Wyspiański", "Jan Matejko", "Jacek Malczewski", "Zdzisław Beksiński"],
-    "correct": 1
-  },
-  {
-    "question": "Który film animowany studia Pixar opowiada o kucharzu, który jest szczurem?",
-    "answers": ["Toy Story", "Ratatuj", "Auta", "Gdzie jest Nemo"],
-    "correct": 1
-  },
-  {
-    "question": "Kto jest autorem epickiej trylogii fantasy 'Władca Pierścieni'?",
-    "answers": ["J.K. Rowling", "C.S. Lewis", "J.R.R. Tolkien", "George R.R. Martin"],
-    "correct": 2
-  },
-  {
-    "question": "Który ssak wodny jest powszechnie uważany za jednego z najinteligentniejszych na świecie?",
-    "answers": ["Rekin", "Delfin", "Wieloryb", "Mors"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się fizyczny nośnik danych, który w komputerach zastąpił tradycyjne dyski HDD na szybsze?",
-    "answers": ["SSD", "Pendrive", "CD-ROM", "Dyskietka"],
-    "correct": 0
-  },
-  {
-    "question": "Które miasto jest oficjalną stolicą Kanady?",
-    "answers": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
-    "correct": 3
-  },
-  {
-    "question": "Kto był pierwszym prezydentem Stanów Zjednoczonych?",
-    "answers": ["Abraham Lincoln", "Thomas Jefferson", "Jerzy Waszyngton", "Benjamin Franklin"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się nauka badająca skład, strukturę i właściwości substancji oraz ich przemiany?",
-    "answers": ["Fizyka", "Biologia", "Chemia", "Geologia"],
-    "correct": 2
-  },
-  {
-    "question": "W którym sporcie zawodnicy starają się wbić krążek do bramki przeciwnika na lodzie?",
-    "answers": ["Curling", "Hokej", "Łyżwiarstwo", "Bandy"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się szarpany instrument strunowy, posiadający najczęściej 6 strun i pudło rezonansowe?",
-    "answers": ["Skrzypce", "Gitara", "Mandolina", "Banjo"],
-    "correct": 1
-  },
-  {
-    "question": "Który aktor wcielił się w rolę Jamesa Bonda w filmie 'Casino Royale'?",
-    "answers": ["Pierce Brosnan", "Daniel Craig", "Sean Connery", "Roger Moore"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał słynną powieść science-fiction 'Solaris'?",
-    "answers": ["Andrzej Sapkowski", "Stanisław Lem", "Jacek Dukaj", "Janusz Zajdel"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się zjawisko uginania się fal wokół przeszkód, na które napotykają?",
-    "answers": ["Dyfrakcja", "Refrakcja", "Interferencja", "Polaryzacja"],
-    "correct": 0
-  },
-  {
-    "question": "Która technologia bezprzewodowa służy do przesyłania danych na bardzo małe odległości, np. do płatności telefonem?",
-    "answers": ["Wi-Fi", "Bluetooth", "NFC", "LTE"],
-    "correct": 2
-  },
-  {
-    "question": "Jakie miasto jest oficjalną stolicą Grecji?",
-    "answers": ["Saloniki", "Ateny", "Patras", "Heraklion"],
-    "correct": 1
-  },
-  {
-    "question": "Który ustrój polityczny narodził się w starożytnych Atenach i opierał się na władzy ludu?",
-    "answers": ["Monarchia", "Oligarchia", "Demokracja", "Tyrania"],
-    "correct": 2
-  },
-  {
-    "question": "Ile kości ma średnio dorosły człowiek w swoim szkielecie?",
-    "answers": ["106", "206", "306", "406"],
-    "correct": 1
-  },
-  {
-    "question": "W której dyscyplinie sportowej zawodnicy rywalizują na torze, jeżdżąc bolidami?",
-    "answers": ["W rajdach WRC", "W Formule 1", "W MotoGP", "W kartingu"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się zespół muzyczny, który stworzył kultowy album 'The Dark Side of the Moon'?",
-    "answers": ["The Rolling Stones", "Led Zeppelin", "Pink Floyd", "Deep Purple"],
-    "correct": 2
-  },
-  {
-    "question": "Który film zdobył Oscara za najlepszy film w 2020 roku jako pierwsze dzieło nieanglojęzyczne w historii?",
-    "answers": ["Roma", "Parasite", "Joker", "1917"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał wiersz 'Inwokacja', zaczynający się od słów 'Litwo! Ojczyzno moja!'?",
-    "answers": ["Juliusz Słowacki", "Adam Mickiewicz", "Cyprian Kamil Norwid", "Jan Kochanowski"],
-    "correct": 1
-  },
-  {
-    "question": "Który kraj skandynawski słynie z głębokich i malowniczych fiordów?",
-    "answers": ["Szwecja", "Norwegia", "Dania", "Finlandia"],
-    "correct": 1
-  },
-  {
-    "question": "W którym roku odbyła się słynna bitwa pod Wiedniem (Odsiecz Wiedeńska)?",
-    "answers": ["1410", "1569", "1683", "1795"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki gaz jest głównym produktem ubocznym procesu fotosyntezy, wydzielanym do atmosfery?",
-    "answers": ["Azot", "Tlen", "Dwutlenek węgla", "Wodór"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się najwyższe trofeum klubowe w europejskiej piłce nożnej?",
-    "answers": ["Puchar Świata", "Puchar Narodów", "Puchar Ligi Mistrzów", "Puchar Europy Narodów"],
-    "correct": 2
-  },
-  {
-    "question": "Z ilu strun składa się tradycyjna gitara klasyczna?",
-    "answers": ["4", "5", "6", "12"],
-    "correct": 2
-  },
-  {
-    "question": "Który film w reżyserii Jamesa Camerona z 2009 roku przedstawił świat planety Pandora?",
-    "answers": ["Titanic", "Terminator", "Avatar", "Otchłań"],
-    "correct": 2
-  },
-  {
-    "question": "Kto napisał słynną powieść dla młodzieży pt. 'W pustyni i w puszczy'?",
-    "answers": ["Henryk Sienkiewicz", "Bolesław Prus", "Stefan Żeromski", "Maria Konopnicka"],
-    "correct": 0
-  },
-  {
-    "question": "Która roślina jest podstawą do produkcji tradycyjnego cukru białego w Europie?",
-    "answers": ["Trzcina cukrowa", "Burak cukrowy", "Kukurydza", "Klon"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się domowa sieć bezprzewodowa, która pozwala urządzeniom łączyć się z internetem?",
-    "answers": ["Bluetooth", "Światłowód", "Wi-Fi", "Satelita"],
-    "correct": 2
-  },
-  {
-    "question": "Który kontynent jest najmniejszy pod względem powierzchni?",
-    "answers": ["Europa", "Australia", "Antarktyda", "Ameryka Południowa"],
-    "correct": 1
-  },
-  {
-    "question": "W którym mieście znajduje się słynna wieża Eiffla?",
-    "answers": ["W Londynie", "W Rzymie", "W Berlinie", "W Paryżu"],
-    "correct": 3
-  },
-  {
-    "question": "Jaki jest najtwardszy minerał występujący naturalnie na Ziemi?",
-    "answers": ["Kwarc", "Topaz", "KORUND", "Diament"],
-    "correct": 3
-  },
-  {
-    "question": "W którym sporcie zawodnicy posługują się kijem, a celem jest wbicie małej piłeczki do dołka?",
-    "answers": ["Krykiet", "Hokej na trawie", "Golf", "Bilard"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się niski, najniższy głos męski w muzyce klasycznej?",
-    "answers": ["Baryton", "Tenor", "Bas", "Alt"],
-    "correct": 2
-  },
-  {
-    "question": "Która aktorka wcieliła się w postać Hermiony Granger w serii filmów o Harrym Potterze?",
-    "answers": ["Emma Watson", "Emma Stone", "Natalie Portman", "Scarlett Johansson"],
-    "correct": 0
-  },
-  {
-    "question": "Kto jest autorem znanej bajki o 'Szewczyku Dratewce'?",
-    "answers": ["Jan Brzechwa", "Julian Tuwim", "Janina Porazińska", "Kornel Makuszyński"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się największy żyjący ptak na świecie, który nie potrafi latać?",
-    "answers": ["Pingwin cesarski", "Struś afrykański", "Emu", "Albatros"],
-    "correct": 1
-  },
-  {
-    "question": "Jakie miasto jest oficjalną stolicą Wielkiej Brytanii?",
-    "answers": ["Edynburg", "Dublin", "Liverpool", "Londyn"],
-    "correct": 3
-  },
-  {
-    "question": "Które starożytne miasto zostało zniszczone przez wybuch wulkanu Wezuwiusz w 79 roku n.e.?",
-    "answers": ["Rzym", "Ateny", "Pompeje", "Troja"],
-    "correct": 2
-  },
-  {
-    "question": "Która planeta Układu Słonecznego ma najbardziej rozwinięty i widoczny system pierścieni?",
-    "answers": ["Jowisz", "Saturn", "Uran", "Neptun"],
-    "correct": 1
-  },
-  {
-    "question": "Ile minut trwa jedna standardowa połowa meczu piłki nożnej?",
-    "answers": ["35", "40", "45", "50"],
-    "correct": 2
-  },
-  {
-    "question": "Z jakiego kraju pochodził wybitny kompozytor Wolfgang Amadeus Mozart?",
-    "answers": ["Z Niemiec", "Z Austrii", "Z Włoch", "Z Francji"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się zielony ogoniaste gad potrafiący idealnie zmieniać kolor skóry w celu kamuflażu?",
-    "answers": ["Krokodyl", "Kameleon", "Iguana", "Salamandra"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się najpopularniejsza na świecie platforma wideo, założona w 2005 roku, należąca do Google?",
-    "answers": ["Netflix", "Vimeo", "YouTube", "TikTok"],
-    "correct": 2
-  },
-  {
-    "question": "Kto napisał słynną powieść kryminalną 'Morderstwo w Orient Expressie'?",
-    "answers": ["Arthur Conan Doyle", "Agatha Christie", "Stephen King", "Remigiusz Mróz"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się stan skupienia wody w temperaturze poniżej 0 stopni Celsjusza przy normalnym ciśnieniu?",
-    "answers": ["Ciekły", "Gazowy", "Stały", "Plazma"],
-    "correct": 2
-  },
-  {
-    "question": "Które państwo w Ameryce Północnej graniczy od północy ze Stanami Zjednoczonymi?",
-    "answers": ["Meksyk", "Kanada", "Kuba", "Gwatemala"],
-    "correct": 1
-  },
-  {
-    "question": "W którym roku rozpoczęła się I wojna światowa?",
-    "answers": ["1914", "1918", "1939", "1945"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się podstawowa komórka układu nerwowego człowieka?",
-    "answers": ["Nefron", "Neuron", "A kson", "Glej"],
-    "correct": 1
-  },
-  {
-    "question": "Ilu graczy liczy drużyna na boisku w trakcie meczu piłki ręcznej?",
-    "answers": ["5", "6", "7", "11"],
-    "correct": 2
-  },
-  {
-    "question": "Który instrument muzyczny ma postać dużej ramy z naciągniętymi pionowo strunami, na których gra się palcami obu rąk?",
-    "answers": ["Gitara", "Lira", "Harfa", "Lutnia"],
-    "correct": 2
-  },
-  {
-    "question": "Który film animowany opowiada o przygodach zabawek, które ożywają, gdy nie ma ludzi?",
-    "answers": ["Shrek", "Toy Story", "Epoka lodowcowa", "Potwory i spółka"],
-    "correct": 1
-  },
-  {
-    "question": "Który polski poeta epoki renesansu napisał 'Treny' po stracie córki Urszulki?",
-    "answers": ["Mikołaj Rej", "Jan Kochanowski", "Ignacy Krasicki", "Piotr Skarga"],
-    "correct": 1
-  },
-  {
-    "question": "Z jakiej części rośliny pozyskuje się cynamon, popularną przyprawę kuchenną?",
-    "answers": ["Z owoców", "Z korzenia", "Z kory drzewa", "Z liści"],
-    "correct": 2
-  },
-  {
-    "question": "Jak potocznie nazywa się ekran w komputerze lub telefonie, który reaguje na dotyk palca?",
-    "answers": ["Ekran LCD", "Ekran dotykowy", "Monitor", "Wyświetlacz OLED"],
-    "correct": 1
-  },
-  {
-    "question": "Które miasto jest stolicą Austrii?",
-    "answers": ["Berlin", "Zurych", "Wiedeń", "Praga"],
-    "correct": 2
-  },
-  {
-    "question": "Kto był legendarnym twórcą imperium mongolskiego w XIII wieku?",
-    "answers": ["Attyla", "Czyngis-chan", "Aleksander Wielki", "Tamerlan"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki organ w ciele człowieka pompuje krew do wszystkich tkanek i narządów?",
-    "answers": ["Płuca", "Wątroba", "Mózg", "Serce"],
-    "correct": 3
-  },
-  {
-    "question": "W której dyscyplinie sportowej zawodniczki i zawodnicy wykonują ewolucje na lodzie do muzyki (np. piruety)?",
-    "answers": ["Łyżwiarstwo szybkie", "Łyżwiarstwo figurowe", "Short track", "Curling"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się najsłynniejsza nagroda filmowa na świecie, przyznawana corocznie w Los Angeles?",
-    "answers": ["Złoty Glob", "Złota Palma", "Oscar", "BAFTA"],
-    "correct": 2
-  },
-  {
-    "question": "Z którego kraju pochodzi tradycyjne ciasto o nazwie strudel, często podawane z jabłkami?",
-    "answers": ["Z Francji", "Z Włoch", "Z Austrii", "Z Grecji"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się program komputerowy, który udaje przydatne oprogramowanie, ale w rzeczywistości szkodzi systemowi?",
-    "answers": ["Antywirus", "Koń trojański (Trojan)", "Firewall", "Przeglądarka"],
-    "correct": 1
-  },
-  {
-    "question": "Która wyspa na Morzu Śródziemnym, należąca do Włoch, jest największa?",
-    "answers": ["Sardynia", "Sycylia", "Cypr", "Korsyka"],
-    "correct": 1
-  },
-  {
-    "question": "W którym roku rozegrała się słynna bitwa pod Wiedniem?",
-    "answers": ["1385", "1410", "1525", "1683"],
-    "correct": 3
-  },
-  {
-    "question": "Który z podanych elementów jest metalem szlachetnym odpornym na korozję?",
-    "answers": ["Żelazo", "Miedź", "Złoto", "Cynk"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się punkt w biegu lekkoatletycznym, z którego zawodnicy rozpoczynają wyścig?",
-    "answers": ["Meta", "Start", "Finisz", "Dystans"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał zbiór baśni zawierający opowieść o 'Aladynie i cudownej lampie'?",
-    "answers": ["Bracia Grimm", "Hans Christian Andersen", "Autorzy 'Baśni z tysiąca i jednej nocy'", "Charles Perrault"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki kolor ma tradycyjna tablica szkolna, na której pisze się kredą w większości klas?",
-    "answers": ["Czerwony", "Zielony lub czarny", "Niebieski", "Żółty"],
-    "correct": 1
-  },
-  {
-    "question": "Które miasto jest oficjalną stolicą Japonii?",
-    "answers": ["Kioto", "Osaka", "Tokio", "Hiroszima"],
-    "correct": 2
-  },
-  {
-    "question": "W którym roku doszło do katastrofy elektrowni jądrowej w Czarnobylu?",
-    "answers": ["1980", "1986", "1989", "1991"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się kwas znajdujący się w ludzkim żołądku, który pomaga w trawieniu pokarmów?",
-    "answers": ["Kwas siarkowy", "Kwas cytrynowy", "Kwas solny", "Kwas azotowy"],
-    "correct": 2
-  },
-  {
-    "question": "W której dyscyplinie sportowej zawodnicy rywalizują w konkurencji zwanej rzutem oszczepem?",
-    "answers": ["Lekkoatletyka", "Gimnastyka", "Podnoszenie ciężarów", "Szermierka"],
-    "correct": 0
-  },
-  {
-    "question": "Z ilu czarnych klawiszy składa się dokładnie jedna pełna oktawa na pianinie?",
-    "answers": ["5", "7", "8", "12"],
-    "correct": 0
-  },
-  {
-    "question": "Który aktor wcielił się w rolę kultowego pirata Jacka Sparrowa w serii 'Piraci z Karaibów'?",
-    "answers": ["Brad Pitt", "Johnny Depp", "Orlando Bloom", "Tom Cruise"],
-    "correct": 1
-  },
-  {
-    "question": "Kto jest autorem znanej polskiej powieści pozytywistycznej 'Nad Niemnem'?",
-    "answers": ["Eliza Orzeszkowa", "Maria Konopnicka", "Henryk Sienkiewicz", "Bolesław Prus"],
-    "correct": 0
-  },
-  {
-    "question": "Który kontynent jest naturalnym środowiskiem życia dla kangurów i koali?",
-    "answers": ["Afryka", "Azja", "Ameryka Południowa", "Australia"],
-    "correct": 3
-  },
-  {
-    "question": "Jak nazywa się popularna usługa poczty elektronicznej stworzona i rozwijana przez firmę Google?",
-    "answers": ["Outlook", "Yahoo", "Gmail", "ProtonMail"],
-    "correct": 2
-  },
-  {
-    "question": "Które państwo europejskie słynie z produkcji serów takich jak Feta oraz oliwy z oliwek?",
-    "answers": ["Włochy", "Grecja", "Hiszpania", "Francja"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się najdłuższy łańcuch górski na świecie, rozciągający się wzdłuż zachodniego wybrzeża Ameryki Południowej?",
-    "answers": ["Kordyliery", "Alpy", "Himalaje", "Andy"],
-    "correct": 3
-  },
-  {
-    "question": "Kto był ostatnim królem Polski przed ostatecznymi rozbiorami kraju?",
-    "answers": ["Stanisław August Poniatowski", "Jan III Sobieski", "Zygmunt III Waza", "August II Mocny"],
-    "correct": 0
-  },
-  {
-    "question": "Który gaz, będący składnikiem smogu, powstaje głównie w wyniku spalania paliw w silnikach samochodowych?",
-    "answers": ["Tlenek azotu", "Hel", "Argon", "Wodór"],
-    "correct": 0
-  },
-  {
-    "question": "Ile punktów zdobywa się za udany rzut zza linii 6,75 metra w meczu koszykówki według przepisów FIBA?",
-    "answers": ["1", "2", "3", "4"],
-    "correct": 2
-  },
-  {
-    "question": "Jak potocznie nazywa się instrument dęty drewniany z zakrzywioną metalową rurą, bardzo popularny w muzyce jazzowej?",
-    "answers": ["Flet", "Trąbka", "Saksofon", "Puzon"],
-    "correct": 2
-  },
-  {
-    "question": "Który reżyser stworzył głośny film wojenny 'Szeregowiec Ryan'?",
-    "answers": ["Steven Spielberg", "Christopher Nolan", "Quentin Tarantino", "James Cameron"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się legendarny miecz króla Artura z mitów arturiańskich?",
-    "answers": ["Mjölnir", "Excalibur", "Szczerbiec", "Durendal"],
-    "correct": 1
-  },
-  {
-    "question": "Która roślina jest głównym surowcem wykorzystywanym do produkcji tradycyjnego japońskiego trunku sake?",
-    "answers": ["Pszenica", "Jęczmień", "Ryż", "Ziemniaki"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się małe urządzenie peryferyjne komputera, służące do przemieszczania kursora po ekranie?",
-    "answers": ["Klawiatura", "Myszka", "Drukarka", "Skaner"],
-    "correct": 1
-  },
-  {
-    "question": "Które miasto jest oficjalną stolicą Szwecji?",
-    "answers": ["Oslo", "Kopenhaga", "Helsinki", "Sztokholm"],
-    "correct": 3
-  },
-  {
-    "question": "W którym roku wybuchło powstanie warszawskie?",
-    "answers": ["1918", "1939", "1944", "1945"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki organ ludzkiego ciała odpowiada za filtrowanie krwi i produkcję moczu?",
-    "answers": ["Wątroba", "Nerki", "Trzustka", "Żołądek"],
-    "correct": 1
-  },
-  {
-    "question": "W którym sporcie zawodnicy poruszają się po lodzie i używają szczotek do szczotkowania toru przed sunącym kamieniem?",
-    "answers": ["Hokej", "Bobsleje", "Curling", "Skeleton"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się tradycyjny pięciostrunowy lub czterostrunowy instrument szarpany, kojarzony z amerykańską muzyką country?",
-    "answers": ["Ukulele", "Mandolina", "Banjo", "Harfa"],
-    "correct": 2
-  },
-  {
-    "question": "Który film science-fiction z 1982 roku w reżyserii Ridleya Scotta opowiada o łowcy androidów Ricku Deckardzie?",
-    "answers": ["Blade Runner", "Obcy", "Terminator", "Matrix"],
-    "correct": 0
-  },
-  {
-    "question": "Kto napisał słynną powieść przygodową 'Wyspa skarbów'?",
-    "answers": ["Juliusz Verne", "Robert Louis Stevenson", "Daniel Defoe", "Mark Twain"],
-    "correct": 1
-  },
-  {
-    "question": "Które zwierzę morske posiada osiem ramion wyposażonych w przyssawki i potrafi wypuszczać ciemny atrament?",
-    "answers": ["Meduza", "Ośmiornica", "Rozgwiazda", "Konik morski"],
-    "correct": 1
-  },
-  {
-    "question": "Które miasto jest konstytucyjną stolicą Holandii (Niderlandów)?",
-    "answers": ["Haga", "Rotterdam", "Amsterdam", "Utrecht"],
-    "correct": 2
-  },
-  {
-    "question": "Z jakiego kraju pochodził wybitny kompozytor i pianista romantyczny Ferenc Liszt?",
-    "answers": ["Z Austrii", "Z Niemiec", "Z Węgier", "Z Polski"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się główny bohater epopei homeryckiej 'Odyseja'?",
-    "answers": ["Achilles", "Hektor", "Odyseusz", "Herakles"],
-    "correct": 2
-  },
-  {
-    "question": "Które drzewo iglaste jako jedyne w Polsce zrzuca wszystkie swoje igły na zimę?",
-    "answers": ["Sosna", "Świerk", "Jodła", "Modrzew"],
-    "correct": 3
-  },
-  {
-    "question": "Jak nazywa się stolica i największe miasto Danii?",
-    "answers": ["Sztokholm", "Kopenhaga", "Oslo", "Helsinki"],
-    "correct": 1
-  },
-  {
-    "question": "Który rzymski wodz i polityk został zamordowany w idy marcowe w 44 roku p.n.e.?",
-    "answers": ["Oktawian August", "Marek Antoniusz", "Juliusz Cezar", "Neron"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się najgłębsze jezioro na świecie, położone na terenie Rosji?",
-    "answers": ["Jezioro Górne", "Wiktorii", "Tanganika", "Bajkał"],
-    "correct": 3
-  },
-  {
-    "question": "W której konkurencji lekkoatletycznej zawodnicy przekazują sobie pałeczkę podczas biegu?",
-    "answers": ["Bieg przez płotki", "Bieg sztafetowy", "Maraton", "Chód sportowy"],
-    "correct": 1
-  },
-  {
-    "question": "Na jakim instrumencie klawiszowym, napędzanym powietrzem z wielkich miechów, gra się w kościołach?",
-    "answers": ["Klawesyn", "Pianino", "Organy", "Akordeon"],
-    "correct": 2
-  },
-  {
-    "question": "Kto napisał słynny poemat 'Pan Tadeusz'?",
-    "answers": ["Juliusz Słowacki", "Adam Mickiewicz", "Zygmunt Krasiński", "Cyprian Kamil Norwid"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki ptak drapieżny słynie z niesamowitego wzroku i potrafi pikować w powietrzu z prędkością ponad 300 km/h?",
-    "answers": ["Orzeł przedni", "Sokół wędrowny", "Jastrząb", "Sęp"],
-    "correct": 1
-  },
-  {
-    "question": "Które miasto jest oficjalną stolicą Belgii oraz sercem instytucji Unii Europejskiej?",
-    "answers": ["Antwerpia", "Brugia", "Gandawa", "Bruksela"],
-    "correct": 3
-  },
-  {
-    "question": "Kto był przywódcą rewolucji październikowej w Rosji w 1917 roku?",
-    "answers": ["Józef Stalin", "Włodzimierz Lenin", "Leon Trocki", "Car Mikołaj II"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki pierwiastek jest głównym budulcem organicznym wszystkich znanych form życia na Ziemi?",
-    "answers": ["Węgiel", "Tlen", "Wodór", "Azot"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się stolica Egiptu?",
-    "answers": ["Aleksandria", "Kair", "Giza", "Luksor"],
-    "correct": 1
-  },
-  {
-    "question": "W którym roku upadł Związek Radziecki (ZSRR)?",
-    "answers": ["1989", "1991", "1993", "1995"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki symbol ma w chemii złoto?",
-    "answers": ["Ag", "Fe", "Au", "Cu"],
-    "correct": 2
-  },
-  {
-    "question": "Ile kroków z piłką można zrobić w piłce ręcznej bez kozłowania?",
-    "answers": ["2", "3", "4", "5"],
-    "correct": 1
-  },
-  {
-    "question": "Który instrument smyczkowy jest najmniejszy?",
-    "answers": ["Altówka", "Wiolonczela", "Kontrabas", "Skrzypce"],
-    "correct": 3
-  },
-  {
-    "question": "Kto zagrał główną rolę męską w filmie 'Forrest Gump'?",
-    "answers": ["Tom Hanks", "Brad Pitt", "Johnny Depp", "Tom Cruise"],
-    "correct": 0
-  },
-  {
-    "question": "Kto napisał powieść 'Ziemia obiecana'?",
-    "answers": ["Bolesław Prus", "Władysław Reymont", "Henryk Sienkiewicz", "Stefan Żeromski"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się największy ocean na Ziemi?",
-    "answers": ["Atlantycki", "Indyjski", "Spokojny", "Arktyczny"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się twórca portalu Facebook?",
-    "answers": ["Bill Gates", "Elon Musk", "Mark Zuckerberg", "Steve Jobs"],
-    "correct": 2
-  },
-  {
-    "question": "Z jakiego kraju pochodzi ser parmezan?",
-    "answers": ["Z Francji", "Z Włoch", "Z Hiszpanii", "Z Grecji"],
-    "correct": 1
-  },
-  {
-    "question": "Które góry oddzielają Europę od Azji?",
-    "answers": ["Alpy", "Kaukaz", "Ural", "Karpaty"],
-    "correct": 2
-  },
-  {
-    "question": "Kto był pierwszym królem Polski?",
-    "answers": ["Mieszko I", "Bolesław Chrobry", "Kazimierz Wielki", "Władysław Łokietek"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki gaz jest najlżejszy?",
-    "answers": ["Hel", "Wodór", "Tlen", "Azot"],
-    "correct": 1
-  },
-  {
-    "question": "Ile punktów zdobywa się za wsad w koszykówce?",
-    "answers": ["1", "2", "3", "4"],
-    "correct": 1
-  },
-  {
-    "question": "Na czym gra się za pomocą pałeczek?",
-    "answers": ["Na gitarze", "Na perkusji", "Na flecie", "Na trąbce"],
-    "correct": 1
-  },
-  {
-    "question": "Który reżyser stworzył serię filmów 'Gwiezdne Wojny'?",
-    "answers": ["Steven Spielberg", "George Lucas", "James Cameron", "Peter Jackson"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał bajkę o 'Kopciuszku'?",
-    "answers": ["Charles Perrault", "Hans Christian Andersen", "Jan Brzechwa", "Julian Tuwim"],
-    "correct": 0
-  },
-  {
-    "question": "Które zwierzę jest najszybsze na lądzie?",
-    "answers": ["Lew", "Antylopa", "Gepard", "Koń"],
-    "correct": 2
-  },
-  {
-    "question": "Co oznacza komputerowy skrót 'RAM'?",
-    "answers": ["Pamięć stała", "Pamięć operacyjna", "Dysk twardy", "Karta graficzna"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się stolica Ukrainy?",
-    "answers": ["Lwów", "Charków", "Kijów", "Odessa"],
-    "correct": 2
-  },
-  {
-    "question": "W którym roku wybuchła rewolucja francuska?",
-    "answers": ["1789", "1815", "1848", "1917"],
-    "correct": 0
-  },
-  {
-    "question": "Który narząd człowieka produkuje żółć?",
-    "answers": ["Żołądek", "Trzustka", "Wątroba", "Nerka"],
-    "correct": 2
-  },
-  {
-    "question": "W jakim sporcie walczy się na ringu?",
-    "answers": ["W boksie", "W szermierce", "W tenisie", "W hokeju"],
-    "correct": 0
-  },
-  {
-    "question": "Który instrument dęty nie ma przycisków ani wentyli?",
-    "answers": ["Trąbka", "Puzon", "Saksofon", "Klarnet"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się zielony potwór z bagien w filmie animowanym?",
-    "answers": ["Shrek", "Hulk", "Grinch", "Ogr"],
-    "correct": 0
-  },
-  {
-    "question": "Kto napisał powieść 'Krzyżacy'?",
-    "answers": ["Bolesław Prus", "Henryk Sienkiewicz", "Stefan Żeromski", "Władysław Reymont"],
-    "correct": 1
-  },
-  {
-    "question": "Który ptak nie buduje gniazd i podrzuca jaja?",
-    "answers": ["Sroka", "Kukułka", "Bocian", "Jaskółka"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się główna płyta w komputerze?",
-    "answers": ["Główna", "Graficzna", "Dźwiękowa", "Sieciowa"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się stolica Chin?",
-    "answers": ["Szanghaj", "Pekin", "Hongkong", "Kanton"],
-    "correct": 1
-  },
-  {
-    "question": "W którym roku zatonął statek 'Titanic'?",
-    "answers": ["1905", "1912", "1920", "1939"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki stan skupienia ma rtęć w temperaturze pokojowej?",
-    "answers": ["Stały", "Ciekły", "Gazowy", "Plazma"],
-    "correct": 1
-  },
-  {
-    "question": "Ile osób gra na boisku w drużynie hokeja na lodzie?",
-    "answers": ["5", "6", "7", "11"],
-    "correct": 1
-  },
-  {
-    "question": "Na jakim instrumencie grał legendarny Jimi Hendrix?",
-    "answers": ["Na pianinie", "Na gitarze", "Na perkusji", "Na trąbce"],
-    "correct": 1
-  },
-  {
-    "question": "Który film zdobył najwięcej Oscarów w historii?",
-    "answers": ["Avatar", "Titanic", "Incepcja", "Pulp Fiction"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał książkę 'Mały Książę'?",
-    "answers": ["Antoine de Saint-Exupéry", "J.R.R. Tolkien", "Lewis Carroll", "C.S. Lewis"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się młode psa?",
-    "answers": ["Szczeniak", "Kociak", "Źrebię", "Cielę"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się przeglądarka internetowa od firmy Apple?",
-    "answers": ["Chrome", "Firefox", "Safari", "Edge"],
-    "correct": 2
-  },
-  {
-    "question": "Które państwo leży na Półwyspie Apenińskim?",
-    "answers": ["Hiszpania", "Grecja", "Włochy", "Francja"],
-    "correct": 2
-  },
-  {
-    "question": "W którym roku wybuchło powstanie styczniowe?",
-    "answers": ["1794", "1830", "1863", "1944"],
-    "correct": 2
-  },
-  {
-    "question": "Ile zębów ma dorosły człowiek (wliczając zęby mądrości)?",
-    "answers": ["28", "30", "32", "36"],
-    "correct": 2
-  },
-  {
-    "question": "W jakim sporcie zimowym używa się karabinka?",
-    "answers": ["W biatlonie", "W skokach narciarskich", "W bobslejach", "W curlingu"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się tradycyjny hiszpański taniec?",
-    "answers": ["Tango", "Salsa", "Flamenco", "Walc"],
-    "correct": 2
-  },
-  {
-    "question": "Który superbohater ma tarczę z gwiazdą?",
-    "answers": ["Iron Man", "Batman", "Kapitan Ameryka", "Superman"],
-    "correct": 2
-  },
-  {
-    "question": "Kto napisał komedię 'Zemsta'?",
-    "answers": ["Aleksander Fredro", "Jan Kochanowski", "Adam Mickiewicz", "Juliusz Słowacki"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się samica dzika?",
-    "answers": ["Loch", "Locha", "Krowa", "Łania"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki system operacyjny ma logo z pingwinem?",
-    "answers": ["Windows", "macOS", "Linux", "Android"],
-    "correct": 2
-  },
-  {
-    "question": "Które państwo jest największe w Ameryce Południowej?",
-    "answers": ["Argentyna", "Kolumbia", "Brazylia", "Peru"],
-    "correct": 2
-  },
-  {
-    "question": "Kto był twórcą potęgi starożytnej Macedonii?",
-    "answers": ["Juliusz Cezar", "Aleksander Wielki", "Hannibal", "Perykles"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki kwas powoduje kwaśny smak cytryny?",
-    "answers": ["Mlekowy", "Octowy", "Cytrynowy", "Solny"],
-    "correct": 2
-  },
-  {
-    "question": "Ile minut trwa dogrywka w meczu piłki nożnej (łącznie)?",
-    "answers": ["15", "20", "30", "45"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się stolica Rosji?",
-    "answers": ["Petersburg", "Kijów", "Moskwa", "Mińsk"],
-    "correct": 2
-  },
-  {
-    "question": "W którym roku odbył się ślub Mieszka I z Dobrawą?",
-    "answers": ["965", "966", "1000", "1025"],
-    "correct": 0
-  },
-  {
-    "question": "Jaki symbol chemiczny ma srebro?",
-    "answers": ["Si", "Sn", "Ag", "Au"],
-    "correct": 2
-  },
-  {
-    "question": "Ile kroków bez kozłowania można zrobić w koszykówce?",
-    "answers": ["1", "2", "3", "4"],
-    "correct": 1
-  },
-  {
-    "question": "Z ilu strun składa się tradycyjne ukulele?",
-    "answers": ["4", "5", "6", "12"],
-    "correct": 0
-  },
-  {
-    "question": "Który aktor zagrał główną rolę w filmie 'Gladiator' z 2000 roku?",
-    "answers": ["Brad Pitt", "Russell Crowe", "Mel Gibson", "Tom Cruise"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał powieść 'Faraon'?",
-    "answers": ["Henryk Sienkiewicz", "Bolesław Prus", "Stefan Żeromski", "Władysław Reymont"],
-    "correct": 1
-  },
-  {
-    "question": "Która pustynia leży w Azji?",
-    "answers": ["Sahara", "Gobi", "Kalahari", "Atakama"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się twórca firmy Microsoft?",
-    "answers": ["Steve Jobs", "Elon Musk", "Bill Gates", "Mark Zuckerberg"],
-    "correct": 2
-  },
-  {
-    "question": "Z czego produkuje się tradycyjne tofu?",
-    "answers": ["Z mleka krowiego", "Z soi", "Z ryżu", "Z kukurydzy"],
-    "correct": 1
-  },
-  {
-    "question": "Który ocean otacza biegun północny?",
-    "answers": ["Atlantycki", "Indyjski", "Spokojny", "Arktyczny"],
-    "correct": 3
-  },
-  {
-    "question": "Gdzie zginął król Władysław Warneńczyk?",
-    "answers": ["Pod Grunwaldem", "Pod Warną", "Pod Wiedniem", "Pod Legnicą"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki gaz wydychają ludzie jako produkt metabolizmu?",
-    "answers": ["Tlen", "Azot", "Wodór", "Dwutlenek węgla"],
-    "correct": 3
-  },
-  {
-    "question": "W jakiej dyscyplinie sportu używa się pojęcia 'strike' i 'spare'?",
-    "answers": ["W bilardzie", "W kręglach", "W golfie", "W krykiecie"],
-    "correct": 1
-  },
-  {
-    "question": "Który instrument należy do grupy dętych drewnianych?",
-    "answers": ["Trąbka", "Puzon", "Waltornia", "Klarnet"],
-    "correct": 3
-  },
-  {
-    "question": "Kto napisał wiersz 'Żuraw i Czapla'?",
-    "answers": ["Julian Tuwim", "Jan Brzechwa", "Ignacy Krasicki", "Aleksander Fredro"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się największy gad żyjący na Ziemi?",
-    "answers": ["Krokodyl różańcowy", "Komodo dragon", "Żółw skórzasty", "Anakonda zielona"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się stolica Belgii?",
-    "answers": ["Bruksela", "Antwerpia", "Gandawa", "Brugia"],
-    "correct": 0
-  },
-  {
-    "question": "W którym roku rozpoczęła się rewolucja październikowa w Rosji?",
-    "answers": ["1905", "1914", "1917", "1922"],
-    "correct": 2
-  },
-  {
-    "question": "Który organ w ciele człowieka produkuje insulinę?",
-    "answers": ["Wątroba", "Trzustka", "Nerka", "Żołądek"],
-    "correct": 1
-  },
-  {
-    "question": "Ilu zawodników gra na boisku w drużynie piłki wodnej?",
-    "answers": ["5", "6", "7", "11"],
-    "correct": 2
-  },
-  {
-    "question": "Który instrument ma najwięcej strun?",
-    "answers": ["Skrzypce", "Gitara klasyczna", "Harfa", "Wiolonczela"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się kowboj, właściciel Chudego w filmie 'Toy Story'?",
-    "answers": ["Andy", "Sid", "Buzz", "Rex"],
-    "correct": 0
-  },
-  {
-    "question": "Kto napisał powieść 'Syzyfowe prace'?",
-    "answers": ["Henryk Sienkiewicz", "Bolesław Prus", "Stefan Żeromski", "Władysław Reymont"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki ptak jest symbolem Stanów Zjednoczonych?",
-    "answers": ["Orzeł przedni", "Bielik amerykański", "Sokół wędrowny", "Kondor"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się pamięć masowa komputera, która nie traci danych po wyłączeniu prądu?",
-    "answers": ["RAM", "Dysk twardy", "Procesor", "Karta sieciowa"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się stolica Indii?",
-    "answers": ["Bombaj", "Kalkuta", "Nowe Delhi", "Madras"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki pierwiastek chemiczny ma symbol 'H'?",
-    "answers": ["Hel", "Wodór", "Rtęć", "Węgiel"],
-    "correct": 1
-  },
-  {
-    "question": "Ile setów musi wygrać drużyna, aby wygrać mecz siatkówki halowej?",
-    "answers": ["2", "3", "4", "5"],
-    "correct": 1
-  },
-  {
-    "question": "Z którego kraju pochodzi legendarny kompozytor Fryderyk Chopin?",
-    "answers": ["Z Francji", "Z Niemiec", "Z Polski", "Z Austrii"],
-    "correct": 2
-  },
-  {
-    "question": "Kto zagrał głównego bohatera w serii filmów 'Matrix'?",
-    "answers": ["Brad Pitt", "Keanu Reeves", "Tom Cruise", "Johnny Depp"],
-    "correct": 1
-  },
-  {
-    "question": "Kto jest autorem baśni 'Brzydkie kaczątko'?",
-    "answers": ["Bracia Grimm", "Hans Christian Andersen", "Charles Perrault", "Jan Brzechwa"],
-    "correct": 1
-  },
-  {
-    "question": "Które zwierzę potrafi spać na stojąco?",
-    "answers": ["Koń", "Pies", "Kot", "Lew"],
-    "correct": 0
-  },
-  {
-    "question": "Jaki skrót klawiszowy w Windows służy do cofnięcia ostatniej akcji?",
-    "answers": ["Ctrl + C", "Ctrl + V", "Ctrl + Z", "Ctrl + X"],
-    "correct": 2
-  },
-  {
-    "question": "Które państwo leży na Półwyspie Skandynawskim?",
-    "answers": ["Norwegia", "Islandia", "Dania", "Irlandia"],
-    "correct": 0
-  },
-  {
-    "question": "Kto był pierwszym premierem III RP po wyborach w 1989 roku?",
-    "answers": ["Lech Wałęsa", "Tadeusz Mazowiecki", "Leszek Balcerowicz", "Wojciech Jaruzelski"],
-    "correct": 1
-  },
-  {
-    "question": "Ile komór ma serce człowieka?",
-    "answers": ["1", "2", "3", "4"],
-    "correct": 3
-  },
-  {
-    "question": "W jakiej dyscyplinie sportu startuje Robert Karaś?",
-    "answers": ["W biegach narciarskich", "W pływaniu", "W triathlonie", "W kolarstwie"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się tradycyjny taniec argentyński?",
-    "answers": ["Samba", "Rumba", "Tango", "Cha-cha"],
-    "correct": 2
-  },
-  {
-    "question": "Z jakiej wytwórni komiksowej pochodzi postać Spider-Mana?",
-    "answers": ["DC Comics", "Marvel", "Dark Horse", "Image Comics"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał dramat 'Kordian'?",
-    "answers": ["Adam Mickiewicz", "Juliusz Słowacki", "Zygmunt Krasiński", "Cyprian Kamil Norwid"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się samiec owcy?",
-    "answers": ["Baran", "Kozioł", "Knur", "Byk"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się system operacyjny telefonów firmy Apple?",
-    "answers": ["Android", "Windows Mobile", "iOS", "Linux"],
-    "correct": 2
-  },
-  {
-    "question": "Które miasto jest stolicą Szwajcarii?",
-    "answers": ["Zurych", "Genewa", "Berno", "Bazylea"],
-    "correct": 2
-  },
-  {
-    "question": "Kto był przywódcą powstania kościuszkowskiego w 1794 roku?",
-    "answers": ["Tadeusz Kościuszko", "Jan Henryk Dąbrowski", "Józef Poniatowski", "Kazimierz Pułaski"],
-    "correct": 0
-  },
-  {
-    "question": "Jaka substancja odpowiada za czerwony kolor ludzkiej krwi?",
-    "answers": ["Chlorofil", "Hemoglobina", "Melanina", "Osocze"],
-    "correct": 1
-  },
-  {
-    "question": "Z ilu rund składa się standardowa walka w formule MMA na galach KSW (nie mistrzowska)?",
-    "answers": ["3", "4", "5", "12"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się stolica Turcji?",
-    "answers": ["Stambuł", "Ankara", "Izmir", "Antalya"],
-    "correct": 1
-  },
-  {
-    "question": "Z ilu strun składa się tradycyjna mandolina?",
-    "answers": ["4", "6", "8", "12"],
-    "correct": 2
-  },
-  {
-    "question": "Kto zagrał główną rolę w filmie 'Piraci z Karaibów'?",
-    "answers": ["Brad Pitt", "Johnny Depp", "Orlando Bloom", "Tom Cruise"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał powieść 'Wesele'?",
-    "answers": ["Adam Mickiewicz", "Juliusz Słowacki", "Stanisław Wyspiański", "Bolesław Prus"],
-    "correct": 2
-  },
-  {
-    "question": "Która jaskinia jest najgłębsza w Polsce?",
-    "answers": ["Jaskinia Wielka Śnieżna", "Jaskinia Niedźwiedzia", "Jaskinia Raj", "Jaskinia Mylna"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się twórca firmy SpaceX?",
-    "answers": ["Bill Gates", "Jeff Bezos", "Elon Musk", "Mark Zuckerberg"],
-    "correct": 2
-  },
-  {
-    "question": "Z jakiego kraju pochodzi ser camembert?",
-    "answers": ["Z Włoch", "Z Francji", "Z Hiszpanii", "Z Holandii"],
-    "correct": 1
-  },
-  {
-    "question": "Które morze jest najgłębsze na świecie?",
-    "answers": ["Morze Śródziemne", "Morze Karaibskie", "Morze Koralowe", "Morze Bałtyckie"],
-    "correct": 2
-  },
-  {
-    "question": "Kto był pierwszym królem z dynastii Jagiellonów?",
-    "answers": ["Władysław Jagiełło", "Kazimierz Jagiellończyk", "Zygmunt Stary", "Zygmunt August"],
-    "correct": 0
-  },
-  {
-    "question": "Jaki gaz dominuje w atmosferze Marsa?",
-    "answers": ["Tlen", "Azot", "Dwutlenek węgla", "Wodór"],
-    "correct": 2
-  },
-  {
-    "question": "Na czym polega gra na ksylofonie?",
-    "answers": ["Na szarpaniu strun", "Na dmuchaniu", "Na uderzaniu pałeczkami", "Na naciskaniu klawiszy"],
-    "correct": 2
-  },
-  {
-    "question": "Który reżyser stworzył trylogię 'Władca Pierścieni'?",
-    "answers": ["Steven Spielberg", "Peter Jackson", "James Cameron", "Christopher Nolan"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał wiersz 'Słoń Trąbalski'?",
-    "answers": ["Jan Brzechwa", "Julian Tuwim", "Ignacy Krasicki", "Maria Konopnicka"],
-    "correct": 1
-  },
-  {
-    "question": "Które zwierzę potrafi latać jako jedyny ssak?",
-    "answers": ["Wiewiórka", "Nietoperz", "Lemiesz", "Opos"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się stolica Holandii?",
-    "answers": ["Haga", "Rotterdam", "Amsterdam", "Utrecht"],
-    "correct": 2
-  },
-  {
-    "question": "Który narząd człowieka odpowiada za równowagę?",
-    "answers": ["Mózg", "Oko", "Ucho wewnętrzne", "Serce"],
-    "correct": 2
-  },
-  {
-    "question": "W jakim sporcie używa się rakiety bez strun?",
-    "answers": ["W tenisie stołowym", "W badmintonie", "W squashu", "W tenisie ziemnym"],
-    "correct": 0
-  },
-  {
-    "question": "Który instrument dęty ma najniższe brzmienie?",
-    "answers": ["Trąbka", "Puzon", "Tuba", "Waltornia"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się rybka, syn Marlina, w filmie animowanym?",
-    "answers": ["Nemo", "Dory", "Oskar", "Rekin"],
-    "correct": 0
-  },
-  {
-    "question": "Kto napisał powieść 'Przedwiośnie'?",
-    "answers": ["Bolesław Prus", "Henryk Sienkiewicz", "Stefan Żeromski", "Władysław Reymont"],
-    "correct": 2
-  },
-  {
-    "question": "Który ptak potrafi najdłużej przebywać w powietrzu bez lądowania?",
-    "answers": ["Jerzyk", "Albatros", "Sokół", "Orzeł"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się główny procesor karty graficznej?",
-    "answers": ["CPU", "GPU", "RAM", "BIOS"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się stolica Indii?",
-    "answers": ["Bombaj", "Nowe Delhi", "Kalkuta", "Madras"],
-    "correct": 1
-  },
-  {
-    "question": "W którym roku zmarł Jan Paweł II?",
-    "answers": ["2000", "2003", "2005", "2010"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki stan skupienia ma azot w temperaturze -200 stopni Celsjusza?",
-    "answers": ["Stały", "Ciekły", "Gazowy", "Plazma"],
-    "correct": 1
-  },
-  {
-    "question": "Na jakim instrumencie grał Ludwig van Beethoven?",
-    "answers": ["Na skrzypcach", "Na flecie", "Na fortepianie", "Na gitarze"],
-    "correct": 2
-  },
-  {
-    "question": "Który film science-fiction reżyserował Ridley Scott?",
-    "answers": ["Incepcja", "Obcy – pasażer Nostromo", "Interstellar", "Matrix"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał książkę 'Alicja w Krainie Czarów'?",
-    "answers": ["Lewis Carroll", "J.K. Rowling", "C.S. Lewis", "J.R.R. Tolkien"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się młode konia?",
-    "answers": ["Szczeniak", "Źrebię", "Cielę", "Prosię"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się chmura obliczeniowa firmy Microsoft?",
-    "answers": ["iCloud", "Google Drive", "Azure", "Dropbox"],
-    "correct": 2
-  },
-  {
-    "question": "Które państwo leży na Półwyspie Bałkańskim?",
-    "answers": ["Włochy", "Grecja", "Hiszpania", "Portugalia"],
-    "correct": 1
-  },
-  {
-    "question": "W którym roku wybuchła rewolucja listopadowa w Niemczech?",
-    "answers": ["1914", "1918", "1933", "1945"],
-    "correct": 1
-  },
-  {
-    "question": "Ile kręgów szyjnych ma żyrafa?",
-    "answers": ["7", "12", "15", "24"],
-    "correct": 0
-  },
-  {
-    "question": "W jakim sporcie zimowym używa się sanek w pozycji leżącej na brzuchu?",
-    "answers": ["W skeletonie", "W bobslejach", "W saneczkarstwie", "W curlingu"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się tradycyjny taniec brazylijski?",
-    "answers": ["Tango", "Samba", "Flamenco", "Walc"],
-    "correct": 1
-  },
-  {
-    "question": "Który superbohater ma młot o nazwie Mjolnir?",
-    "answers": ["Iron Man", "Batman", "Thor", "Superman"],
-    "correct": 2
-  },
-  {
-    "question": "Kto napisał komedię 'Śluby panieńskie'?",
-    "answers": ["Aleksander Fredro", "Jan Kochanowski", "Adam Mickiewicz", "Juliusz Słowacki"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się samica niedźwiedzia?",
-    "answers": ["Niedźwiedzica", "Loch", "Krowa", "Łania"],
-    "correct": 0
-  },
-  {
-    "question": "Jaki system operacyjny ma logo z okienkiem?",
-    "answers": ["Windows", "macOS", "Linux", "Android"],
-    "correct": 0
-  },
-  {
-    "question": "Które państwo jest największe w Afryce pod względem powierzchni?",
-    "answers": ["Egipt", "RPA", "Algieria", "Sudan"],
-    "correct": 2
-  },
-  {
-    "question": "Kto był założycielem dynastii rzymskiej Juliuszów-Augustów?",
-    "answers": ["Juliusz Cezar", "Oktawian August", "Neron", "Karakalla"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki kwas znajduje się w kwaśnym mleku?",
-    "answers": ["Cytrynowy", "Mlekowy", "Octowy", "Solny"],
-    "correct": 1
-  },
-  {
-    "question": "Ile minut trwa mecz koszykówki według przepisów FIBA?",
-    "answers": ["40", "48", "60", "90"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się stolica Węgier?",
-    "answers": ["Bukareszt", "Budapeszt", "Bratysława", "Zagrzeb"],
-    "correct": 1
-  },
-  {
-    "question": "W którym roku rozegrała się bitwa pod Wiedniem?",
-    "answers": ["1410", "1525", "1683", "1795"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki gaz jest niezbędny do procesu spalania?",
-    "answers": ["Azot", "Tlen", "Wodór", "Hel"],
-    "correct": 1
-  },
-  {
-    "question": "Ilu graczy liczy drużyna na boisku w piłce wodnej?",
-    "answers": ["5", "6", "7", "11"],
-    "correct": 2
-  },
-  {
-    "question": "Na którym instrumencie gra się za pomocą smyczka?",
-    "answers": ["Na gitarze", "Na harfie", "Na wiolonczeli", "Na mandolinie"],
-    "correct": 2
-  },
-  {
-    "question": "Kto zagrał postać Neo w filmie 'Matrix'?",
-    "answers": ["Brad Pitt", "Keanu Reeves", "Tom Cruise", "Johnny Depp"],
-    "correct": 1
-  },
-  {
-    "question": "Kto jest autorem powieści 'Chłopi'?",
-    "answers": ["Henryk Sienkiewicz", "Bolesław Prus", "Władysław Reymont", "Stefan Żeromski"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się największa wyspa świata?",
-    "answers": ["Madagaskar", "Islandia", "Grenlandia", "Kuba"],
-    "correct": 2
-  },
-  {
-    "question": "Z jakiego kraju pochodzi sałatka grecka?",
-    "answers": ["Z Włoch", "Z Grecji", "Z Hiszpanii", "Z Turcji"],
-    "correct": 1
-  },
-  {
-    "question": "Które góry są najwyższe w Europie?",
-    "answers": ["Karpaty", "Pireneje", "Alpy", "Ural"],
-    "correct": 2
-  },
-  {
-    "question": "Kto był ostatnim królem Polski z dynastii Jagiellonów?",
-    "answers": ["Władysław Jagiełło", "Zygmunt Stary", "Zygmunt II August", "Jan Kazimierz"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki pierwiastek chemiczny ma symbol 'C'?",
-    "answers": ["Wapń", "Miedź", "Chlor", "Węgiel"],
-    "correct": 3
-  },
-  {
-    "question": "Ile punktów zdobywa się za rzut wolny w koszykówce?",
-    "answers": ["1", "2", "3", "4"],
-    "correct": 0
-  },
-  {
-    "question": "Który instrument należy do dętych blaszanych?",
-    "answers": ["Flet", "Klarnet", "Trąbka", "Saksofon"],
-    "correct": 2
-  },
-  {
-    "question": "Kto wyreżyserował film 'Pulp Fiction'?",
-    "answers": ["Steven Spielberg", "Quentin Tarantino", "Christopher Nolan", "James Cameron"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się najszybszy ptak na świecie?",
-    "answers": ["Orzeł", "Sokół wędrowny", "Struś", "Jaskółka"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się stolica Irlandii?",
-    "answers": ["Londyn", "Belfast", "Dublin", "Edynburg"],
-    "correct": 2
-  },
-  {
-    "question": "W którym roku upadł mur berliński?",
-    "answers": ["1981", "1985", "1989", "1991"],
-    "correct": 2
-  },
-  {
-    "question": "Który narząd odpowiada za produkcję moczu?",
-    "answers": ["Wątroba", "Żołądek", "Nerka", "Serce"],
-    "correct": 2
-  },
-  {
-    "question": "W jakiej dyscyplinie sportowej używa się lotek?",
-    "answers": ["W tenisie", "W badmintonie", "W squashu", "W siatkówce"],
-    "correct": 1
-  },
-  {
-    "question": "Który instrument ma czarno-białe klawisze i struny uderzane młoteczkami?",
-    "answers": ["Organy", "Klawesyn", "Pianino", "Akordeon"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się lew, główny bohater filmu 'Król Lew'?",
-    "answers": ["Mufasa", "Skaza", "Simba", "Pumba"],
-    "correct": 2
-  },
-  {
-    "question": "Kto napisał dramat 'Dziady'?",
-    "answers": ["Juliusz Słowacki", "Adam Mickiewicz", "Zygmunt Krasiński", "Jan Kochanowski"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki owad potrafi biegać po powierzchni wody?",
-    "answers": ["Nartnik", "Chrząszcz", "Mucha", "Komar"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się 'mózg' komputera?",
-    "answers": ["Dysk twardy", "Karta graficzna", "Procesor", "Pamięć RAM"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się stolica Rumunii?",
-    "answers": ["Budapeszt", "Bukareszt", "Sofia", "Belgrad"],
-    "correct": 1
-  },
-  {
-    "question": "W którym roku wybuchła I wojna światowa?",
-    "answers": ["1914", "1918", "1939", "1945"],
-    "correct": 0
-  },
-  {
-    "question": "Jaki pierwiastek ma symbol 'N'?",
-    "answers": ["Sód", "Nikiel", "Neon", "Azot"],
-    "correct": 3
-  },
-  {
-    "question": "Ilu sędziów liniowych asystuje sędziemu głównemu w meczu piłki nożnej?",
-    "answers": ["1", "2", "3", "4"],
-    "correct": 1
-  },
-  {
-    "question": "Z jakiego kraju pochodził kompozytor Johann Sebastian Bach?",
-    "answers": ["Z Austrii", "Z Francji", "Z Niemiec", "Z Włoch"],
-    "correct": 2
-  },
-  {
-    "question": "Który film science-fiction opowiada o parku z dinozaurami?",
-    "answers": ["Avatar", "Park Jurajski", "Interstellar", "Incepcja"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał powieść 'Opowieść wigilijna'?",
-    "answers": ["Charles Dickens", "William Szekspir", "Mark Twain", "Oscar Wilde"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się najwyższa góra w Afryce?",
-    "answers": ["Mont Blanc", "Mount Everest", "Kilimandżaro", "K2"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się system operacyjny Google dla telefonów?",
-    "answers": ["iOS", "Windows", "Android", "Linux"],
-    "correct": 2
-  },
-  {
-    "question": "Które państwo leży na Półwyspie Iberyjskim?",
-    "answers": ["Włochy", "Grecja", "Hiszpania", "Francja"],
-    "correct": 2
-  },
-  {
-    "question": "W którym roku podpisano Konstytucję 3 Maja?",
-    "answers": ["1772", "1791", "1793", "1795"],
-    "correct": 1
-  },
-  {
-    "question": "Ile nóg ma pająk?",
-    "answers": ["6", "8", "10", "12"],
-    "correct": 1
-  },
-  {
-    "question": "W jakiej dyscyplinie sportowej startuje Kamil Stoch?",
-    "answers": ["W biegach narciarskich", "W skokach narciarskich", "W biatlonie", "W snowboardzie"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się tradycyjny taniec austriacki w metrum 3/4?",
-    "answers": ["Polka", "Walc wiedeński", "Tango", "Mazur"],
-    "correct": 1
-  },
-  {
-    "question": "Z jakiego uniwersum pochodzi postać Batmana?",
-    "answers": ["Marvel", "DC Comics", "Dark Horse", "Image"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał epopeję 'Iliada'?",
-    "answers": ["Wergiliusz", "Homer", "Arystoteles", "Platon"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się samiec świni?",
-    "answers": ["Knur", "Baran", "Kozioł", "Byk"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się najpopularniejsza przeglądarka internetowa od Google?",
-    "answers": ["Firefox", "Safari", "Edge", "Chrome"],
-    "correct": 3
-  },
-  {
-    "question": "Jakie państwo graniczy z Polską od zachodu?",
-    "answers": ["Czechy", "Słowacja", "Niemcy", "Litwa"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się stolica Słowacji?",
-    "answers": ["Praga", "Bratysława", "Lublana", "Zagrzeb"],
-    "correct": 1
-  },
-  {
-    "question": "W którym roku odbyła się bitwa pod Grunwaldem?",
-    "answers": ["1385", "1410", "1453", "1492"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki pierwiastek jest głównym składnikiem diamentu?",
-    "answers": ["Węgiel", "Krzem", "Żelazo", "Glin"],
-    "correct": 0
-  },
-  {
-    "question": "Ilu zawodników liczy drużyna na boisku w siatkówce plażowej?",
-    "answers": ["2", "4", "6", "7"],
-    "correct": 0
-  },
-  {
-    "question": "Który instrument należy do grupy dętych drewnianych mimo metalowej budowy?",
-    "answers": ["Trąbka", "Puzon", "Saksofon", "Tuba"],
-    "correct": 2
-  },
-  {
-    "question": "Który aktor zagrał główną rolę w filmie 'Avatar' z 2009 roku?",
-    "answers": ["Sam Worthington", "Brad Pitt", "Tom Cruise", "Leonardo DiCaprio"],
-    "correct": 0
-  },
-  {
-    "question": "Kto napisał powieść 'Quo Vadis'?",
-    "answers": ["Henryk Sienkiewicz", "Bolesław Prus", "Władysław Reymont", "Stefan Żeromski"],
-    "correct": 0
-  },
-  {
-    "question": "Która rzeka jest najdłuższa na świecie?",
-    "answers": ["Amazonka", "Nil", "Missisipi", "Jangcy"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się usługa chmurowa firmy Apple?",
-    "answers": ["OneDrive", "Google Drive", "iCloud", "Dropbox"],
-    "correct": 2
-  },
-  {
-    "question": "Z jakiego kraju pochodzi potrawa o nazwie paella?",
-    "answers": ["Z Włoch", "Z Francji", "Z Portugalii", "Z Hiszpanii"],
-    "correct": 3
-  },
-  {
-    "question": "Które morze oddziela Europę od Afryki?",
-    "answers": ["Morze Czerwone", "Morze Śródziemne", "Morze Czarne", "Morze Północne"],
-    "correct": 1
-  },
-  {
-    "question": "Kto był pierwszym królem Polski z dynastii Wazów?",
-    "answers": ["Zygmunt III Waza", "Władysław IV Waza", "Jan II Kazimierz", "Stefan Batory"],
-    "correct": 0
-  },
-  {
-    "question": "Jaki jest symbol chemiczny sodu?",
-    "answers": ["S", "So", "Na", "Sd"],
-    "correct": 2
-  },
-  {
-    "question": "Ile punktów zdobywa się za celny rzut z gry w rugby (dropgol)?",
-    "answers": ["1", "2", "3", "5"],
-    "correct": 2
-  },
-  {
-    "question": "Który instrument klawiszowy nie potrzebuje prądu ani powietrza, bo szarpie struny piórkami?",
-    "answers": ["Pianino", "Klawesyn", "Organy", "Syntezator"],
-    "correct": 1
-  },
-  {
-    "question": "Kto wyreżyserował trylogię filmową 'Mroczny Rycerz'?",
-    "answers": ["Steven Spielberg", "Christopher Nolan", "Quentin Tarantino", "James Cameron"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał wiersz 'Stefek Burczymucha'?",
-    "answers": ["Jan Brzechwa", "Julian Tuwim", "Maria Konopnicka", "Ignacy Krasicki"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się największy żyjący rekin?",
-    "answers": ["Rekin żarłacz biały", "Rekin wielorybi", "Rekin młot", "Rekin tygrysi"],
-    "correct": 1
-  },
-  {
-    "question": "Co oznacza skrót 'DNS' w technologii internetowej?",
-    "answers": ["Domain Name System", "Data Network Server", "Digital Network Security", "Direct Node System"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się stolica Finlandii?",
-    "answers": ["Sztokholm", "Oslo", "Helsinki", "Kopenhaga"],
-    "correct": 2
-  },
-  {
-    "question": "W którym roku wybuchła rewolucja francuska?",
-    "answers": ["1776", "1789", "1804", "1848"],
-    "correct": 1
-  },
-  {
-    "question": "Który narząd w ciele człowieka odpowiada za detoksykację organizmu?",
-    "answers": ["Wątroba", "Nerki", "Trzustka", "Żołądek"],
-    "correct": 0
-  },
-  {
-    "question": "W jakiej dyscyplinie sportowej używa się pojęcia 'as serwisowy'?",
-    "answers": ["W koszykówce", "W piłce nożnej", "W tenisie ziemnym", "W piłce ręcznej"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się mała, czterostrunowa gitara hawajska?",
-    "answers": ["Mandolina", "Banjo", "Ukulele", "Lutnia"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się ogr, główny bohater hitu studia DreamWorks z 2001 roku?",
-    "answers": ["Shrek", "Osioł", "Fiona", "Lord Farquaad"],
-    "correct": 0
-  },
-  {
-    "question": "Kto napisał powieść 'Lalka'?",
-    "answers": ["Henryk Sienkiewicz", "Bolesław Prus", "Stefan Żeromski", "Władysław Reymont"],
-    "correct": 1
-  },
-  {
-    "question": "Który ptak słynie z tego, że potrafi naśladować ludzką mowę?",
-    "answers": ["Kanarek", "Papuga", "Gepard", "Sokół"],
-    "correct": 1
-  },
-  {
-    "question": "Jak potocznie nazywa się złośliwe oprogramowanie szyfrujące dysk dla okupu?",
-    "answers": ["Spyware", "Ransomware", "Trojan", "Adware"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się stolica Bułgarii?",
-    "answers": ["Bukareszt", "Belgrad", "Sofia", "Zagrzeb"],
-    "correct": 2
-  },
-  {
-    "question": "W którym roku zakończyła się II wojna światowa?",
-    "answers": ["1918", "1939", "1944", "1945"],
-    "correct": 3
-  },
-  {
-    "question": "Jaki pierwiastek chemiczny ma symbol 'K'?",
-    "answers": ["Krzem", "Potas", "Wapń", "Krypton"],
-    "correct": 1
-  },
-  {
-    "question": "Ile kroków z piłką można zrobić w koszykówce po zakończeniu kozłowania?",
-    "answers": ["1", "2", "3", "4"],
-    "correct": 1
-  },
-  {
-    "question": "Z jakiego kraju pochodził legendarny kompozytor Wolfgang Amadeus Mozart?",
-    "answers": ["Z Niemiec", "Z Austrii", "Z Włoch", "Z Francji"],
-    "correct": 1
-  },
-  {
-    "question": "Który film opowiada o załodze statku Nostromo walczącej z obcą formą życia?",
-    "answers": ["Gwiezdne Wojny", "Interstellar", "Obcy", "Matrix"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się największy ssak lądowy żyjący w Europie?",
-    "answers": ["Łoś", "Niedźwiedź brunatny", "Żubr", "Jeleń szlachetny"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się system operacyjny komputerów firmy Apple?",
-    "answers": ["Windows", "Linux", "macOS", "Android"],
-    "correct": 2
-  },
-  {
-    "question": "Które państwo jest najmniejsze na świecie pod względem powierzchni?",
-    "answers": ["Monako", "San Marino", "Watykan", "Andora"],
-    "correct": 2
-  },
-  {
-    "question": "Kto był pierwszym historycznym władcą Polski?",
-    "answers": ["Mieszko I", "Bolesław Chrobry", "Kazimierz Wielki", "Władysław Jagiełło"],
-    "correct": 0
-  },
-  {
-    "question": "W jakiej dyscyplinie sportu sukcesy odnosiła polska młociarka Anita Włodarczyk?",
-    "answers": ["Pchnięcie kulą", "Rzut oszczepem", "Rzut młotem", "Rzut dyskiem"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się tradycyjny, rytmiczny taniec pochodzący z Kuby?",
-    "answers": ["Salsa", "Walc", "Polka", "Flamenco"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się fikcyjne miasto, w którym mieszka Superman?",
-    "answers": ["Gotham City", "Metropolis", "Central City", "Star City"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał epopeję narodową 'Pan Tadeusz'?",
-    "answers": ["Juliusz Słowacki", "Adam Mickiewicz", "Cyprian Kamil Norwid", "Jan Kochanowski"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się samica konia?",
-    "answers": ["Klacz", "Łania", "Krowa", "Owca"],
-    "correct": 0
-  },
-  {
-    "question": "Jaki skrót klawiszowy odpowiada za wycięcie tekstu w systemie Windows?",
-    "answers": ["Ctrl + C", "Ctrl + V", "Ctrl + X", "Ctrl + Z"],
-    "correct": 2
-  },
-  {
-    "question": "Które państwo graniczy z Polską od północy drogą lądową?",
-    "answers": ["Litwa", "Białoruś", "Rosja", "Ukraina"],
-    "correct": 2
-  },
-  {
-    "question": "Kto odkrył Amerykę w 1492 roku?",
-    "answers": ["Krzysztof Kolumb", "Vasco da Gama", "Ferdynand Magellan", "Amerigo Vespucci"],
-    "correct": 0
-  },
-  {
-    "question": "Jaki kwas jest głównym składnikiem octu spirytusowego?",
-    "answers": ["Kwas cytrynowy", "Kwas octowy", "Kwas mlekowy", "Kwas solny"],
-    "correct": 1
-  },
-  {
-    "question": "Ile minut trwa jedna kwarta w meczu koszykówki NBA?",
-    "answers": ["10", "12", "15", "20"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się stolica Chorwacji?",
-    "answers": ["Split", "Dubrownik", "Zagrzeb", "Lublana"],
-    "correct": 2
-  },
-  {
-    "question": "W którym roku wybuchło powstanie kościuszkowskie?",
-    "answers": ["1772", "1791", "1794", "1795"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki jest najpowszechniejszy pierwiastek chemiczny we wszechświecie?",
-    "answers": ["Hel", "Tlen", "Wodór", "Azot"],
-    "correct": 2
-  },
-  {
-    "question": "Z ilu graczy składa się na boisku profesjonalna drużyna do futbolu amerykańskiego?",
-    "answers": ["7", "9", "11", "15"],
-    "correct": 2
-  },
-  {
-    "question": "Który instrument smyczkowy ma najniższy rejestr brzmienia?",
-    "answers": ["Skrzypce", "Altówka", "Wiolonczela", "Kontrabas"],
-    "correct": 3
-  },
-  {
-    "question": "Który aktor wcielił się w postać iron Mana w filmach uniwersum Marvela?",
-    "answers": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Tom Holland"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał historyczną powieść 'Potop'?",
-    "answers": ["Henryk Sienkiewicz", "Bolesław Prus", "Stefan Żeromski", "Władysław Reymont"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się największe słodkowodne jezioro w Europie?",
-    "answers": ["Śniardwy", "Balaton", "Wener", "Ładoga"],
-    "correct": 3
-  },
-  {
-    "question": "Jak nazywa się technologia bezprzewodowa służąca do szybkiego parowania słuchawek na małą odległość?",
-    "answers": ["Wi-Fi", "Bluetooth", "NFC", "Podczerwień"],
-    "correct": 1
-  },
-  {
-    "question": "Z którego kraju pochodzi tradycyjna zupa cebulowa zapiekana z grzanką i serem?",
-    "answers": ["Z Włoch", "Z Francji", "Z Hiszpanii", "Z Anglii"],
-    "correct": 1
-  },
-  {
-    "question": "Które góry w Europie słyną z charakterystycznych szczytów zwanych Dolomitami?",
-    "answers": ["Pireneje", "Alpy", "Karpaty", "Apeniny"],
-    "correct": 1
-  },
-  {
-    "question": "Który król Polski jako pierwszy zamieszkał na stałe na Zamku Królewskim w Warszawie?",
-    "answers": ["Zygmunt I Stary", "Zygmunt II August", "Stefan Batory", "Zygmunt III Waza"],
-    "correct": 3
-  },
-  {
-    "question": "Jaki metal jest jedynym występującym w stanie ciekłym w temperaturze pokojowej?",
-    "answers": ["Ołów", "Rtęć", "Cyna", "Glin"],
-    "correct": 1
-  },
-  {
-    "question": "Ile kroków z piłką można wykonać w piłce wodnej?",
-    "answers": ["0", "1", "2", "Bez ograniczeń (pływanie)"],
-    "correct": 3
-  },
-  {
-    "question": "Jak nazywa się duży instrument dęty blaszany, zwinięty w pętlę, na którym gra się siedząc?",
-    "answers": ["Trąbka", "Puzon", "Tuba", "Waltornia"],
-    "correct": 2
-  },
-  {
-    "question": "Który reżyser stworzył serię filmów o agencie Indiana Jonesie?",
-    "answers": ["George Lucas", "Steven Spielberg", "James Cameron", "Ridley Scott"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał wiersz dla dzieci 'Chory kotek'?",
-    "answers": ["Jan Brzechwa", "Julian Tuwim", "Stanisław Jachowicz", "Ignacy Krasicki"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się największy współcześnie żyjący ssak na Ziemi?",
-    "answers": ["Słoń afrykański", "Płetwal błękitny", "Kaszalot", "Rekin wielorybi"],
-    "correct": 1
-  },
-  {
-    "question": "Co oznacza skrót 'IP' w pojęciu adres IP używanym w sieciach komputerowych?",
-    "answers": ["Internet Protocol", "Internal Page", "Information Path", "Intellectual Property"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się stolica Norwegii?",
-    "answers": ["Sztokholm", "Oslo", "Kopenhaga", "Helsinki"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki narząd w ludzkim ciele jest odpowiedzialny za produkcję krwinek?",
-    "answers": ["Wątroba", "Śledziona", "Szpik kostny", "Serce"],
-    "correct": 2
-  },
-  {
-    "question": "W jakiej dyscyplinie sportowej zawodnicy rywalizują o miano najszybszego na dystansie 100 metrów?",
-    "answers": ["W pływaniu", "W kolarstwie", "W lekkoatletyce", "W wioślarstwie"],
-    "correct": 2
-  },
-  {
-    "question": "Jak nazywa się mały instrument dęty drewniany o wysokim brzmieniu, często plastikowy, używany w szkołach?",
-    "answers": ["Flet prosty", "Klarnet", "Obój", "Okaryna"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się lew, brat Mufasy, czarny charakter w filmie 'Król Lew'?",
-    "answers": ["Simba", "Skaza", "Pumba", "Kovu"],
-    "correct": 1
-  },
-  {
-    "question": "Kto napisał narodową powieść 'Przedwiośnie'?",
-    "answers": ["Bolesław Prus", "Stefan Żeromski", "Henryk Sienkiewicz", "Władysław Reymont"],
-    "correct": 1
-  },
-  {
-    "question": "Które zwierzę jest uznawane za najwolniejszego ssaka na świecie?",
-    "answers": ["Żółw lądowy", "Leniwiec", "Koala", "Ślimak"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się technologia pozwalająca na tworzenie kopii zapasowych danych na serwerach zewnętrznych?",
-    "answers": ["Chmura obliczeniowa", "Baza SQL", "Światłowód", "Pamięć Flash"],
-    "correct": 0
-  },
-  {
-    "question": "Jak nazywa się stolica Serbii?",
-    "answers": ["Zagrzeb", "Sarajewo", "Skopje", "Belgrad"],
-    "correct": 3
-  },
-  {
-    "question": "W którym roku Polska odzyskała niepodległość po 123 latach zaborów?",
-    "answers": ["1795", "1914", "1918", "1945"],
-    "correct": 2
-  },
-  {
-    "question": "Jaki pierwiastek chemiczny ma symbol 'Ca'?",
-    "answers": ["Węgiel", "Wapń", "Miedź", "Kadm"],
-    "correct": 1
-  },
-  {
-    "question": "Z ilu zawodników składa się podstawowy skład drużyny na boisku w hokeju na trawie?",
-    "answers": ["6", "7", "9", "11"],
-    "correct": 3
-  },
-  {
-    "question": "Z jakiego kraju pochodził słynny kompozytor Antonio Vivaldi, twórca 'Czterech pór roku'?",
-    "answers": ["Z Francji", "Z Niemiec", "Z Austrii", "Z Włoch"],
-    "correct": 3
-  },
-  {
-    "question": "Jak nazywa się największa i najgroźniejsza ryba drapieżna współczesnych oceanów?",
-    "answers": ["Orka", "Rekin ludojad", "Barracuda", "Manta"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się oficjalny sklep z aplikacjami dla systemu operacyjnego Android?",
-    "answers": ["App Store", "Google Play", "Microsoft Store", "Amazon Store"],
-    "correct": 1
-  },
-  {
-    "question": "Które małe państwo jest całkowicie otoczone przez terytorium miasta Rzym?",
-    "answers": ["Monako", "San Marino", "Watykan", "Andora"],
-    "correct": 2
-  },
-  {
-    "question": "Który polski król odniósł zwycięstwo w bitwie pod Grunwaldem?",
-    "answers": ["Kazimierz Wielki", "Władysław Jagiełło", "Zygmunt Stary", "Jan III Sobieski"],
-    "correct": 1
-  },
-  {
-    "question": "W jakiej dyscyplinie sportowej zawodnicy rywalizują o słynną zieloną marynarkę w turnieju Masters?",
-    "answers": ["W tenisie", "W golfie", "W snookerze", "W szachach"],
-    "correct": 1
-  },
-  {
-    "question": "Jak nazywa się tradycyjny taniec narodowy o żywym tempie, pochodzący z rejonu Mazowsza?",
-    "answers": ["Krakowiak", "Polonez", "Mazur", "Oberek"],
-    "correct": 3
-  },
-  {
-    "question": "Jak nazywa się samiec kaczki?",
-    "answers": ["Kaczor", "Gąsior", "Kogut", "Indyk"],
-    "correct": 0
-  },
-  {
-    "question": "Jaki skrót klawiszowy służy do zaznaczenia całego tekstu w dokumencie w systemie Windows?",
-    "answers": ["Ctrl + C", "Ctrl + V", "Ctrl + A", "Ctrl + Z"],
-    "correct": 2
-  },
-  {
-    "question": "Który kraj graniczy z Polską od strony północno-wschodniej?",
-    "answers": ["Białoruś", "Ukraina", "Litwa", "Słowacja"],
-    "correct": 2
-  },
-  {
-    "question": "Który podróżnik jako pierwszy opłynął Ziemię dookoła, udowadniając jej kulistość?",
-    "answers": ["Krzysztof Kolumb", "Ferdynand Magellan", "Vasco da Gama", "James Cook"],
-    "correct": 1
-  },
-  {
-    "question": "Jaki kwas organiczny jest powszechnie stosowany jako konserwant oznaczany symbolem E260?",
-    "answers": ["Kwas cytrynowy", "Kwas octowy", "Kwas mlekowy", "Kwas mrówkowy"],
-    "correct": 1
-  }
-     ],
-
-     "detective": [
-    "Lech Wałęsa",
-    "Adam Mickiewicz",
-    "Maria Skłodowska-Curie",
-    "Robert Lewandowski",
-    "Fryderyk Chopin",
-    "Mikołaj Kopernik",
-    "Andrzej Wajda",
-    "Krzysztof Kieślowski",
-    "Wisława Szymborska",
-    "Czesław Miłosz",
-    "Stanisław Lem",
-    "Andrzej Sapkowski",
-    "Doda",
-    "Maryla Rodowicz",
-    "Lady Pank",
-    "Krzysztof Krawczyk",
-    "Anna German",
-    "Krzysztof Penderecki",
-    "Jan Paweł II",
-    "Józef Piłsudski",
-    "Mieszko I",
-    "Kazimierz Wielki",
-    "Tadeusz Kościuszko",
-    "Janusz Korczak",
-    "Iga Świątek",
-    "Kamil Stoch",
-    "Adam Małysz",
-    "Otylia Jędrzejczak",
-    "Cezary Pazura",
-    "Bogusław Linda",
-    "Magda Gessler",
-    "Kuba Wojewódzki",
-    "Harry Potter",
-    "Władca Pierścieni",
-    "Star Wars",
-    "Avengers",
-    "Matrix",
-    "Titanic",
-    "Forrest Gump",
-    "Pulp Fiction",
-    "Joker",
-    "Batman",
-    "Superman",
-    "Spider-Man",
-    "Frozen",
-    "Shrek",
-    "Toy Story",
-    "Król Lew",
-    "Game of Thrones",
-    "Breaking Bad",
-    "Stranger Things",
-    "Friends",
-    "The Office",
-    "Money Heist",
-    "Squid Game",
-    "Wiedźmin",
-    "Dirty Dancing",
-    "Pretty Woman",
-    "Notting Hill",
-    "Avatar",
-    "Inception",
-    "Interstellar",
-    "Gladiator",
-    "Top Gun",
-    "Kiler",
-    "Chłopaki nie płaczą",
-    "Seksmisja",
-    "Sami Swoi",
-    "Boże Ciało",
-    "Nad Niemnem",
-    "Pan Tadeusz",
-    "07 zgłoś się",
-    "Pies",
-    "Kot",
-    "Słoń",
-    "Żyrafa",
-    "Tygrys",
-    "Lew",
-    "Niedźwiedź",
-    "Wilk",
-    "Lis",
-    "Sarna",
-    "Łoś",
-    "Dzik",
-    "Zając",
-    "Wiewiórka",
-    "Jeż",
-    "Kret",
-    "Krowa",
-    "Świnia",
-    "Koń",
-    "Owca",
-    "Koza",
-    "Kogut",
-    "Kura",
-    "Kaczka",
-    "Gęś",
-    "Indyk",
-    "Papuga",
-    "Sowa",
-    "Orzeł",
-    "Bocian",
-    "Pingwin",
-    "Delfin",
-    "Wieloryb",
-    "Rekin",
-    "Ośmiornica",
-    "Krab",
-    "Żółw",
-    "Krokodyl",
-    "Wąż",
-    "Jaszczurka",
-    "Pająk",
-    "Pszczoła",
-    "Mrówka",
-    "Motyl",
-    "Komar",
-    "Hipopotam",
-    "Nosorożec",
-    "Zebra",
-    "Małpa",
-    "Goryl",
-    "Kangur",
-    "Koala",
-    "Panda",
-    "Leniwiec",
-    "Lampart",
-    "Lekarz",
-    "Pielęgniarka",
-    "Nauczyciel",
-    "Policjant",
-    "Strażak",
-    "Żołnierz",
-    "Kucharz",
-    "Kelner",
-    "Fryzjer",
-    "Mechanik",
-    "Elektryk",
-    "Hydraulik",
-    "Stolarz",
-    "Murarz",
-    "Spawacz",
-    "Kierowca",
-    "Pilot",
-    "Marynarz",
-    "Programista",
-    "Inżynier",
-    "Architekt",
-    "Naukowiec",
-    "Astronauta",
-    "Aktor",
-    "Piosenkarz",
-    "Tancerz",
-    "Muzyk",
-    "Malarz",
-    "Pisarz",
-    "Dziennikarz",
-    "Fotograf",
-    "Reżyser",
-    "Modelka",
-    "Prawnik",
-    "Sędzia",
-    "Notariusz",
-    "Księgowy",
-    "Bankier",
-    "Sportowiec",
-    "Trener",
-    "Piłkarz",
-    "Boxer",
-    "Koszykarz",
-    "Ksiądz",
-    "Mnich",
-    "Imam",
-    "Rolnik",
-    "Ogrodnik",
-    "Pszczelarz",
-    "Rybak",
-    "Górnik",
-    "Telefon",
-    "Laptop",
-    "Klawiatura",
-    "Mysz",
-    "Słuchawki",
-    "Ładowarka",
-    "Klucze",
-    "Portfel",
-    "Okulary",
-    "Zegarek",
-    "Pierścionek",
-    "Naszyjnik",
-    "Długopis",
-    "Ołówek",
-    "Linijka",
-    "Zeszyt",
-    "Książka",
-    "Kalendarz",
-    "Lodówka",
-    "Pralka",
-    "Mikrofalówka",
-    "Tostery",
-    "Czajnik",
-    "Blender",
-    "Łyżka",
-    "Widelec",
-    "Nóż",
-    "Talerz",
-    "Kubek",
-    "Szklanka",
-    "Garnek",
-    "Patelnia",
-    "Deska do krojenia",
-    "Sito",
-    "Krzesło",
-    "Stół",
-    "Sofa",
-    "Łóżko",
-    "Szafa",
-    "Komoda",
-    "Lampa",
-    "Lustro",
-    "Obraz",
-    "Dywan",
-    "Poduszka",
-    "Kołdra",
-    "Parasol",
-    "Buty",
-    "Czapka",
-    "Szalik",
-    "Rękawiczki",
-    "Plecak",
-    "Walizka",
-    "Koszyk",
-    "Wieszak",
-    "Pizza",
-    "Burger",
-    "Hot Dog",
-    "Frytki",
-    "Kebab",
-    "Sushi",
-    "Pierogi",
-    "Bigos",
-    "Schabowy",
-    "Żurek",
-    "Rosół",
-    "Gołąbki",
-    "Naleśniki",
-    "Placki ziemniaczane",
-    "Mizeria",
-    "Sernik",
-    "Szarlotka",
-    "Makaron",
-    "Spaghetti",
-    "Lasagne",
-    "Ryż",
-    "Kasza",
-    "Chleb",
-    "Bułka",
-    "Croissant",
-    "Pączek",
-    "Lody",
-    "Czekolada",
-    "Cukierki",
-    "Guma do żucia",
-    "Chipsy",
-    "Popcorn",
-    "Orzeszki",
-    "Jabłko",
-    "Banan",
-    "Pomarańcza",
-    "Winogrono",
-    "Truskawka",
-    "Malina",
-    "Arbuz",
-    "Ananas",
-    "Mango",
-    "Kiwi",
-    "Marchew",
-    "Ziemniak",
-    "Pomidor",
-    "Ogórek",
-    "Cebula",
-    "Czosnek",
-    "Kawa",
-    "Herbata",
-    "Mleko",
-    "Sok",
-    "Cola",
-    "Piwo",
-    "Wino",
-    "Wódka",
-    "Piłka nożna",
-    "Koszykówka",
-    "Siatkówka",
-    "Tenis",
-    "Pływanie",
-    "Bieganie",
-    "Jazda na rowerze",
-    "Boks",
-    "Karate",
-    "Judo",
-    "Skoki narciarskie",
-    "Narciarstwo",
-    "Snowboard",
-    "Łyżwiarstwo",
-    "Hokej",
-    "Baseball",
-    "Krykiet",
-    "Golf",
-    "Rugby",
-    "Lekkoatletyka",
-    "Skok w dal",
-    "Skok wzwyż",
-    "Rzut oszczepem",
-    "Pchnięcie kulą",
-    "Bieg sztafetowy",
-    "Maraton",
-    "Wspinaczka",
-    "Surfing",
-    "Żeglarstwo",
-    "Wioślarstwo",
-    "Strzelectwo",
-    "Łucznictwo",
-    "Szermierka",
-    "Zapasy",
-    "Joga",
-    "Pilates",
-    "Crossfit",
-    "Kulturystyka",
-    "Kajakarstwo",
-    "Skateboarding",
-    "Bobsleje",
-    "Curling"
+    {"question": "Który pierwiastek jest głównym składnikiem diamentu?", "answers": ["Węgiel", "Krzem", "Żelazo", "Wodór"], "correct": 0},
+    {"question": "Jak nazywa się stolica Australii?", "answers": ["Sydney", "Melbourne", "Canberra", "Brisbane"], "correct": 2},
+    {"question": "Ktore morze jest najbardziej zasolonym otwartym zbiornikiem wodnym?", "answers": ["Śródziemne", "Czerwone", "Bałtyckie", "Czarne"], "correct": 1},
+    {"question": "Ile wynosi suma kątów w dowolnym trójkącie euklidesowym?", "answers": ["90 stopni", "180 stopni", "270 stopni", "360 stopni"], "correct": 1},
+    {"question": "Kto namalował słynny obraz 'Krzyk'?", "answers": ["Van Gogh", "Edvard Munch", "Pablo Picasso", "Claude Monet"], "correct": 1},
+    {"question": "Który zmysł u rekinów jest najbardziej wyczulony na krew?", "answers": ["Wzrok", "Słuch", "Węch", "Dotyk"], "correct": 2},
+    {"question": "Które państwo jako pierwsze wprowadziło prawo wyborcze dla kobiet w 1893 roku?", "answers": ["Nowa Zelandia", "USA", "Wielka Brytania", "Finlandia"], "correct": 0},
+    {"question": "Z ilu bitów składa się jeden bajt?", "answers": ["2", "4", "8", "16"], "correct": 2},
+    {"question": "Jak nazywa się najgłębszy znany punkt na Ziemi?", "answers": ["Rów Sundajski", "Rów Puerto Rico", "Głębia Challengera", "Rów Jawajski"], "correct": 2},
+    {"question": "W którym roku upadł Mur Berliński?", "answers": ["1985", "1989", "1991", "1993"], "correct": 1},
+    {"question": "Który hormon potocznie nazywany jest 'hormonem walki lub ucieczki'?", "answers": ["Insulina", "Adrenalina", "Kortyzol", "Melatonina"], "correct": 1},
+    {"question": "Jaka jest oficjalna waluta Japonii?", "answers": ["Yuan", "Won", "Jen", "Ringgit"], "correct": 2},
+    {"question": "Kto sformułował trzy zasady dynamiki?", "answers": ["Albert Einstein", "Isaac Newton", "Galileusz", "Nikola Tesla"], "correct": 1},
+    {"question": "Które miasto w Polsce słynie z produkcji tradycyjnych pierników?", "answers": ["Kraków", "Toruń", "Poznań", "Gdańsk"], "correct": 1},
+    {"question": "Która planeta Układu Słonecznego obraca się wstecznie?", "answers": ["Mars", "Jowisz", "Wenus", "Neptun"], "correct": 2},
+    {"question": "Który ocean jest największy na Ziemi?", "answers": ["Atlantycki", "Indyjski", "Arktyczny", "Spokojny"], "correct": 3},
+    {"question": "Z jakiego kraju pochodzi klocki LEGO?", "answers": ["Szwecja", "Dania", "Norwegia", "Niemcy"], "correct": 1},
+    {"question": "Jak nazywa się stolica Kanady?", "answers": ["Toronto", "Montreal", "Vancouver", "Ottawa"], "correct": 3},
+    {"question": "Które zjawisko odpowiada za powstawanie zorzy polarnej?", "answers": ["Wiatr słoneczny", "Ruchy tektoniczne", "Efekt cieplarniany", "Pływy morskie"], "correct": 0},
+    {"question": "Ile kości ma dorosły człowiek?", "answers": ["150", "206", "300", "412"], "correct": 1},
+    {"question": "Kto napisał dramat 'Romeo i Julia'?", "answers": ["Juliusz Słowacki", "William Shakespeare", "Molier", "Johann Goethe"], "correct": 1},
+    {"question": "Które państwo ma największą powierzchnię na świecie?", "answers": ["Kanada", "Chiny", "Rosja", "USA"], "correct": 2},
+    {"question": "Jak nazywa się jednostka natężenia prądu elektrycznego?", "answers": ["Wolt", "Amper", "Om", "Wat"], "correct": 1},
+    {"question": "W którym roku wybuchła I wojna światowa?", "answers": ["1914", "1918", "1939", "1945"], "correct": 0},
+    {"question": "Który organ ludzkiego ciała produkuje insulinę?", "answers": ["Wątroba", "Trzustka", "Nerki", "Żołądek"], "correct": 1},
+    {"question": "Jaki jest najwyższy szczyt Afryki?", "answers": ["Góra Kościuszki", "Mont Blanc", "Kilimandżaro", "Kenia"], "correct": 2},
+    {"question": "Z ilu graczy składa się jedna drużyna na boisku w siatkówce?", "answers": ["5", "6", "7", "11"], "correct": 1},
+    {"question": "Który gaz dominuje w atmosferze Ziemi?", "answers": ["Tlen", "Azot", "Dwutlenek węgla", "Argon"], "correct": 1},
+    {"question": "Kto odkrył polon i rad?", "answers": ["Albert Einstein", "Maria Skłodowska-Curie", "Mikołaj Kopernik", "Isaac Newton"], "correct": 1},
+    {"question": "Jak nazywa się stolica Hiszpanii?", "answers": ["Barcelona", "Madryt", "Sewilla", "Walencja"], "correct": 1},
+    {"question": "Który ptak potrafi latać do tyłu?", "answers": ["Koliber", "Jaskółka", "Orzeł", "Sokół"], "correct": 0},
+    {"question": "Ile kontynentów znajduje się na Ziemi według tradycyjnego podziału?", "answers": ["5", "6", "7", "8"], "correct": 2},
+    {"question": "Jaki owoc jest symbolem Nowego Jorku?", "answers": ["Pomarańcza", "Banan", "Jabłko", "Truskawka"], "correct": 2},
+    {"question": "Która rzeka jest najdłuższa w Europie?", "answers": ["Dunaj", "Wołga", "Ren", "Wisła"], "correct": 1},
+    {"question": "Jak nazywa się najjaśniejsza gwiazda na nocnym niebie?", "answers": ["Syriusz", "Gwiazda Polarna", "Betelgeza", "Proksima Centauri"], "correct": 0},
+    {"question": "W którym roku odbył się pierwszy lot człowieka w kosmos?", "answers": ["1957", "1961", "1969", "1975"], "correct": 1},
+    {"question": "Kto napisał epopeję narodową 'Pan Tadeusz'?", "answers": ["Juliusz Słowacki", "Adam Mickiewicz", "Henryk Sienkiewicz", "Cyprian Norwid"], "correct": 1},
+    {"question": "Jaka jest najmniejsza planeta w Układzie Słonecznym?", "answers": ["Mars", "Merkury", "Wenus", "Pluton"], "correct": 1},
+    {"question": "Jak nazywa się główna waluta Wielkiej Brytanii?", "answers": ["Euro", "Dolar", "Funt szterling", "Frank"], "correct": 2},
+    {"question": "Który metal jest płynny w temperaturze pokojowej?", "answers": ["Rtęć", "Ołów", "Gali", "Cyna"], "correct": 0},
+    {"question": "Kto zrewolucjonizował naukę teorią heliocentryczną?", "answers": ["Galileusz", "Mikołaj Kopernik", "Johannes Kepler", "Jan Heweliusz"], "correct": 1},
+    {"question": "Jak nazywa się stolica Włoch?", "answers": ["Mediolan", "Florencja", "Rzym", "Wenecja"], "correct": 2},
+    {"question": "Z ilu strun składa się standardowa gitara klasyczna?", "answers": ["4", "5", "6", "12"], "correct": 2},
+    {"question": "Który ssak jest najgłośniejszy na Ziemi?", "answers": ["Słoń afrykański", "Płetwal błękitny", "Lew", "Wyjec"], "correct": 1},
+    {"question": "W jakim państwie leży Transylwania?", "answers": ["Węgry", "Rumunia", "Bułgaria", "Słowacja"], "correct": 1},
+    {"question": "Co oznacza skrót GPS?", "answers": ["Global Positioning System", "Geographical Point Service", "Global Plane Sensor", "General Precision System"], "correct": 0},
+    {"question": "Która warstwa Ziemi jest najbardziej zewnętrzna?", "answers": ["Płaszcz", "Jądro zewnętrzne", "Skorupa ziemska", "Jądro wewnętrzne"], "correct": 2},
+    {"question": "Który kompozytor napisał słynną V Symfonię?", "answers": ["Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Johann Sebastian Bach", "Fryderyk Chopin"], "correct": 1},
+    {"question": "Jaka jest oficjalna stolica Brazylii?", "answers": ["Rio de Janeiro", "Sao Paulo", "Brasilia", "Salvador"], "correct": 2},
+    {"question": "Jak nazywa się badanie mające na celu ustalenie przyczyn śmierci?", "answers": ["Sekcja zwłok", "Biopsja", "Autopsja kliniczna", "Ekshumacja"], "correct": 0},
+    {"question": "Który polski król przeniósł stolicę z Krakowa do Warszawy?", "answers": ["Zygmunt III Waza", "Władysław Jagiełło", "Kazimierz Wielki", "Jan III Sobieski"], "correct": 0},
+    {"question": "Z ilu stanów składają się Stany Zjednoczone?", "answers": ["48", "49", "50", "51"], "correct": 2},
+    {"question": "Jaki jest główny minerał budujący kości i zęby?", "answers": ["Żelazo", "Wapń", "Potas", "Magnez"], "correct": 1},
+    {"question": "Kto stworzył postać detektywa Sherlocka Holmesa?", "answers": ["Agatha Christie", "Arthur Conan Doyle", "Stephen King", "Edgar Allan Poe"], "correct": 1},
+    {"question": "Które morze oblewa północne granice Polski?", "answers": ["Morze Północne", "Morze Bałtyckie", "Morze Czarne", "Morze Norweskie"], "correct": 1},
+    {"question": "Jak nazywa się proces zamiany cieczy w gaz poniżej temperatury wrzenia?", "answers": ["Skraplanie", "Parowanie", "Sublimacja", "Krzepnięcie"], "correct": 1},
+    {"question": "Który jadowity pająk jest uznawany za jednego z najgroźniejszych na świecie?", "answers": ["Ptasznik", "Czarna wdowa", "Tarantula", "Krzyżak"], "correct": 1},
+    {"question": "Który kraj jest ojczyzną pizzy?", "answers": ["Grecja", "Włochy", "Francja", "Hiszpania"], "correct": 1},
+    {"question": "Jak nazywa się stolica Francji?", "answers": ["Lyon", "Marsylia", "Paryż", "Nicea"], "correct": 2},
+    {"question": "Ile wynosi prędkość światła w próżni w przybliżeniu?", "answers": ["300 000 km/s", "150 000 km/s", "1 000 000 km/s", "30 000 km/s"], "correct": 0},
+    {"question": "Kto wyreżyserował film 'Titanic' z 1997 roku?", "answers": ["Steven Spielberg", "James Cameron", "Christopher Nolan", "Martin Scorsese"], "correct": 1},
+    {"question": "Które zwierzę jest symbolem WWF?", "answers": ["Niedźwiedź polarny", "Panda wielka", "Tygrys", "Goryl"], "correct": 1},
+    {"question": "Jak nazywa się największa pustynia na świecie?", "answers": ["Sahara", "Gobi", "Antarktyczna", "Kalahari"], "correct": 2},
+    {"question": "Z jakiego języka wywodzi się większość pojęć medycznych i biologicznych?", "answers": ["Angielskiego", "Łaciny", "Greki", "Francuskiego"], "correct": 1},
+    {"question": "Który polski pisarz otrzymał Nagrodę Nobla za powieść 'Chłopi'?", "answers": ["Henryk Sienkiewicz", "Władysław Reymont", "Czesław Miłosz", "Wisława Szymborska"], "correct": 1},
+    {"question": "Jaka waluta obowiązuje w strefie euro?", "answers": ["Dolar", "Funt", "Euro", "Frank"], "correct": 2},
+    {"question": "Jak nazywa się najdłuższa rzeka na świecie?", "answers": ["Nil", "Amazonka", "Jangcy", "Missisipi"], "correct": 1},
+    {"question": "Które miasto jest stolicą Niemiec?", "answers": ["Monachium", "Frankfurt", "Berlin", "Hamburg"], "correct": 2},
+    {"question": "Jaki element chemiczny ma symbol 'O'?", "answers": ["Złoto", "Tlen", "Osm", "Ołów"], "correct": 1},
+    {"question": "Ile wynosi standardowy czas trwania meczu piłki nożnej (bez dogrywki)?", "answers": ["80 minut", "90 minut", "100 minut", "120 minut"], "correct": 1},
+    {"question": "Kto był pierwszym prezydentem USA?", "answers": ["Thomas Jefferson", "Abraham Lincoln", "George Washington", "John Kennedy"], "correct": 2},
+    {"question": "Które miasto jest stolicą Małopolski?", "answers": ["Katowice", "Kraków", "Rzeszów", "Tarnów"], "correct": 1},
+    {"question": "Jak nazywa się zjawisko ugięcia fali wokół przeszkód?", "answers": ["Dyfrakcja", "Refrakcja", "Interferencja", "Polaryzacja"], "correct": 0},
+    {"question": "Który ptak uchodzi za symbol mądrości?", "answers": ["Kruk", "Orzeł", "Sowa", "Papuga"], "correct": 2},
+    {"question": "W którym roku Polska przystąpiła do Unii Europejskiej?", "answers": ["1999", "2004", "2007", "2010"], "correct": 1},
+    {"question": "Jakie miasto jest stolicą Japonii?", "answers": ["Kioto", "Osaka", "Tokio", "Hiroszima"], "correct": 2},
+    {"question": "Jaki jest najpopularniejszy napój na świecie po wodzie?", "answers": ["Kawa", "Herbata", "Coca-Cola", "Piwo"], "correct": 1},
+    {"question": "Kto namalował freski na sklepieniu Kaplicy Sykstyńskiej?", "answers": ["Leonardo da Vinci", "Michał Anioł", "Rafael Santi", "Donatello"], "correct": 1},
+    {"question": "Która planeta jest nazywana 'Czerwoną Planetą'?", "answers": ["Wenus", "Mars", "Jowisz", "Saturn"], "correct": 1},
+    {"question": "Jak nazywa się największy ssak lądowy?", "answers": ["Słoń indyjski", "Słoń afrykański", "Nosorożec", "Hipopotam"], "correct": 1},
+    {"question": "Z ilu linii składa się pięciolinia?", "answers": ["4", "5", "6", "7"], "correct": 1},
+    {"question": "Który kraj produkuje najwięcej kawy na świecie?", "answers": ["Kolumbia", "Wietnam", "Brazylia", "Etiopia"], "correct": 2},
+    {"question": "Jak nazywa się stolica Portugalii?", "answers": ["Porto", "Lizbona", "Madryt", "Faro"], "correct": 1},
+    {"question": "W którym roku doszło do katastrofy w Czarnobylu?", "answers": ["1984", "1986", "1989", "1991"], "correct": 1},
+    {"question": "Który organ ludzkiego ciała jest największy pod względem powierzchni?", "answers": ["Wątroba", "Skóra", "Jelito cienkie", "Płuca"], "correct": 1},
+    {"question": "Kto jest autorem powieści 'Władca Pierścieni'?", "answers": ["J.K. Rowling", "G.R.R. Martin", "J.R.R. Tolkien", "C.S. Lewis"], "correct": 2},
+    {"question": "Jak nazywa się stolica Grecji?", "answers": ["Ateny", "Sparta", "Saloniki", "Rodos"], "correct": 0},
+    {"question": "Co jest głównym składnikiem szkła?", "answers": ["Glina", "Piasek kwarcowy", "Wapień", "Sól"], "correct": 1},
+    {"question": "Który instrument muzyczny ma czarno-białe klawisze?", "answers": ["Harfa", "Pianino", "Akordeon", "Flet"], "correct": 1},
+    {"question": "W którym roku człowiek po raz pierwszy wylądował na Księżycu?", "answers": ["1965", "1969", "1972", "1975"], "correct": 1},
+    {"question": "Jak nazywa się stolica Szwecji?", "answers": ["Oslo", "Sztokholm", "Kopenhaga", "Helsinki"], "correct": 1},
+    {"question": "Który witaminę ludzki organizm produkuje pod wpływem słońca?", "answers": ["Witamina A", "Witamina C", "Witamina D", "Witamina E"], "correct": 2},
+    {"question": "Kto odkrył Amerykę w 1492 roku?", "answers": ["Vasco da Gama", "Krzysztof Kolumb", "Magellan", "Amerigo Vespucci"], "correct": 1},
+    {"question": "Które drzewo zrzuca igły na zimę?", "answers": ["Sosna", "Świerk", "Modrzew", "Jodła"], "correct": 2},
+    {"question": "Jak nazywa się linia dzieląca Ziemię na półkulę północną i południową?", "answers": ["Południk zerowy", "Zwrotnik Raka", "Równik", "Zwrotnik Koziorożca"], "correct": 2},
+    {"question": "Z jakiego kraju wywodzi się tradycja Halloween?", "answers": ["USA", "Irlandia", "Szkocja", "Anglia"], "correct": 1},
+    {"question": "Który kontynent jest najzimniejszy?", "answers": ["Azja", "Ameryka Północna", "Europa", "Antarktyda"], "correct": 3},
+    {"question": "Jak nazywa się stolica Ukrainy?", "answers": ["Lwów", "Kijów", "Charków", "Odessa"], "correct": 1},
+    {"question": "Który pierwiastek chemiczny ma symbol 'Fe'?", "answers": ["Fluor", "Fosfor", "Żelazo", "Srebro"], "correct": 2},
+    {"question": "Ile wynosi liczba dni w roku przestępnym?", "answers": ["364", "365", "366", "367"], "correct": 2},
+    {"question": "Kto namalował obraz 'Mona Lisa'?", "answers": ["Michał Anioł", "Leonardo da Vinci", "Rafael", "Rembrandt"], "correct": 1},
+    {"question": "Jak nazywa się najmniejsze państwo świata?", "answers": ["Monako", "San Marino", "Watykan", "Malta"], "correct": 2},
+    {"question": "Który owad jest znany z produkcji miodu?", "answers": ["Osa", "Trzmiel", "Pszczoła", "Szerszeń"], "correct": 2},
+    {"question": "Jak nazywa się stolica Egiptu?", "answers": ["Aleksandria", "Kair", "Luksor", "Giza"], "correct": 1},
+    {"question": "Co mierzy się w hercach (Hz)?", "answers": ["Napięcie", "Częstotliwość", "Opór", "Siłę"], "correct": 1},
+    {"question": "W którym roku wybuchła II wojna światowa?", "answers": ["1918", "1935", "1939", "1941"], "correct": 2},
+    {"question": "Który polski sportowiec zdobył najwięcej medali olimpijskich w chodzie?", "answers": ["Robert Korzeniowski", "Adam Małysz", "Kamil Stoch", "Anita Włodarczyk"], "correct": 0},
+    {"question": "Który ocean oddziela Europę od Ameryki?", "answers": ["Spokojny", "Indyjski", "Atlantycki", "Arktyczny"], "correct": 2},
+    {"question": "Jak nazywa się naturalny satelita Ziemi?", "answers": ["Słońce", "Księżyc", "Mars", "Wenus"], "correct": 1},
+    {"question": "Z jakiego kraju pochodzi taniec flamenco?", "answers": ["Włochy", "Portugalia", "Hiszpania", "Meksyk"], "correct": 2},
+    {"question": "Jak nazywa się proces, w którym rośliny produkują tlen?", "answers": ["Oddychanie", "Fotosynteza", "Fermentacja", "Transpiracja"], "correct": 1},
+    {"question": "Które miasto jest stolicą Holandii?", "answers": ["Rotterdam", "Haga", "Amsterdam", "Utrecht"], "correct": 2},
+    {"question": "Która część oka odpowiada za jego kolor?", "answers": ["Siatkówka", "Tęczówka", "Rogówka", "Źrenica"], "correct": 1},
+    {"question": "Kto jest uważany za autora 'Iliady' i 'Odysei'?", "answers": ["Arystoteles", "Platon", "Homer", "Sokrates"], "correct": 2},
+    {"question": "Jaki jest najwyższy szczyt Tatr?", "answers": ["Rysy", "Giewont", "Kasprowy Wierch", "Gerlach"], "correct": 3},
+    {"question": "Jak nazywa się jednostka pracy i energii w układzie SI?", "answers": ["Wat", "Dżul", "Niuton", "Paszkal"], "correct": 1},
+    {"question": "W którym roku upadło Cesarstwo Rzymskie (zachodnie)?", "answers": ["333 n.e.", "476 n.e.", "1000 n.e.", "1453 n.e."], "correct": 1},
+    {"question": "Które zwierzę potrafi biegać najszybciej na lądzie?", "answers": ["Lew", "Gepard", "Antylopa", "Koń"], "correct": 1},
+    {"question": "Jak nazywa się oficjalna stolica Szwajcarii?", "answers": ["Zurych", "Genewa", "Berno", "Bazylea"], "correct": 2},
+    {"question": "Z jakiej rośliny produkuje się cukier biały w Polsce?", "answers": ["Trzcina cukrowa", "Burak cukrowy", "Kukurydza", "Klon"], "correct": 1},
+    {"question": "Który element układu krążenia pompuje krew?", "answers": ["Płuca", "Mózg", "Serce", "Wątroba"], "correct": 2},
+    {"question": "Kto napisał serię książek o Harrym Potterze?", "answers": ["J.R.R. Tolkien", "J.K. Rowling", "Stephen King", "C.S. Lewis"], "correct": 1},
+    {"question": "Jak nazywa się najmniejszy kontynent świata?", "answers": ["Europa", "Antarktyda", "Australia i Oceania", "Ameryka Południowa"], "correct": 2},
+    {"question": "Które pasmo górskie jest najwyższe na świecie?", "answers": ["Andry", "Alpy", "Himalaje", "Kordyliery"], "correct": 2},
+    {"question": "Jak nazywa się stolica Belgii?", "answers": ["Antwerpia", "Bandy", "Bruksela", "Gandawa"], "correct": 2},
+    {"question": "Jaki jest chemiczny wzór wody?", "answers": ["CO2", "H2O", "NaCl", "O2"], "correct": 1},
+    {"question": "Ile planet w Układzie Słonecznym ma pierścienie?", "answers": ["1", "2", "3", "4"], "correct": 3},
+    {"question": "Kto był twórcą teorii względności?", "answers": ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Niels Bohr"], "correct": 1},
+    {"question": "Jak nazywa się stolica Czech?", "answers": ["Brno", "Ostrawa", "Praga", "Pilzno"], "correct": 2},
+    {"question": "Który płaz potrafi zmieniać kolor skóry (jest popularnym symbolem)?", "answers": ["Żaba", "Rzekotka", "Kameleon", "Salamandra"], "correct": 3},
+    {"question": "Z ilu zawodników składa się drużyna koszykówki na boisku?", "answers": ["5", "6", "7", "11"], "correct": 0},
+    {"question": "Jak nazywa się główna arteria wyprowadzająca krew z serca?", "answers": ["Aorta", "Żyła główna", "Tętnica płucna", "Włosowata"], "correct": 0},
+    {"question": "Kto napisał baśń 'Brzydkie kaczątko'?", "answers": ["Bracia Grimm", "Hans Christian Andersen", "Charles Perrault", "Julian Tuwim"], "correct": 1},
+    {"question": "Jaka jest stolica Austrii?", "answers": ["Salzburg", "Innsbruck", "Wiedeń", "Graz"], "correct": 2},
+    {"question": "Który gaz jest niezbędny ludziom do oddychania?", "answers": ["Azot", "Tlen", "Wodór", "Hel"], "correct": 1},
+    {"question": "Jak nazywa się przyrząd do mierzenia ciśnienia atmosferycznego?", "answers": ["Termometr", "Barometr", "Higrometr", "Amperomierz"], "correct": 1},
+    {"question": "W którym roku odbył się chrzest Polski?", "answers": ["966", "1000", "1410", "1569"], "correct": 0},
+    {"question": "Które państwo słynie z fiordów?", "answers": ["Szwecja", "Finlandia", "Norwegia", "Islandia"], "correct": 2},
+    {"question": "Jak nazywa się proces topnienia lodu?", "answers": ["Krzepnięcie", "Skraplanie", "Topnienie", "Sublimacja"], "correct": 2},
+    {"question": "Który ptak jest symbolem narodowym Stanów Zjednoczonych?", "answers": ["Orzeł przedni", "Bielik amerykański", "Sokół wędrówny", "Kondor"], "correct": 1},
+    {"question": "Jak nazywa się stolica Turcji?", "answers": ["Stambuł", "Ankara", "Izmir", "Antalya"], "correct": 1},
+    {"question": "Co oznacza skrót WWW w adresach internetowych?", "answers": ["World Wide Web", "World Word Website", "Wide Web Wire", "Web World Wide"], "correct": 0},
+    {"question": "Która planeta jest najbliżej Słońca?", "answers": ["Wenus", "Ziemia", "Mars", "Merkury"], "correct": 3},
+    {"question": "Jak nazywa się stolica Węgier?", "answers": ["Debreczyn", "Budapeszt", "Segedyn", "Pecz"], "correct": 1},
+    {"question": "Który król Polski odniósł zwycięstwo pod Wiedniem w 1683 roku?", "answers": ["Jan II Kazimierz", "Władysław IV Waza", "Jan III Sobieski", "Stanisław August Poniatowski"], "correct": 2},
+    {"question": "Z ilu graczy składa się drużyna hokeja na lodzie na boisku?", "answers": ["5", "6", "7", "8"], "correct": 1},
+    {"question": "Jak nazywa się nauka badająca skamieniałości?", "answers": ["Archeologia", "Geologia", "Paleontologia", "Antropologia"], "correct": 2},
+    {"question": "Kto napisał 'W pustyni i w puszczy'?", "answers": ["Henryk Sienkiewicz", "Adam Mickiewicz", "Bolesław Prus", "Stefan Żeromski"], "correct": 0},
+    {"question": "Jaka jest stolica Irlandii?", "answers": ["Belfast", "Dublin", "Cork", "Galway"], "correct": 1},
+    {"question": "Który ząb u człowieka służy głównie do rozrywania pokarmu?", "answers": ["Siekacz", "Kieł", "Przedtrzonowy", "Trzonowy"], "correct": 1},
+    {"question": "Jak nazywa się jednostka siły w układzie SI?", "answers": ["Dżul", "Wat", "Niuton", "Wolt"], "correct": 2},
+    {"question": "W którym roku upadł Konstantynopol?", "answers": ["1000", "1204", "1453", "1492"], "correct": 2},
+    {"question": "Które zwierzę morskie ma osiem ramion?", "answers": ["Mątwa", "Kałamarnica", "Ośmiornica", "Rozgwiazda"], "correct": 2},
+    {"question": "Jak nazywa się stolica Kuby?", "answers": ["Hawana", "Santiago", "Varadero", "Trynidad"], "correct": 0},
+    {"question": "Z czego składa się głównie słońce?", "answers": ["Z helu i tlenu", "Z wodoru i helu", "Z węgla i azotu", "Z żelaza i niklu"], "correct": 1},
+    {"question": "Który organ filtruje krew i produkuje mocz?", "answers": ["Wątroba", "Trzustka", "Nerki", "Pęcherz"], "correct": 2},
+    {"question": "Kto jest twórcą postaci Myszki Miki?", "answers": ["Warner Bros", "Walt Disney", "Stan Lee", "Hayao Miyazaki"], "correct": 1},
+    {"question": "Jak nazywa się najgłębsze jezioro na świecie?", "answers": ["Tanganika", "Wiktora", "Bajkał", "Kaspijskie"], "correct": 2},
+    {"question": "Które państwo w Europie ma największą liczbę ludności?", "answers": ["Francja", "Wielka Brytania", "Niemcy", "Włochy"], "correct": 2},
+    {"question": "Jak nazywa się stolica Danii?", "answers": ["Aarhus", "Odense", "Kopenhaga", "Aalborg"], "correct": 2},
+    {"question": "Jaki jest symbol chemiczny złota?", "answers": ["Ag", "Au", "Al", "Fe"], "correct": 1},
+    {"question": "Ile pól znajduje się na tradycyjnej szachownicy?", "answers": ["32", "50", "64", "100"], "correct": 2},
+    {"question": "Kto wynalazł dynamit?", "answers": ["Thomas Edison", "Alfred Nobel", "Nikola Tesla", "Alexander Fleming"], "correct": 1},
+    {"question": "Jak nazywa się stolica Finlandii?", "answers": ["Tampere", "Turku", "Helsinki", "Espoo"], "correct": 2},
+    {"question": "Który ssak potrafi latać aktywnym lotem?", "answers": ["Latawica", "Wiewiórka latająca", "Nietoperz", "Koliber"], "correct": 2},
+    {"question": "Z ilu kół składa się tradycyjny monocykl?", "answers": ["1", "2", "3", "4"], "correct": 0},
+    {"question": "Jak nazywa się barwnik odpowiedzialny za zielony kolor roślin?", "answers": ["Karoten", "Chlorofil", "Hemoglobina", "Melanina"], "correct": 1},
+    {"question": "Kto napisał powieść 'Lalka'?", "answers": ["Henryk Sienkiewicz", "Bolesław Prus", "Stefan Żeromski", "Władysław Reymont"], "correct": 1},
+    {"question": "Jaka jest stolica Szkocji?", "answers": ["Glasgow", "Edynburg", "Aberdeen", "Dundee"], "correct": 1},
+    {"question": "Która planeta Układu Słonecznego jest największa?", "answers": ["Saturn", "Jowisz", "Neptun", "Uran"], "correct": 1},
+    {"question": "Jak nazywa się przyrząd służący do obserwacji odległych ciał niebieskich?", "answers": ["Mikroskop", "Teleskop", "Peryskop", "Stetoskop"], "correct": 1},
+    {"question": "W którym roku doszło do bitwy pod Grunwaldem?", "answers": ["1385", "1410", "1454", "1525"], "correct": 1},
+    {"question": "Która wyspa jest największa na Ziemi?", "answers": ["Madagaskar", "Grenlandia", "Borneo", "Nowa Gwinea"], "correct": 1},
+    {"question": "Jak nazywa się stan skupienia materii o stałej objętości i zmiennym kształcie?", "answers": ["Stały", "Ciekły", "Gazowy", "Plazma"], "correct": 1},
+    {"question": "Które zwierzę jest znane z budowania żeremi i tam?", "answers": ["Wydra", "Bóbr", "Piżmak", "Szop pracz"], "correct": 1},
+    {"question": "Jak nazywa się stolica Grecji?", "answers": ["Saloniki", "Ateny", "Patras", "Heraklion"], "correct": 1},
+    {"question": "Co oznacza skrót AI w dziedzinie technologii?", "answers": ["Advanced Internet", "Artificial Intelligence", "Automated Interface", "Active Integration"], "correct": 1},
+    {"question": "Która planeta jest najbliższa Ziemi pod względem średniej odległości orbit?", "answers": ["Merkury", "Wenus", "Mars", "Jowisz"], "correct": 1},
+    {"question": "Jak nazywa się stolica Norwegii?", "answers": ["Bergen", "Trondheim", "Oslo", "Stavanger"], "correct": 2},
+    {"question": "Z którego roku pochodzi Konstytucja 3 Maja?", "answers": ["1772", "1791", "1793", "1795"], "correct": 1},
+    {"question": "Ile wynosi liczba graczy w drużynie rugby na boisku (odmiana Union)?", "answers": ["7", "11", "13", "15"], "correct": 3},
+    {"question": "Jak nazywa się najmniejsza komórka organizmu zdolna do samodzielnego życia?", "answers": ["Tkanka", "Bakteria", "Komórka", "Atom"], "correct": 2},
+    {"question": "Kto napisał 'Dziady'?", "answers": ["Juliusz Słowacki", "Adam Mickiewicz", "Zygmunt Krasiński", "Jan Kochanowski"], "correct": 1},
+    {"question": "Jaka jest oficjalna stolica Nowej Zelandii?", "answers": ["Auckland", "Wellington", "Christchurch", "Hamilton"], "correct": 1},
+    {"question": "Który element oka skupia światło na siatkówce?", "answers": ["Tęczówka", "Soczewka", "Rogówka", "Naczyniówka"], "correct": 1}
   ]
 }
